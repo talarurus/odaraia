@@ -1,0 +1,136 @@
+/* Chart-led Accounts, separate from the reporting dashboard's card layout. */
+.accounts-overview{display:grid;gap:var(--tf-space-7);min-width:0}
+.accounts-hero{min-width:0}
+.accounts-hero-top{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:var(--tf-space-6);align-items:center}
+.accounts-headline{min-width:0}
+.accounts-headline h2{font-size:15px;font-weight:500;letter-spacing:0;color:var(--tf-muted)}
+.accounts-worth{display:block;font-size:clamp(44px,5.7vw,var(--tf-display));font-weight:550;line-height:1.16;letter-spacing:-.065em;margin-top:12px}
+.accounts-change{display:flex;align-items:center;gap:8px;flex-wrap:wrap;font-size:14px;margin-top:14px;line-height:1.5}
+.accounts-change strong,.accounts-change .accounts-change-direction{font-weight:550;color:var(--tf-positive);font-variant-numeric:tabular-nums}
+.accounts-change.decrease strong,.accounts-change.decrease .accounts-change-direction{color:var(--tf-negative)}
+.accounts-change.is-unavailable strong{color:var(--tf-muted)}
+.accounts-change>span:not(.accounts-change-direction){color:var(--tf-muted);font-size:13px}
+.accounts-asof{color:var(--tf-muted);font-size:12px;line-height:1.6;margin-top:14px}
+.accounts-summary{display:grid;gap:26px;border-left:1px solid var(--tf-border);padding-left:36px;min-width:180px}
+.accounts-summary>div{display:grid;gap:8px}
+.accounts-summary>div>span:first-child{display:flex;gap:8px;align-items:center;font-size:12px;color:var(--tf-muted)}
+.accounts-summary .tf-amount{font-size:23px;font-weight:550;color:var(--tf-text)}
+.accounts-summary-dot{width:6px;height:6px;border-radius:50%;background:var(--tf-chart)}
+.accounts-summary-dot.is-debt{background:var(--tf-negative)}
+.accounts-history{margin:28px -16px 0;min-width:0}
+.accounts-inspection{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:0 16px;min-height:64px}
+.accounts-inspection>div{display:grid;gap:6px;min-width:0}
+.accounts-inspection span{font-size:12px;color:var(--tf-muted)}
+.accounts-inspection strong{font-size:13px;font-weight:500;font-variant-numeric:tabular-nums;line-height:1.5;overflow-wrap:anywhere}
+.accounts-inspection.is-selected strong{color:var(--tf-chart)}
+.accounts-inspection-reset{flex-shrink:0;font-size:12px;padding:10px}
+.accounts-chart{height:380px;width:100%;min-width:0;position:relative;isolation:isolate}
+.accounts-chart svg{display:block;width:100%;height:100%;cursor:crosshair;touch-action:pan-y;overflow:visible}
+.accounts-chart svg:focus-visible{outline:2px solid var(--tf-focus);outline-offset:-2px;border-radius:12px}
+.accounts-axis{position:absolute;right:16px;font-size:11px;line-height:1.3;color:var(--tf-muted);font-variant-numeric:tabular-nums;pointer-events:none;max-width:calc(100% - 32px);overflow-wrap:anywhere}
+.accounts-axis-high{top:0}.accounts-axis-low{bottom:0}
+.accounts-gridline{stroke:var(--tf-border);stroke-width:1;stroke-dasharray:4 6}
+.accounts-chart-line{fill:none;stroke:var(--tf-chart);stroke-width:2.5;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke}
+.accounts-history-gap{fill:var(--tf-inset);opacity:.55}
+.accounts-cursor{stroke:var(--tf-muted);stroke-width:1;stroke-dasharray:3 4}
+.accounts-point-halo{fill:var(--tf-chart);opacity:.15}
+.accounts-point{fill:var(--tf-chart);stroke:var(--tf-page);stroke-width:2}
+.accounts-chart-dates{display:flex;justify-content:space-between;gap:12px;padding:16px 16px 0;font-size:12px;color:var(--tf-muted);font-variant-numeric:tabular-nums}
+.accounts-history figcaption{display:flex;justify-content:space-between;gap:16px;padding:8px 16px 0;font-size:11px;color:var(--tf-muted);line-height:1.6;align-items:baseline}
+.accounts-history figcaption>details{text-align:right;max-width:50%}
+.accounts-history summary{cursor:pointer;min-height:44px;display:flex;align-items:center;justify-content:end;text-decoration:underline;text-underline-offset:3px}
+.accounts-history figcaption p{padding:8px 0;text-align:left}
+.accounts-period-wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:8px}
+.accounts-period-wrap>p{font-size:12px;line-height:1.6;color:var(--tf-muted);text-align:right}
+.accounts-coverage{font-size:12px;color:var(--tf-muted);line-height:1.7;border-left:2px solid var(--tf-border);padding:0 0 0 14px;margin-top:24px;max-width:720px}
+.accounts-collection{min-width:0}
+.accounts-collection-heading{display:flex;justify-content:space-between;align-items:center;gap:var(--tf-space-4);margin-bottom:var(--tf-space-5)}
+.accounts-collection-heading h2{font-size:24px;font-weight:550;letter-spacing:-.04em;display:flex;align-items:center;gap:10px}
+.accounts-collection-heading h2>span{font-size:12px;letter-spacing:0;background:var(--tf-inset);color:var(--tf-muted);border-radius:50%;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center}
+.accounts-collection-heading p{font-size:13px;color:var(--tf-muted);margin-top:8px;line-height:1.5}
+.accounts-groups{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px;align-items:start}
+.accounts-group>header{display:flex;justify-content:space-between;align-items:center;gap:16px;padding:24px 24px 20px}
+.accounts-group h3{font-size:18px;font-weight:550;letter-spacing:-.025em;margin:0}
+.accounts-group>header p{font-size:12px;line-height:1.6;color:var(--tf-muted);margin-top:6px}
+.accounts-group>header>.tf-amount{font-size:22px;font-weight:550;max-width:50%;text-align:right}
+.accounts-group-rows{padding:0 8px 8px}
+.accounts-row{width:100%;display:flex;align-items:center;gap:12px;text-align:left;padding:20px 16px;min-height:104px;border-top:1px solid var(--tf-separator);color:var(--tf-text);border-radius:0;transition:background var(--tf-duration) var(--tf-ease)}
+.accounts-row:last-child{border-radius:0 0 16px 16px}
+.accounts-row:hover{background:var(--tf-inset)}
+.accounts-row:focus-visible{outline:2px solid var(--tf-focus);outline-offset:-3px;border-radius:12px}
+.accounts-row-icon{display:flex;align-items:center;justify-content:center;flex-shrink:0;width:44px;height:44px;border-radius:14px;background:var(--tf-inset);color:var(--tf-chart)}
+.accounts-row-icon.is-credit,.accounts-row-icon.is-liability{color:var(--tf-negative)}
+.accounts-row-name{display:grid;gap:6px;min-width:0;flex:1;line-height:1.4}
+.accounts-row-name strong{font-size:14px;font-weight:550;overflow-wrap:anywhere}
+.accounts-row-name>span{font-size:12px;color:var(--tf-muted)}
+.accounts-row-name small{font-size:11px;color:var(--tf-muted);line-height:1.6;overflow-wrap:anywhere}
+.accounts-row-balance{display:grid;gap:6px;text-align:right;max-width:36%;min-width:0}
+.accounts-row-balance .tf-amount{font-size:17px;font-weight:500}
+.accounts-row-balance small{font-size:11px;color:var(--tf-muted);line-height:1.5}
+.accounts-row>svg{flex-shrink:0;color:var(--tf-muted);width:12px}
+.accounts-actions{display:flex;justify-content:space-between;align-items:center;gap:16px;flex-wrap:wrap;margin-top:20px}
+.accounts-actions p{font-size:12px;color:var(--tf-muted);line-height:1.6}
+.accounts-explanation{border-top:1px solid var(--tf-border);padding-top:8px;font-size:12px;color:var(--tf-muted);line-height:1.8}
+.accounts-explanation summary{cursor:pointer;min-height:44px;line-height:44px;width:max-content;max-width:100%}
+.accounts-explanation p{margin-top:10px;max-width:760px}
+.accounts-empty{padding:72px 16px;text-align:center;color:var(--tf-muted);font-size:14px;line-height:1.7}
+.accounts-empty h3{font-size:22px;font-weight:550;letter-spacing:-.03em;color:var(--tf-text);margin:16px 0 8px}
+.accounts-empty p{max-width:420px;margin:auto}
+.accounts-empty .tf-button{margin-top:24px}
+.accounts-detail{padding:32px;font-size:14px;line-height:1.6}
+.accounts-detail-type{font-size:12px;color:var(--tf-muted)}
+.accounts-detail h3{font-size:26px;letter-spacing:-.04em;font-weight:550;margin:6px 0 20px;overflow-wrap:anywhere}
+.accounts-detail-amount{font-size:48px;font-weight:550;letter-spacing:-.045em;font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.accounts-detail-asof{font-size:12px;color:var(--tf-muted);margin-top:8px}
+.accounts-detail dl{margin:32px 0;display:grid;grid-template-columns:1fr 1.4fr;gap:18px 20px;font-size:13px}
+.accounts-detail dt{color:var(--tf-muted)}.accounts-detail dd{margin:0;text-align:right;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.accounts-detail>p:not(.accounts-detail-amount){font-size:12px;color:var(--tf-muted)}
+.accounts-detail-actions{display:flex;flex-wrap:wrap;gap:10px;border-top:1px solid var(--tf-border);padding-top:24px;margin-top:24px}
+@media(max-width:1199px){.accounts-groups{grid-template-columns:minmax(0,1fr)}.accounts-hero-top{gap:24px}.accounts-summary{padding-left:24px;min-width:150px}.accounts-summary .tf-amount{font-size:20px}.accounts-worth{font-size:clamp(36px,5.6vw,64px)}.accounts-period-wrap{flex-wrap:wrap}}
+@media(max-width:767px){
+ .accounts-overview{gap:36px}
+ .accounts-hero-top{display:flex;flex-direction:column;align-items:stretch;gap:24px}
+ .accounts-headline h2{font-size:14px}
+ .accounts-worth{font-size:clamp(36px,12vw,52px);margin-top:10px;letter-spacing:-.055em}
+ .accounts-asof{font-size:11px;margin-top:12px}
+ .accounts-change{margin-top:10px;font-size:14px;gap:6px}
+ /* Chart appears directly beneath the mobile headline, with summary after controls. */
+ .accounts-summary{display:none}
+ .accounts-history{margin:24px -20px 0}
+ .accounts-inspection{padding:0 20px;min-height:64px;gap:8px}
+ .accounts-inspection strong{font-size:12px}
+ .accounts-inspection-reset{padding:10px 6px;font-size:11px}
+ .accounts-chart{height:clamp(280px,38svh,360px)}
+ .accounts-axis{right:20px;font-size:10px}
+ .accounts-chart-dates{padding:12px 20px 0;font-size:11px}
+ .accounts-history figcaption{padding:4px 20px 0;font-size:11px;gap:8px}
+ .accounts-period-wrap{display:grid;gap:14px;margin-top:12px}
+ .accounts-periods{width:100%}
+ .accounts-period-wrap>p{text-align:center;font-size:11px}
+ .accounts-collection-heading{gap:12px;align-items:center;margin-bottom:20px}
+ .accounts-collection-heading h2{font-size:22px}
+ .accounts-collection-heading p{font-size:12px;max-width:170px}
+ .accounts-create{font-size:12px;padding:10px 12px}
+ .accounts-groups{gap:16px}
+ .accounts-group>header{padding:20px 18px 18px;gap:12px}
+ .accounts-group h3{font-size:18px}
+ .accounts-group>header>.tf-amount{font-size:21px}
+ .accounts-group>header p{font-size:11px}
+ .accounts-group-rows{padding:0 6px 6px}
+ .accounts-row{padding:18px 12px;gap:10px;min-height:100px}
+ .accounts-row-icon{width:38px;height:38px;border-radius:12px}
+ .accounts-row-name strong{font-size:14px}
+ .accounts-row-name>span{font-size:11px}
+ .accounts-row-name small{display:none}
+ .accounts-row-balance .tf-amount{font-size:15px}
+ .accounts-row-balance small{font-size:10px}
+ .accounts-actions{gap:8px;margin-top:16px}
+ .accounts-actions .tf-button{padding-left:0}
+ .accounts-detail{padding:24px 20px}.accounts-detail-amount{font-size:40px}
+ .accounts-detail dl{grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:18px 12px}
+ .accounts-detail-actions button{flex:1}
+}
+@media(max-width:350px){.accounts-row-icon{width:30px;height:30px;border-radius:10px}.accounts-row-icon svg{width:18px}.accounts-row{gap:8px;padding:16px 10px}.accounts-row>svg{display:none}.accounts-row-name strong{font-size:13px}.accounts-row-balance .tf-amount{font-size:14px}.accounts-collection-heading{align-items:start;flex-wrap:wrap}}
+@media(forced-colors:active){.accounts-chart-line,.accounts-cursor{stroke:CanvasText}.accounts-point{fill:CanvasText}.accounts-gridline{stroke:GrayText}}
+.accounts-summary-mobile{display:none}
+@media(max-width:767px){.accounts-summary-mobile{display:grid;grid-template-columns:1fr 1fr;gap:20px;border-left:0;border-top:1px solid var(--tf-border);padding:20px 0 0;margin-top:24px;min-width:0}.accounts-summary-mobile .tf-amount{font-size:20px}.accounts-summary-mobile>div{min-width:0}}

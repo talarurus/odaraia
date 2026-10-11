@@ -1,0 +1,14 @@
+[[permission]]
+identifier = "prototype-store-read"
+description = "Read the fixed synthetic-profile ledger snapshot."
+commands.allow = ["store_read"]
+
+[[permission]]
+identifier = "prototype-store-commit"
+description = "Commit one constrained snapshot to the fixed profile with revision comparison."
+commands.allow = ["store_commit"]
+
+[[permission]]
+identifier = "prototype-export-file"
+description = "Show a native save dialog for a bounded financial backup or CSV."
+commands.allow = ["export_file"]

@@ -1,0 +1,14 @@
+name: Feature request
+description: Describe a concrete financial workflow.
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What workflow needs to improve?
+      description: Use fictional examples. Explain the outcome and any accessibility needs.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior and scope

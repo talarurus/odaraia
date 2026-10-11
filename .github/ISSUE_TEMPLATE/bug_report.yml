@@ -1,0 +1,23 @@
+name: Bug report
+description: Report a reproducible problem using fictional data only.
+body:
+  - type: markdown
+    attributes:
+      value: For vulnerabilities use SECURITY.md. Never attach real financial records, databases, backup exports, launch URLs or credentials.
+  - type: input
+    id: version
+    attributes:
+      label: Version or commit, OS and architecture
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Fictional reproduction, expected result and actual result
+      description: Include minimal synthetic amounts and dates. Redact desktop content in screenshots.
+    validations:
+      required: true
+  - type: textarea
+    id: validation
+    attributes:
+      label: Tests or workaround

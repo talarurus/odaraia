@@ -1,0 +1,221 @@
+/* Production layouts extend the approved prototype. Palette tokens live in style.css. */
+.page-header{flex-wrap:wrap;align-items:center;gap:16px 24px}
+.page-header>div:first-child{min-width:180px}
+.period-controls{flex-wrap:wrap;align-items:end;justify-content:flex-end;gap:10px;flex-shrink:1;max-width:100%}
+.period-controls label{display:grid;gap:6px;min-width:0;font-size:11px;color:var(--muted)}
+.period-controls input,.period-controls select{width:100%;min-width:0;max-width:180px;min-height:38px;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:8px;font:inherit;font-size:12px}
+.page-content{gap:16px}
+.card-heading{padding-bottom:8px;flex-wrap:wrap}
+.card-heading h2{line-height:1.5}
+.card-heading .orange-button{display:inline-flex;align-items:center;gap:6px;min-height:36px}
+.stat{min-height:116px}.stat strong{line-height:1.3}.stat small{min-height:0}
+.numeric{font-variant-numeric:tabular-nums;text-align:right}.nowrap{white-space:nowrap}
+.warning-text{color:var(--warning-text)}
+.sidebar{padding-bottom:14px}
+.sidebar nav{overflow:auto;max-height:55dvh;flex-shrink:0;padding:3px}
+.sidebar .nav-link{min-height:40px}
+.sidebar-section{overflow:auto;min-height:0;margin-top:8px;flex:1}
+.sidebar-caption{padding-top:12px}
+.account-nav{min-height:38px;overflow-wrap:anywhere;line-height:1.4;border-radius:5px}
+.account-nav svg{flex-shrink:0}
+.sidebar-bottom{padding:12px 3px 0;border-top:1px solid var(--line);margin-top:12px}
+.sidebar-bottom .nav-link{padding:9px 10px;font-size:13px}
+.sidebar-bottom>span{font-size:11px;line-height:1.6;padding:0 10px}
+.about-sheet>button.active{border-color:var(--accent);color:var(--accent);background:var(--peach)}
+/* Dense records, with actions and reversible filters inside one card. */
+.transaction-search{padding-bottom:10px;align-items:center}
+.search-input{min-width:0;flex:1}
+.search-input input{min-width:0;width:100%}
+.transaction-actions{padding:0 17px 12px;border-bottom:1px solid var(--line-soft)}
+.action-toolbar{display:flex;align-items:end;gap:8px;flex-wrap:wrap}
+.action-toolbar .export-button{margin:0;min-height:36px;padding:7px 10px;font-size:12px}
+.action-toolbar label{display:flex;align-items:center;gap:8px;min-width:0;margin-left:auto;font-size:12px;color:var(--muted)}
+.action-toolbar select,.inline-filters select{background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:5px;padding:8px;min-height:36px;max-width:220px;font-size:12px}
+.transaction-controls{flex-wrap:wrap;gap:8px;padding-top:12px}
+.transaction-controls .inline-filters{display:flex;flex-wrap:wrap;gap:8px;min-width:0}
+.transaction-controls .segments{flex-shrink:0}
+.filter-chips{display:flex;flex-wrap:wrap;gap:6px;padding:0 17px 10px}
+.filter-chips button{display:inline-flex;align-items:center;gap:8px;padding:6px 9px;min-height:30px;border:1px solid var(--line);border-radius:5px;background:var(--subtle);color:var(--muted);font-size:11px;max-width:100%;text-align:left}
+.filter-chips span{overflow-wrap:anywhere;min-width:0}.filter-chips svg{flex-shrink:0}
+.transaction-summary{line-height:1.65}
+.transaction-table{table-layout:fixed}
+.transaction-table th:nth-child(1){width:38%}.transaction-table th:nth-child(2){width:23%}.transaction-table th:nth-child(3){width:22%}.transaction-table th:nth-child(4){width:17%}
+.transaction-table td{padding-top:11px;padding-bottom:11px;vertical-align:middle}
+.transaction-table .amount-cell{white-space:normal;overflow-wrap:anywhere}
+.merchant-button{line-height:1.5;min-height:30px;max-width:100%;text-align:left;flex-wrap:wrap}
+.merchant-avatar{flex-shrink:0}
+.pending-tag,.status-tag{display:inline-block;border-radius:4px;font-size:10px;padding:2px 6px;background:var(--warning-surface);color:var(--warning-text);line-height:1.5}
+.date-row th{font-weight:500}
+/* Chart shapes and proportions are retained; labels and surrounding rhythm are refined. */
+.sankey-plot{isolation:isolate}
+.flow-inspector{border-top:1px solid var(--line-soft);padding-top:10px;padding-bottom:5px}
+.donut-center{max-width:64%;margin:auto}
+.donut-center strong{font-size:clamp(14px,1.6vw,21px);max-width:100%;overflow-wrap:anywhere;text-align:center;line-height:1.2}
+.legend button{text-align:left;overflow-wrap:anywhere}
+.legend{align-items:start}.rank-row{border-radius:3px}
+.chart-subline{gap:12px;flex-wrap:wrap;line-height:1.6}
+.chart-subline>span:last-child{overflow-wrap:anywhere}
+.account-list small{display:block;color:var(--muted);margin-top:5px;font-size:11px;font-weight:400}
+.account-list>div{gap:16px;align-items:center;min-width:0}
+.account-list strong{font-variant-numeric:tabular-nums;overflow-wrap:anywhere;white-space:normal;text-align:right;max-width:48%}
+.managed-accounts>div{padding:16px 0;min-height:94px}
+.account-identity{display:flex;gap:12px;align-items:center;min-width:0}
+.account-identity>span:last-child{min-width:0}
+.account-identity button{padding:0;text-align:left;font-size:14px;font-weight:600;min-height:30px;overflow-wrap:anywhere}
+.account-symbol{display:flex;align-items:center;justify-content:center;width:38px;height:38px;border:1px solid var(--line);border-radius:8px;background:var(--subtle);color:var(--muted);flex-shrink:0}
+.account-balance{max-width:42%;text-align:right;flex-shrink:0;overflow-wrap:anywhere}
+.account-balance strong{max-width:100%;font-size:16px;display:block}
+.card-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:14px;padding:16px 17px;border-top:1px solid var(--line)}
+.card-footer .compact-note{max-width:470px}.card-footer .export-button{font-size:12px}
+/* Shared forms and dialogs. */
+.form-grid,.field-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;font-size:13px;min-width:0}
+.form-grid{padding:20px}.field-grid{padding:0;margin:0;border:0}
+.form-wide{grid-column:1/-1}
+.form-grid label,.restore-panel>label{display:grid;gap:7px;min-width:0;color:var(--text);font-size:12px;line-height:1.5}
+.form-grid input:not([type=checkbox]),.form-grid select,.form-grid textarea,.settings-fields input[type=file],.preview-decision select{width:100%;min-width:0;background:var(--surface);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:10px;font:inherit;min-height:42px}
+.form-grid input:disabled,.form-grid select:disabled,.form-grid textarea:disabled{opacity:.65}
+.form-grid small{display:block;line-height:1.55;font-size:11px;color:var(--muted)}
+.form-grid .preference-check{display:flex;align-items:flex-start;gap:9px;line-height:1.6}
+.form-grid textarea{min-height:86px;resize:vertical;max-width:100%;font:inherit}
+textarea:focus-visible,[tabindex="0"]:focus-visible{outline:2px solid var(--focus);outline-offset:3px}
+.section-intro h3,.import-complete h3{font-size:14px;font-weight:600;margin:0 0 5px;line-height:1.5}
+.section-intro p{font-size:12px;line-height:1.6;color:var(--muted)}
+.form-actions{display:flex;justify-content:flex-end;flex-wrap:wrap;align-items:center;gap:10px;padding-top:16px;border-top:1px solid var(--line-soft)}
+.form-actions button{min-height:42px;padding:10px 16px;font-size:13px}
+.detail-dialog{max-width:640px;width:calc(100% - 40px);padding:0;border-radius:12px;max-height:90dvh;overscroll-behavior:contain}
+.dialog-heading{position:sticky;top:0;z-index:1;background:var(--surface);padding:16px 20px;border-bottom:1px solid var(--line);margin:0}
+.dialog-heading h2{font-size:17px}.dialog-heading .square-button{min-width:36px;min-height:36px}
+.dialog-intro{font-size:12px;line-height:1.6;color:var(--muted);padding:16px 20px 0}
+.detail-dialog>.about-sheet{padding:20px}.detail-dialog>p:not(.dialog-intro){padding:20px}
+.transaction-advanced{border-top:1px solid var(--line);font-size:12px}
+.transaction-advanced>summary{padding:16px 20px;cursor:pointer;min-height:48px;color:var(--muted)}
+.transaction-advanced .form-grid{padding-top:4px}.transaction-advanced details summary{min-height:38px;cursor:pointer}
+.transaction-advanced dl{font-size:12px;padding-top:10px}.transaction-advanced dd{margin:0;overflow-wrap:anywhere}
+/* CSV keeps mapping, review and confirmation distinct. */
+.import-steps{list-style:none;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));padding:16px 20px;margin:0;border-bottom:1px solid var(--line);gap:8px}
+.import-steps li{display:flex;align-items:center;gap:8px;min-width:0;font-size:12px;color:var(--muted);line-height:1.5}
+.import-steps li>span{border:1px solid var(--line);border-radius:50%;display:flex;align-items:center;justify-content:center;width:25px;height:25px;flex-shrink:0;font-size:11px;background:var(--subtle)}
+.import-steps .current{color:var(--accent);font-weight:600}.import-steps .current>span{background:var(--peach);border-color:var(--accent)}
+.import-steps .complete{color:var(--income)}
+.file-picker{border:1px dashed var(--line);background:var(--subtle);border-radius:8px;padding:16px}
+.form-grid input[type=file]{font-size:12px;line-height:1.5;overflow:hidden}
+input[type=file]::file-selector-button{font:inherit;border:1px solid var(--line);border-radius:4px;padding:6px 10px;margin-right:10px;background:var(--subtle);color:var(--text);cursor:pointer}
+.mapping-options{border:1px solid var(--line);border-radius:7px;min-width:0}
+.mapping-options>summary{padding:12px;cursor:pointer;color:var(--muted);font-size:12px;min-height:42px}
+.mapping-options .field-grid{padding:4px 12px 16px}.mapping-options>p{padding:12px}
+.table-scroll{max-width:100%;overflow:auto;overscroll-behavior-x:contain;padding:10px 0}
+.table-scroll table{border-collapse:collapse;width:100%;font-size:12px}
+.table-scroll td,.table-scroll th{padding:12px 10px;text-align:left;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5;overflow-wrap:anywhere}
+.table-scroll th{color:var(--muted);font-weight:500;background:var(--subtle)}
+.table-scroll td.numeric{text-align:right}.table-scroll .nowrap{overflow-wrap:normal}
+.table-scroll select{min-width:160px;max-width:230px}.table-scroll small{display:block;margin-top:4px}
+.mapping-options table{min-width:500px}
+.import-review{min-width:0}.import-review>.compact-note{padding:12px 0}
+.import-metrics{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--line);border-radius:7px;margin-top:16px;background:var(--subtle)}
+.import-metrics>div{display:grid;gap:5px;padding:14px;min-width:0;border-right:1px solid var(--line)}
+.import-metrics>div:last-child{border-right:0}.import-metrics strong{font-size:20px;font-weight:600;font-variant-numeric:tabular-nums}
+.import-metrics span{color:var(--muted);font-size:11px;line-height:1.5}
+.invalid-rows{color:var(--warning-text);background:var(--warning-surface);padding:12px;border-radius:7px;line-height:1.6;font-size:12px}
+.invalid-rows summary{cursor:pointer}.invalid-rows ul{padding-left:20px;margin-bottom:0}
+.review-row{background:var(--warning-row)}.duplicate-notice{color:var(--muted);font-size:11px;display:block;max-width:230px}
+.import-complete{text-align:center;padding:12px 0}.completion-mark{display:inline-flex;padding:12px;border-radius:50%;color:var(--income);background:var(--subtle);margin-bottom:12px}
+.import-complete h3{font-size:18px}.import-complete>.compact-note{max-width:470px;margin:12px auto 0}
+.error-message{color:var(--warning-text);background:var(--warning-surface);border:1px solid var(--line);border-radius:7px;padding:12px;line-height:1.6;font-size:13px;overflow-wrap:anywhere;margin:0}
+.error-message button{color:var(--accent);min-height:36px;padding:4px 8px}
+.import-summary{background:var(--subtle);padding:14px;border:1px solid var(--line);border-radius:7px;line-height:1.7;font-size:13px;overflow-wrap:anywhere}
+.loading-state{display:flex;align-items:center;gap:10px;padding:16px;color:var(--muted);font-size:13px;border:1px solid var(--line);border-radius:9px;background:var(--surface);margin-bottom:16px}
+.loading-mark{width:9px;height:9px;border-radius:50%;background:var(--income)}
+/* Budgets are category cards at every size, with exact values and a bounded visual bar. */
+.budget-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));padding:8px 17px 20px;gap:12px}
+.budget-item{padding:16px;border:1px solid var(--line);border-radius:7px;min-width:0}
+.budget-heading{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.budget-category{display:inline-flex;align-items:center;gap:6px;font-size:14px;font-weight:600;overflow-wrap:anywhere;text-align:left;min-width:0;padding:0;min-height:32px}
+.text-button{font-size:11px;color:var(--muted);padding:5px 0;min-height:32px}
+.budget-amounts{display:flex;justify-content:space-between;gap:10px;font-size:11px;color:var(--muted)}
+.budget-amounts strong{display:block;color:var(--text);font-size:14px;margin-top:5px;overflow-wrap:anywhere;font-variant-numeric:tabular-nums}
+.budget-amounts>span{min-width:0}.budget-amounts>span:last-child{text-align:right}
+.budget-track{height:5px;border-radius:3px;background:var(--subtle);margin:14px 0 10px;overflow:hidden}
+.budget-track>span{display:block;height:100%;background:var(--income-chart);border-radius:3px;transition:width 180ms ease}
+.over-budget{background:var(--warning-row)}.over-budget .budget-track>span{background:var(--accent)}
+.budget-remaining{display:flex;align-items:center;flex-wrap:wrap;gap:8px;justify-content:space-between;font-size:12px;line-height:1.6;color:var(--muted)}
+.budget-remaining.warning-text{color:var(--warning-text)}
+.budget-form{border-top:1px solid var(--line);background:var(--subtle);border-radius:0 0 9px 9px}
+/* Data forms share generic control styles; Settings composition lives in mac-workspace.css. */
+
+.recovery-card{grid-column:1/-1}
+
+
+
+
+
+
+.settings-fields{gap:16px}.privacy-card .preference-check{border-top:1px solid var(--line-soft);padding-top:14px}
+.settings-fields .compact-note{line-height:1.7}.settings-fields select{color:var(--text)}
+.export-actions{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.export-action{display:flex;flex-direction:column;justify-content:space-between;gap:16px;padding:16px;border:1px solid var(--line);border-radius:7px;min-width:0}
+.export-action strong{font-size:13px;line-height:1.5}.export-action small{margin-top:6px}.export-action .export-button{font-size:12px;line-height:1.5;justify-content:center}
+.export-action svg{flex-shrink:0}
+.restore-panel{display:grid;gap:16px;padding:18px;border:1px solid var(--line);border-radius:7px;background:var(--subtle)}
+.restore-panel .preference-check{display:flex;align-items:flex-start;gap:10px}
+.restore-panel .orange-button{justify-self:start;min-height:42px}
+.settings-fields input[type=file]{font-size:12px}
+@media(min-width:768px) and (max-width:1199px){
+
+
+ .export-actions{grid-template-columns:minmax(0,1fr)}.export-action{flex-direction:row;align-items:center}.export-action>span{flex:1}.export-action button{max-width:48%}
+ .transaction-controls .segments{flex-wrap:wrap}.transaction-table th:nth-child(1){width:33%}.transaction-table th:nth-child(4){width:22%}
+}
+@media(max-width:767px){
+ .page-header{display:flex;align-items:start;gap:12px;margin-bottom:16px}.page-content{gap:12px}
+ .period-controls{width:100%;margin-top:0;gap:8px;justify-content:start}
+ .period-controls label{flex:1;min-width:110px;font-size:11px}.period-controls input,.period-controls select{min-height:44px;max-width:none;font-size:16px;padding:8px}
+ .card-heading{padding:14px 12px 8px}.card-heading .orange-button{min-height:44px}
+ .stat{min-height:110px}.stat strong{font-size:19px}.stat small{font-size:11px}
+ .transaction-search{padding:12px 10px 10px}.transaction-actions{padding:0 10px 12px}
+ .action-toolbar{gap:8px}.action-toolbar .export-button{flex:1;justify-content:center;min-height:44px;font-size:12px}
+ .action-toolbar label{width:100%;margin:0;justify-content:space-between;flex-wrap:wrap}.action-toolbar select{flex:1;min-height:44px;font-size:16px;max-width:65%}
+ .transaction-controls .segments{flex-wrap:wrap;gap:3px}.transaction-controls .segments button{flex:1;min-height:44px;font-size:11px;padding:6px}
+ .filter-chips{padding:6px 10px 10px}.filter-chips button{min-height:44px;font-size:12px}
+ .mobile-tx{padding:14px 12px;gap:10px;min-height:72px}.mobile-tx>span:last-child{white-space:normal;max-width:40%;overflow-wrap:anywhere;text-align:right}
+ .tx-merchant{align-items:flex-start}.tx-left>small{line-height:1.5}
+ .donut-center strong{font-size:20px}.donut-center span{font-size:11px}.donut-plot{height:245px;max-width:270px}
+ .rank-label{align-items:flex-start;line-height:1.6}.rank-label .dot{margin-top:8px}
+ .account-list>div{gap:12px}.account-list strong{max-width:46%}.account-balance strong{max-width:100%;font-size:14px}
+ .account-symbol{width:30px;height:30px}.account-identity{gap:8px}.account-identity button{min-height:44px;font-size:13px}.account-balance{max-width:40%}
+ .managed-accounts>div{padding:14px 0}.managed-accounts small{font-size:11px}
+ .card-footer{padding:14px 12px}.card-footer .export-button{width:100%;justify-content:center;min-height:44px}
+ .form-grid,.field-grid{grid-template-columns:minmax(0,1fr);gap:16px}.form-grid{padding:18px 14px}.form-wide{grid-column:1/-1}
+ .form-grid input:not([type=checkbox]),.form-grid select,.form-grid textarea,.preview-decision select{min-height:44px;font-size:16px}
+ .form-grid small{font-size:12px}.form-grid label{font-size:13px}
+ .form-actions{justify-content:stretch;gap:10px}.form-actions button{flex:1;min-height:46px;justify-content:center}
+ .detail-dialog{width:100%;max-width:100%;max-height:90dvh;margin:auto auto 0;border-radius:14px 14px 0 0;padding-bottom:env(safe-area-inset-bottom)}
+ .dialog-heading{padding:14px}.dialog-heading .square-button{min-width:44px;min-height:44px}.dialog-intro{padding:14px 14px 0}
+ .transaction-advanced>summary{padding:16px 14px;min-height:48px}.detail-dialog>.about-sheet{padding:18px 14px}
+ .about-sheet>button{min-height:48px}
+ .import-steps{padding:14px 12px;gap:5px}.import-steps li{flex-direction:column;align-items:center;gap:6px;text-align:center;font-size:11px}
+ .file-picker{padding:12px}.form-grid input[type=file]{font-size:13px}
+ .table-scroll{padding:8px 0}.table-scroll td,.table-scroll th{padding:10px 8px}
+ .import-metrics>div{padding:12px 8px}.import-metrics strong{font-size:18px}
+ .preview-row{border:1px solid var(--line);border-radius:7px;padding:14px;margin:10px 0}
+ .preview-row header{display:flex;justify-content:space-between;align-items:start;gap:12px;line-height:1.5;font-size:13px}
+ .preview-row header strong{min-width:0;overflow-wrap:anywhere}.preview-row header b{max-width:45%;overflow-wrap:anywhere}
+ .preview-row p{color:var(--muted);font-size:12px;margin-top:6px;line-height:1.6;overflow-wrap:anywhere}
+ .preview-decision{border-top:1px solid var(--line);padding-top:10px;margin-top:10px}.preview-decision small{margin-top:8px}.duplicate-notice{max-width:none;font-size:12px}
+ .budget-list{grid-template-columns:minmax(0,1fr);padding:6px 12px 16px}.budget-item{padding:14px}.budget-category,.text-button{min-height:44px}
+
+
+
+ .export-actions{grid-template-columns:minmax(0,1fr)}.export-action{padding:14px}.export-action .export-button{min-height:46px;font-size:13px}
+ .settings-fields{padding:14px 12px}.settings-fields input[type=file]{font-size:13px}.restore-panel{padding:14px}.restore-panel .orange-button{width:100%;min-height:46px}
+ .bottom-nav{box-shadow:0 -2px 12px #00000008}.bottom-nav .nav-link{min-height:58px}
+}
+@media(max-width:350px){.stat strong{font-size:17px}.action-toolbar select{max-width:100%;width:100%}.import-steps li{font-size:10px}.account-symbol{display:none}.donut-center strong{font-size:18px}}
+@media(prefers-reduced-motion:reduce){.budget-track>span{transition:none}}
+:root[data-motion=reduce] .budget-track>span{transition:none}
+
+.transaction-table .amount-cell{text-align:right}
+
+.account-nav.active{background:var(--subtle);color:var(--text);font-weight:500}
+.save-notice{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:10px 14px;border:1px solid var(--line);border-radius:8px;background:var(--surface);color:var(--income);font-size:13px;line-height:1.6;margin-bottom:16px}
+.save-notice .square-button{color:var(--muted);flex-shrink:0}
+.demo-notice {flex-wrap:wrap;}

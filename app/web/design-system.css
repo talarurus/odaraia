@@ -1,0 +1,58 @@
+/* Shared tokens and primitives. Surface role, rather than financial content,
+   determines whether a section paints a background. */
+:root {
+ --tf-font:-apple-system,BlinkMacSystemFont,"Segoe UI",system-ui,sans-serif;
+ --tf-space-1:4px;--tf-space-2:8px;--tf-space-3:12px;--tf-space-4:16px;
+ --tf-space-5:24px;--tf-space-6:32px;--tf-space-7:48px;--tf-space-8:64px;
+ --tf-weight-regular:400;--tf-weight-medium:500;--tf-weight-semibold:600;
+ --tf-caption:12px;--tf-body:13px;--tf-title:27px;--tf-display:76px;
+ --tf-radius-control:8px;--tf-radius-group:12px;--tf-radius-panel:14px;
+ --tf-page:#eff1f3;--tf-surface:#fcfcfd;--tf-inset:#e7ebef;--tf-text:#22262c;
+ --tf-muted:#59616b;--tf-border:#d8dde4;--tf-separator:#dce1e7;
+ --tf-primary:#343b48;--tf-on-primary:#fff;--tf-chart:#647d8d;
+ --tf-warning:#765513;--tf-warning-surface:#faf0df;
+ --tf-positive:#466f61;--tf-negative:#946154;--tf-focus:#4b72a3;
+ --tf-grouped:var(--tf-surface);--tf-control:var(--tf-surface);
+ --tf-shadow:0 10px 32px #17233518;--tf-ease:cubic-bezier(.2,.75,.25,1);--tf-duration:150ms;
+ color-scheme:light;
+}
+:root[data-theme=dark] {
+ --tf-page:#202328;--tf-surface:#2b2f35;--tf-inset:#353a42;--tf-text:#f0f1f4;
+ --tf-muted:#abb2bd;--tf-border:#454b56;--tf-separator:#3c424c;
+ --tf-primary:#dce3ec;--tf-on-primary:#252b35;--tf-chart:#a4bacb;
+ --tf-warning:#e0c694;--tf-warning-surface:#373126;
+ --color-housing:#7e8c9a;--color-groceries:#9f957c;--color-dining:#a99b80;--color-household:#878b88;--color-bills:#788e79;--color-transport:#9b858e;--color-health:#81918b;--color-travel:#888d86;--color-shopping:#92938a;--color-lifestyle:#858e7e;--color-paychecks:#839887;--color-freelance:#94a393;--color-net-surplus:#7d937f;
+ --tf-positive:#adcab9;--tf-negative:#e0b49f;--tf-focus:#b5cbea;
+ --tf-shadow:0 10px 32px #0005;
+ color-scheme:dark;
+}
+.finance-shell{font-family:var(--tf-font);min-height:100dvh}
+.tf-amount{font-variant-numeric:tabular-nums;letter-spacing:-.025em;overflow-wrap:anywhere}
+.tf-button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:34px;padding:7px 12px;border:1px solid transparent;border-radius:var(--tf-radius-control);font-size:12px;font-weight:550;line-height:1.4;text-decoration:none}
+.tf-button svg{flex-shrink:0}
+.tf-button-primary{background:var(--tf-primary);color:var(--tf-on-primary)}
+.tf-button-secondary{background:var(--tf-control);border-color:var(--tf-border);color:var(--tf-text)}
+.tf-button-quiet{color:var(--tf-muted)}
+.tf-button-secondary:hover:not(:disabled),.tf-button-quiet:hover:not(:disabled){background:var(--tf-inset);color:var(--tf-text)}
+.tf-button-primary:hover:not(:disabled){filter:brightness(1.1)}
+.tf-button:focus-visible,.tf-segments button:focus-visible{outline:2px solid var(--tf-focus);outline-offset:3px}
+.tf-segments{display:flex;flex-wrap:wrap;gap:2px;padding:3px;border:1px solid var(--tf-border);border-radius:9px;background:var(--tf-inset);max-width:100%}
+.tf-segments button{min-height:30px;min-width:40px;padding:5px 12px;border-radius:6px;font-size:11px;font-weight:550;color:var(--tf-muted)}
+.tf-segments button.selected{background:var(--tf-control);color:var(--tf-text);box-shadow:0 1px 3px #0001}
+.workspace-surface{min-width:0}
+.finance-shell [data-surface=canvas]{background:transparent;border:0;border-radius:0;box-shadow:none;min-width:0}
+.finance-shell [data-surface=grouped]{background:var(--tf-grouped);border:1px solid var(--tf-separator);border-radius:var(--tf-radius-group);box-shadow:none;min-width:0}
+.finance-shell [data-surface=elevated]{background:var(--tf-surface);border:1px solid var(--tf-border);border-radius:var(--tf-radius-panel);box-shadow:var(--tf-shadow);min-width:0}
+.finance-shell [data-surface=dense]{background:var(--tf-surface);border:1px solid var(--tf-border);border-radius:var(--tf-radius-group);box-shadow:none;min-width:0;overflow:hidden}
+@media(max-width:767px){.tf-button,.tf-segments button{min-height:44px}.tf-segments button{flex:1;min-width:0;padding-inline:10px}}
+@media(prefers-contrast:more){:root{--tf-muted:var(--tf-text);--tf-border:var(--tf-text);--tf-separator:var(--tf-text)}}
+@media(forced-colors:active){.workspace-surface{border:1px solid CanvasText}.tf-segments button.selected{outline:2px solid Highlight}}
+
+/* Compatibility aliases keep existing charts/forms on the same palette. */
+:root{
+ --canvas:var(--tf-page);--surface:var(--tf-surface);--subtle:var(--tf-inset);--sidebar:var(--tf-page);
+ --text:var(--tf-text);--muted:var(--tf-muted);--line:var(--tf-border);--line-soft:var(--tf-separator);
+ --accent:var(--tf-primary);--accent-hover:var(--tf-primary);--on-accent:var(--tf-on-primary);--focus:var(--tf-focus);
+ --hover:var(--tf-inset);--peach:var(--tf-inset);--income:var(--tf-positive);
+ --warning-text:var(--tf-warning);--warning-surface:var(--tf-warning-surface);--warning-row:var(--tf-warning-surface);
+}

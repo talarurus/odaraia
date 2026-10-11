@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-11",
+  "MPL": {
+    "source": "https://www.mozilla.org/media/MPL/2.0/index.txt",
+    "verification": "All 340 sequential canonical plaintext lines were retrieved via the web source reader and compared to the installed complete text, including both exhibits. No substantive edits.",
+    "sha256": "f35b870c59c69f29f127265bb7adb7417c6fe0d19a75c2dd8a50fd8447e66536",
+    "directHTTPByteVerification": "Blocked: curl DNS resolution failed; source-reader plaintext identity is verified, raw HTTP transport-byte identity is not independently certified.",
+    "exhibitBAttachedToSource": false
+  },
+  "DCO": {
+    "source": "https://developercertificate.org/",
+    "sha256": "7d79039e26a06fea799511cb337c1e736b20d53f640dd0b5798e4a1c741f1d0c",
+    "verification": "Verbatim previously verified full DCO 1.1 document; no assignment or relicensing clauses added."
+  },
+  "MonoCode": {
+    "LICENSE": "https://raw.githubusercontent.com/hardbeat920/monocode/main/LICENSE",
+    "retainedMITMatchesCurrentSourceReaderBytes": true,
+    "retainedLicenseSHA256": "269986019574d96b199bd710fff31f8d934e45771ad68e1e1938d39368963323",
+    "NOTICE": "https://raw.githubusercontent.com/hardbeat920/monocode/main/NOTICE",
+    "historicalNoticeRetainedSHA256": "6bd9743ab091c821002fa420a93067f650f76e003c358036f7366500b362c924",
+    "currentNoticeDifference": "Current source-reader text adds provider names Devin and Cognition. Retained historical NOTICE is unchanged. No provider artwork/UI copied.",
+    "historicalRevision": "Unverified; moving-main check cannot authenticate the adapted revision; commit API unavailable.",
+    "ownership": "No independent upstream title certification."
+  },
+  "publicationAuthorized": false
+}

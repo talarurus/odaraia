@@ -1,0 +1,4 @@
+// SPDX-License-Identifier: MPL-2.0
+import {report,checkedChartNumber,assertDate} from '../domain/finance.mjs';
+export function monthRange(month){assertDate(month+'-01');const [year,m]=month.split('-').map(Number);return {start:month+'-01',end:`${m===12?String(year+1).padStart(4,'0'):String(year).padStart(4,'0')}-${m===12?'01':String(m+1).padStart(2,'0')}-01`};}
+export function monthlyTrend(fixture,filters){const result=[];let month=filters.start.slice(0,7);for(let i=0;i<13;i++){const range=monthRange(month);if(range.start>=filters.end)break;const start=range.start<filters.start?filters.start:range.start,end=range.end>filters.end?filters.end:range.end;const value=report(fixture.accounts,fixture.transactions,{...filters,start,end}).spending;result.push({month,minor:value,value:checkedChartNumber(value)/100});month=range.end.slice(0,7);}return result;}

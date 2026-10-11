@@ -1,0 +1,28 @@
+/* Native viewport and material boundary only. No report/card paint policy here. */
+#root,.finance-shell main,.finance-shell .page-content{background:transparent;min-width:0}
+:root[data-native=true] .finance-shell,:root[data-native=true] .finance-shell main{border:0;border-radius:0;box-shadow:none;max-width:none}
+:root[data-native=true] .finance-shell main,:root[data-native=true] .finance-shell[data-page=accounts] main{margin:0;padding:22px 28px 24px}
+:root[data-native=true] .finance-shell .page-header{padding-top:0}
+:root[data-native=true] .page-header .freshness{display:none}
+:root[data-native=true] .sidebar,:root[data-native=true] .bottom-nav,:root[data-native=true] .mobile-product-brand{display:none!important}
+/* NSWindow owns the backdrop and tint shared by sidebar and workspace. */
+:root[data-native=true][data-compositing-mode=native-desktop-glass],
+:root[data-native=true][data-compositing-mode=native-desktop-glass] body,
+:root[data-native=true][data-compositing-mode=native-desktop-glass] #root,
+:root[data-native=true][data-compositing-mode=native-desktop-glass] .finance-shell,
+:root[data-native=true][data-compositing-mode=native-desktop-glass] main,
+:root[data-native=true][data-compositing-mode=native-desktop-glass] .page-content{background:transparent}
+:root[data-native=true][data-compositing-mode=native-desktop-glass]{--tf-grouped:rgba(252,252,253,.46);--tf-muted:var(--tf-text)}
+:root[data-native=true][data-compositing-mode=native-desktop-glass][data-theme=dark]{--tf-grouped:rgba(43,47,53,.62)}
+/* Local reading backings never cover an entire chart. Colored financial
+   copy retains its original palette and gets a small opaque reading backing. */
+:root[data-compositing-mode=native-desktop-glass] :is(.wealth-change>span,.accounts-change strong,.accounts-change-direction,.overview-period .amount-green,.overview-period .warning-text){background:var(--tf-surface);padding:2px 6px;border-radius:4px;width:fit-content}
+:root[data-compositing-mode=native-desktop-glass] .accounts-inspection.is-selected strong{display:inline-block;background:var(--tf-surface);padding:3px 6px;border-radius:4px}
+:root[data-compositing-mode=native-desktop-glass] :is(.flow-label text,.recharts-cartesian-axis-tick-value){paint-order:stroke fill;stroke:var(--tf-surface);stroke-width:3px;stroke-linejoin:round}
+:root[data-native=true] .finance-shell .prototype-footer{margin-top:20px}
+#page-title:focus{outline:none}
+@media(max-width:767px){:root[data-native=true] .finance-shell main,:root[data-native=true] .finance-shell[data-page=accounts] main{padding:20px 18px}}
+@media(prefers-reduced-transparency:reduce),(prefers-contrast:more){
+ :root{--tf-grouped:var(--tf-surface)!important}
+ :root[data-native=true],:root[data-native=true] body,:root[data-native=true] .finance-shell{background:var(--tf-page)!important}
+}

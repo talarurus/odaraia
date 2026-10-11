@@ -1,0 +1,57 @@
+{
+  "milestone": "0.3.1 Developer Preview",
+  "date": "2026-10-11",
+  "publication": "Not authorized or performed; licensing implementation locally authorized",
+  "environment": {
+    "os": "macOS 27.0.1",
+    "architecture": "arm64",
+    "node": "24.21.0",
+    "rust": "1.99.0"
+  },
+  "tests": {
+    "application": 116,
+    "financeProof": 90,
+    "systemSQLite": 16,
+    "rustBoundarySQLite": 16,
+    "rustUnitMockIPC": 3,
+    "skipped": 0
+  },
+  "passed": [
+    "All 241 regression tests repeated in original workspace and curated source: 116 app, 90 finance-proof, 16 system SQLite, 16 Rust/bundled SQLite, 3 Rust unit/mock IPC; zero skipped",
+    "Both Node and Rust synthetic financial journeys repeated in both copies, including budget/CSV/backup/empty restore/reopen",
+    "Curated frontend and optimized Tauri build/signature; original isolated fresh review and recovery builds/signatures",
+    "Exact MPL, retained MIT/NOTICE, artwork grant and provenance packaged in original review/recovery bundles",
+    "Isolated Swift public fallback and experimental glass host compiles; accepted existing Swift app untouched and signature verifies",
+    "All 27 recorded financial/native files byte-identical or exact SPDX comment addition only; migration bytes and official artwork/icon hashes unchanged",
+    "Canonical complete MPL source-reader verification, unmodified DCO, active metadata and all 370 file notice/coverage checks",
+    "146 npm and 478 Cargo package metadata reviewed; project license metadata agrees with lock records",
+    "Curated publication audit and staged-byte equality, deliberate exclusions, source-only archive member/content verification"
+  ],
+  "blocked": [
+    "Legal identity/title/employer-contractor authority and historical MonoCode revision require founder disposition; canonical direct raw HTTP download DNS-blocked though complete source-reader text checked",
+    "Current live npm advisories unavailable: registry DNS failure; cargo-audit unavailable and Rust registry discovery DNS failure",
+    "Fresh online dependency fetch and GitHub Actions unverified; current builds use cached locked dependencies",
+    "No certified current screenshots; previous browser launches abort before pixels",
+    "Full installed Tauri GUI/dialog/quit-reopen/keyboard visual acceptance pending; headless journeys not GUI acceptance",
+    "Full target/features binary notices and real corresponding-source access remain uncertified; public binaries not approved",
+    "Other desktop/mobile platforms unverified; separate website integration rights/screenshots/deployment pending and material excluded"
+  ],
+  "founderReported": "Latest simplified Tauri application launches on founder Mac; not a full workflow acceptance record",
+  "license": "Standard MPL-2.0 active for originals, two whole-file MIT adaptations, separate limited corporate artwork permission, DCO 1.1 without assignment",
+  "security": "Databases and backups unencrypted; synthetic development only",
+  "sourceAudit": {
+    "files": 370,
+    "approvedIconBinaries": 9,
+    "reviewedPatternMatches": 12,
+    "unresolved": 0,
+    "commits": 0,
+    "remotes": 0,
+    "indexMatchesReviewedBytes": true
+  },
+  "sourceLicenseCoverage": {
+    "MPL-2.0": 259,
+    "MIT": 2,
+    "restrictedPublisherArtwork": 2,
+    "retainedLegalTextsOrProvenance": 107
+  }
+}

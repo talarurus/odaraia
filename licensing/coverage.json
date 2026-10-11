@@ -1,0 +1,2234 @@
+{
+  "status": "Locally implemented; public publication not authorized",
+  "defaultLicense": "MPL-2.0",
+  "secondaryLicenseIncompatibilityNoticeAttached": false,
+  "selfHash": "Own digest is in the external source publication audit, avoiding a recursive self-hash",
+  "counts": {
+    "MPL-2.0": 259,
+    "retained-legal-text-or-provenance": 107,
+    "MIT": 2,
+    "LicenseRef-Talarurus-Publisher-Artwork": 2
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "b3069df6157ba455a7a99f2011a9eeabf761b23b16c41be24ed16c0fe5fa2f44"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": ".github/ISSUE_TEMPLATE/LICENSES.md",
+      "sha256": "f20fe1543a007c9f858df3f26864c9b814d277c935f8eeb79512a5abfd33d95b"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/bug_report.yml",
+      "license": "MPL-2.0",
+      "notice": ".github/ISSUE_TEMPLATE/LICENSES.md",
+      "sha256": "642b8fb9575c20008328747d87369cf2648410efec435f31b0fa98dcbb0e1f69"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/config.yml",
+      "license": "MPL-2.0",
+      "notice": ".github/ISSUE_TEMPLATE/LICENSES.md",
+      "sha256": "c1a0cc1ff4cc71e4eeb0abe6ba6eafbbda5fc9215edde1beeb076b8afe2a5f0a"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/feature_request.yml",
+      "license": "MPL-2.0",
+      "notice": ".github/ISSUE_TEMPLATE/LICENSES.md",
+      "sha256": "95234b2003eaa5a035f28358e5e2fa45942a73332747f8582bfe21857869b14b"
+    },
+    {
+      "path": ".github/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": ".github/LICENSES.md",
+      "sha256": "823954aa0398b300afa97027fc83512e1a370f101de749a8545235f4a7309b84"
+    },
+    {
+      "path": ".github/pull_request_template.md",
+      "license": "MPL-2.0",
+      "notice": ".github/LICENSES.md",
+      "sha256": "515c49d68d13240c8376e46ca3600a761ce3045fe46a13be6cf6d65b44caab18"
+    },
+    {
+      "path": ".github/workflows/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": ".github/workflows/LICENSES.md",
+      "sha256": "48972b52dc5804213af0e0ed65ca518006406a487158eef21ca75a648a054cc4"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "license": "MPL-2.0",
+      "notice": ".github/workflows/LICENSES.md",
+      "sha256": "8f6a5cffcbf2eba7967680204d38b21236be30c50200c28894b30c74d22d258f"
+    },
+    {
+      "path": ".gitignore",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "587282f661d70e70414ec06a44f0b3f1e4b20b808733fde775c3c16cd384701e"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "4ffb8f0b143f55c9c0f6dfdadab272bb69a009209b3c07ee57a998c949cae978"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "65546ec8820b5d063a428edb213f32e3402df29150b87168ab427b34b6cb091a"
+    },
+    {
+      "path": "DCO",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "DCO",
+      "sha256": "7d79039e26a06fea799511cb337c1e736b20d53f640dd0b5798e4a1c741f1d0c"
+    },
+    {
+      "path": "LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "LICENSE",
+      "sha256": "f35b870c59c69f29f127265bb7adb7417c6fe0d19a75c2dd8a50fd8447e66536"
+    },
+    {
+      "path": "LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "1f4fc47c227caebefa546ae296b302af724cf99a0400e386dfc197c086132f11"
+    },
+    {
+      "path": "LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt",
+      "sha256": "8ab6e3387fc2c2db6054bce1cfc4b86250a13a625975427a1c401127c359698e"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "LICENSES/MIT.txt",
+      "sha256": "269986019574d96b199bd710fff31f8d934e45771ad68e1e1938d39368963323"
+    },
+    {
+      "path": "LICENSE_RECOMMENDATION.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "138463535dea2ba5c229d5fc09f321123a942713b112046f8994df95340e89cb"
+    },
+    {
+      "path": "LICENSING.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "76c873a5249362fd635a17a3b32442dde2bfc117369d3df691d83284f08eaf9c"
+    },
+    {
+      "path": "ODARAIA_BRAND_AND_TRADEMARK_POLICY.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "520d98cb88aaf7322bd79330c11e16b14f46e1a059d727e7981e3d2e6caed1c2"
+    },
+    {
+      "path": "ODARAIA_CONTRIBUTION_POLICY.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "c2536b51de2c35e6ff2647e8b43b131a8e059d444f0bbacd898398b857d0e372"
+    },
+    {
+      "path": "ODARAIA_GITHUB_RELEASE_READINESS.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "2d7b66acbb670fa0c80d48a7f7d5b06533d89ac79872b112e37a545f710678cc"
+    },
+    {
+      "path": "ODARAIA_OPEN_SOURCE_STRATEGY.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "6dd09c0e3bb184626158dc98c7cafeef927648d6f0ae5bcaf475e14568d220c2"
+    },
+    {
+      "path": "ODARAIA_PLATFORM_SUPPORT_MATRIX.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "4449cdc7fd552cde98061157c4c21dc3318e1ec44b67a20476815cfbc5ed1848"
+    },
+    {
+      "path": "ODARAIA_RELEASE_ROADMAP.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "a7eebafe564111fdf1c6c2eaf5358993d93944b1fc983498e11b363d481e0ae9"
+    },
+    {
+      "path": "ODARAIA_SOURCE_PUBLICATION_APPROVAL.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "8c2a2ffd1e59c1a3e7d5e766e480b0c2decadfddd87b1729375e2b4b1bf3ad53"
+    },
+    {
+      "path": "ODARAIA_V031_DEVELOPER_PREVIEW.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "e59b40b7567f26fa0d95cb84d5baf0fa9f978516ef46396200decfebd2a350b8"
+    },
+    {
+      "path": "ODARAIA_V031_FINAL_APPROVAL_CHECKLIST.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "2c86becfe2991a5fed391a331c3eabab0dba5b95c66fd5ce499440ee759707cb"
+    },
+    {
+      "path": "ODARAIA_WEBSITE_INTEGRATION.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "89507583e6c13be6e3075f4d0e8dbef6f3f41d773e3252823ca7ef509a5b8736"
+    },
+    {
+      "path": "README.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "550304ba1b4f30c7ed5470ccfea758d991ce341bdef7a406b5788b9ff3123906"
+    },
+    {
+      "path": "SECURITY.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "822260fb37aa9f5358a0530856cba456a85aff202ce22ea57de5483c9e4a3f85"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICES.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "5d3c28027085e4cb4d09d08aa1423482292d3b2aa1c003b7f45a30ec2376288b"
+    },
+    {
+      "path": "app/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "app/LICENSES.md",
+      "sha256": "6e91cf767480dc14d2b28530b44dd1b6a39c9160395f57111b766b0966bf29bb"
+    },
+    {
+      "path": "app/NOTICES.md",
+      "license": "MPL-2.0",
+      "notice": "app/LICENSES.md",
+      "sha256": "e09cf610a3741400b6f75077d8f80ee50126bbabbc7111943a58a95fff1d6823"
+    },
+    {
+      "path": "app/README.md",
+      "license": "MPL-2.0",
+      "notice": "app/LICENSES.md",
+      "sha256": "4cf277689439adcd71d43c50cb4824026aa36644d1a3def12a5597d25f8e54fb"
+    },
+    {
+      "path": "app/db/database.ts",
+      "license": "MPL-2.0",
+      "notice": "app/db/database.ts",
+      "sha256": "03a6fa1489311858ed0c0f3e8558cadeb106a0f8aba75f2b0ea8ad183d64f8f0"
+    },
+    {
+      "path": "app/db/migrations/001-ledger.sql",
+      "license": "MPL-2.0",
+      "notice": "app/db/migrations/LICENSES.md",
+      "sha256": "327086bc2000567ef9d3c50e2e2e1a4378d40bcc8ead3ffb5cd3eb927ba7538b"
+    },
+    {
+      "path": "app/db/migrations/002-imports.sql",
+      "license": "MPL-2.0",
+      "notice": "app/db/migrations/LICENSES.md",
+      "sha256": "403f69d1e4e0a8f17e8426e05231a6ceee5e723f0a4fe2f4194ae83e70867f73"
+    },
+    {
+      "path": "app/db/migrations/003-source-aliases.sql",
+      "license": "MPL-2.0",
+      "notice": "app/db/migrations/LICENSES.md",
+      "sha256": "30b9df5fccdb0a65df8764dc7223d25b8de9a4e2cecf50330e319c4a605977ee"
+    },
+    {
+      "path": "app/db/migrations/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "app/db/migrations/LICENSES.md",
+      "sha256": "26e502dc9465e446088edf4ee227e9ebfcf248547c1eb781f094c7f56c965121"
+    },
+    {
+      "path": "app/db/repository.ts",
+      "license": "MPL-2.0",
+      "notice": "app/db/repository.ts",
+      "sha256": "71ab9e90c0907332d7b3dcefa44f5a231e3b11ea990f2bf191caa942085b4f67"
+    },
+    {
+      "path": "app/desktop/Compositing.swift",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/Compositing.swift",
+      "sha256": "bb663f859a916a384e22e2dac153f7b762cc30793acb85aa019cbb75ca75f971"
+    },
+    {
+      "path": "app/desktop/DesktopGlass.swift",
+      "license": "MIT",
+      "notice": "app/desktop/DesktopGlass.swift",
+      "sha256": "d451866511947b406848e8ec262e38ae4fd0c0e4fb0a7d3f381b57ca78c9a7f8"
+    },
+    {
+      "path": "app/desktop/ExperimentalGlassBridge.h",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/ExperimentalGlassBridge.h",
+      "sha256": "12013d0435db5cc253e8550bb511a8eaf4b1c68bffaebd11a66a2158a1d59f58"
+    },
+    {
+      "path": "app/desktop/ExperimentalGlassBridge.m",
+      "license": "MIT",
+      "notice": "app/desktop/ExperimentalGlassBridge.m",
+      "sha256": "a3ff4011012da853702b25c4fb71282bb89d76dd213523208885b7b0bb3dc5ba"
+    },
+    {
+      "path": "app/desktop/Odaraia.swift",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/Odaraia.swift",
+      "sha256": "819920f842ac982bd42bdd60ea0f78297493f0c4c92d7add2e79beb71a00fb54"
+    },
+    {
+      "path": "app/desktop/StartupBridge.h",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/StartupBridge.h",
+      "sha256": "6685c867d4de78f3d2b010e3f5ece65abf880e947d70036f6c518ce6f4bdbe2a"
+    },
+    {
+      "path": "app/desktop/StartupBridge.m",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/StartupBridge.m",
+      "sha256": "d099dacb7b92cb7946b61c3e7ee68f8547ae64c772f7da7ac5dfd88f54d5f75d"
+    },
+    {
+      "path": "app/desktop/backend.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/backend.mjs",
+      "sha256": "193d4c119e9ee501c555819bace6c8a368e0b7ab9ca8ecf49059599818814fca"
+    },
+    {
+      "path": "app/desktop/build.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/build.mjs",
+      "sha256": "214aebd98d30d59cb68a7e854fa3561c9e241d4e00e9e521ea2f1c7c064dcd34"
+    },
+    {
+      "path": "app/desktop/bundle-fingerprint.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/bundle-fingerprint.mjs",
+      "sha256": "bbfe878d03e8b9881ed3a3bad3dd4fb0867b51638c6f515007ea160cece249e3"
+    },
+    {
+      "path": "app/desktop/compile-host.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/compile-host.mjs",
+      "sha256": "b4ccfdd9cd9b291b19eec36ff6b2fcb4d3bdeb4d836731c991e7a95aefe81065"
+    },
+    {
+      "path": "app/desktop/diagnose.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/diagnose.mjs",
+      "sha256": "11f9f451f7c8c7210c4045593faa30e4cdc4efd6f8acc2e52e7e151dab42835e"
+    },
+    {
+      "path": "app/desktop/gui-smoke.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/gui-smoke.mjs",
+      "sha256": "33b4b8942c80bfe2c07cb7df6756c1531d3df52d552b80a4ed59a55e2b59aaa4"
+    },
+    {
+      "path": "app/desktop/prepare-runtime.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/prepare-runtime.mjs",
+      "sha256": "24a1036e98bbedffeff1664980f7d86b78d7fe074a67f0585dd4e3aa88474428"
+    },
+    {
+      "path": "app/desktop/runtime-audit.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/runtime-audit.mjs",
+      "sha256": "6dc92ecde68a44731c968dedd295057c95b79d807124c6068d18c4b69f14d218"
+    },
+    {
+      "path": "app/desktop/seed-review.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/seed-review.mjs",
+      "sha256": "4edff6af1efd9149fdf084a07ab155fb0db5351dd35adbea2355c2f8bbd41f7c"
+    },
+    {
+      "path": "app/desktop/smoke.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/smoke.mjs",
+      "sha256": "789ae9aae494bb1f9da2e35c5b9142c608f5d5e0f75ef20376cc8820938e67e7"
+    },
+    {
+      "path": "app/desktop/storage.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/storage.mjs",
+      "sha256": "1af972d6a9eb9efe1ee8029f49218e99dab5c1a3bba16e1ae4d2444bff508b99"
+    },
+    {
+      "path": "app/desktop/third-party/monocode/ADAPTATION.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/desktop/third-party/monocode/ADAPTATION.md",
+      "sha256": "d4aa294ae923f876ddeaed8f758a9e64fcc943464a22c5d37cc8bb3e1d2934c5"
+    },
+    {
+      "path": "app/desktop/third-party/monocode/LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/desktop/third-party/monocode/LICENSE",
+      "sha256": "269986019574d96b199bd710fff31f8d934e45771ad68e1e1938d39368963323"
+    },
+    {
+      "path": "app/desktop/third-party/monocode/NOTICE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/desktop/third-party/monocode/NOTICE",
+      "sha256": "6bd9743ab091c821002fa420a93067f650f76e003c358036f7366500b362c924"
+    },
+    {
+      "path": "app/domain/appearance.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/domain/appearance.mjs",
+      "sha256": "93fdfd08d546ec86801fdab2b798ad170fd289f31fd8c9a7f1f4c309df39f498"
+    },
+    {
+      "path": "app/domain/contracts.ts",
+      "license": "MPL-2.0",
+      "notice": "app/domain/contracts.ts",
+      "sha256": "cc7295ed0e0d08c5dd0157bb9b3e4abb1a4dc2587dc77aa3efc73c8a982eb940"
+    },
+    {
+      "path": "app/domain/csv.ts",
+      "license": "MPL-2.0",
+      "notice": "app/domain/csv.ts",
+      "sha256": "2968ebbdf46e9b66b8b3c21e2851cc8bf0a6c271682d110e1b9436d77a8cd102"
+    },
+    {
+      "path": "app/domain/export.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/domain/export.mjs",
+      "sha256": "5868567137d468626d2d8e847e65206068067c73e805f482093605204a8b5c74"
+    },
+    {
+      "path": "app/domain/finance.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/domain/finance.mjs",
+      "sha256": "05d82e7e125c393c63d0dfc61b9a310bdc93f03ab4a4726a9a93c3bc9e5554e6"
+    },
+    {
+      "path": "app/domain/fixture.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/domain/fixture.mjs",
+      "sha256": "f7b38ba9f92bb6b5a68c73a85f5cd6ea36ac21765ca6da6d7f52ece60c024bfe"
+    },
+    {
+      "path": "app/domain/storage.ts",
+      "license": "MPL-2.0",
+      "notice": "app/domain/storage.ts",
+      "sha256": "403ac7215e16d0408c8423a9308f2210377c4567c8e25b1e53b12e343d026850"
+    },
+    {
+      "path": "app/domain/types.ts",
+      "license": "MPL-2.0",
+      "notice": "app/domain/types.ts",
+      "sha256": "32f7a60a0727cb17f776eaebf24b15b8de1c2aafa7eeaea70f92683692ca8aaa"
+    },
+    {
+      "path": "app/domain/validation.ts",
+      "license": "MPL-2.0",
+      "notice": "app/domain/validation.ts",
+      "sha256": "3245da40df59b19fbb28fa227f45fd44ad70dea2ab7c238e42e80acee72d33b0"
+    },
+    {
+      "path": "app/fixtures/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "app/fixtures/LICENSES.md",
+      "sha256": "31c37dcd36f5a79a9e9fde399597d874daf869eaec2bc46b67dbb5ceebaa8af4"
+    },
+    {
+      "path": "app/fixtures/sample-checking.csv",
+      "license": "MPL-2.0",
+      "notice": "app/fixtures/LICENSES.md",
+      "sha256": "02ea7441a46153c82b105fe1e66ff0c719c554c5f59a60b523cead452946e1e5"
+    },
+    {
+      "path": "app/notices/third-party/axe-core-4.13.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/axe-core-4.13.0-LICENSE",
+      "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e"
+    },
+    {
+      "path": "app/notices/third-party/axe-core-4.13.0-LICENSE-3RD-PARTY.txt",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/axe-core-4.13.0-LICENSE-3RD-PARTY.txt",
+      "sha256": "4f8563870d0fca38bbc3e00b6f670cb7fa9f380ba9f26a7f7d1184a6b18b1653"
+    },
+    {
+      "path": "app/notices/third-party/clsx-2.1.1-license",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/clsx-2.1.1-license",
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+    },
+    {
+      "path": "app/notices/third-party/d3-array-3.2.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-array-3.2.4-LICENSE",
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+    },
+    {
+      "path": "app/notices/third-party/d3-color-3.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-color-3.1.0-LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+    },
+    {
+      "path": "app/notices/third-party/d3-ease-3.0.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-ease-3.0.1-LICENSE",
+      "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08"
+    },
+    {
+      "path": "app/notices/third-party/d3-format-3.1.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-format-3.1.2-LICENSE",
+      "sha256": "2a6d2d5f32ba0b755ddbc1c833f766e30cdbe6ebe9a6d4e3e24427721f0b63d3"
+    },
+    {
+      "path": "app/notices/third-party/d3-interpolate-3.0.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-interpolate-3.0.1-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "app/notices/third-party/d3-path-3.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-path-3.1.0-LICENSE",
+      "sha256": "a09b0d6d76e768fca2085fad05743ee81ddd11946bcda160a3cf5e1081a479aa"
+    },
+    {
+      "path": "app/notices/third-party/d3-scale-4.0.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-scale-4.0.2-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "app/notices/third-party/d3-shape-3.2.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-shape-3.2.0-LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+    },
+    {
+      "path": "app/notices/third-party/d3-time-3.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-time-3.1.0-LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+    },
+    {
+      "path": "app/notices/third-party/d3-time-format-4.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-time-format-4.1.0-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "app/notices/third-party/d3-timer-3.0.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/d3-timer-3.0.1-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "app/notices/third-party/decimal.js-light-2.5.1-LICENCE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/decimal.js-light-2.5.1-LICENCE.md",
+      "sha256": "fc0397fbd5c128bec7edef4e8d3f45e15db5fd043cdd0a2edfc4f14d47fbc3e4"
+    },
+    {
+      "path": "app/notices/third-party/es-toolkit-1.52.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/es-toolkit-1.52.0-LICENSE",
+      "sha256": "51f3674294d988d89dbebd31273baaeb3c697a15482d9699b14d1fded2e132a7"
+    },
+    {
+      "path": "app/notices/third-party/es-toolkit-1.52.0-NOTICE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/es-toolkit-1.52.0-NOTICE",
+      "sha256": "11ee5e3bce9b0a4dde7f73811caf98978e710228d891c3111ad8ef8d7d2a916f"
+    },
+    {
+      "path": "app/notices/third-party/esbuild-0.27.3-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/esbuild-0.27.3-LICENSE.md",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    {
+      "path": "app/notices/third-party/eventemitter3-5.0.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/eventemitter3-5.0.4-LICENSE",
+      "sha256": "3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf"
+    },
+    {
+      "path": "app/notices/third-party/immer-10.2.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/immer-10.2.0-LICENSE",
+      "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b"
+    },
+    {
+      "path": "app/notices/third-party/immer-11.1.18-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/immer-11.1.18-LICENSE",
+      "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b"
+    },
+    {
+      "path": "app/notices/third-party/internmap-2.0.3-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/internmap-2.0.3-LICENSE",
+      "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f"
+    },
+    {
+      "path": "app/notices/third-party/playwright-1.63.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/playwright-1.63.0-LICENSE",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "path": "app/notices/third-party/playwright-1.63.0-NOTICE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/playwright-1.63.0-NOTICE",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "path": "app/notices/third-party/playwright-core-1.63.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/playwright-core-1.63.0-LICENSE",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "path": "app/notices/third-party/playwright-core-1.63.0-NOTICE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/playwright-core-1.63.0-NOTICE",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "path": "app/notices/third-party/react-19.2.6-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/react-19.2.6-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "app/notices/third-party/react-dom-19.2.6-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/react-dom-19.2.6-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "app/notices/third-party/react-is-19.3.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/react-is-19.3.0-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "app/notices/third-party/react-redux-9.3.0-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/react-redux-9.3.0-LICENSE.md",
+      "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3"
+    },
+    {
+      "path": "app/notices/third-party/recharts-3.8.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/recharts-3.8.0-LICENSE",
+      "sha256": "2d3aa48a8d1d3b93093680e8e68d3a64cfb590c3ade377ffcaefc69dac7c2ce5"
+    },
+    {
+      "path": "app/notices/third-party/redux-5.0.1-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/redux-5.0.1-LICENSE.md",
+      "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3"
+    },
+    {
+      "path": "app/notices/third-party/redux-thunk-3.1.0-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/redux-thunk-3.1.0-LICENSE.md",
+      "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe"
+    },
+    {
+      "path": "app/notices/third-party/reduxjs__toolkit-2.12.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/reduxjs__toolkit-2.12.0-LICENSE",
+      "sha256": "49784961ec6c4941437b7a2c54d8977d0528076a9e7c73dd40f7d0942b8f106d"
+    },
+    {
+      "path": "app/notices/third-party/reselect-5.1.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/reselect-5.1.1-LICENSE",
+      "sha256": "0bb5035e49bf9b5661655b402bab3c3efccb8eab2a50e37392100139fe3280f2"
+    },
+    {
+      "path": "app/notices/third-party/scheduler-0.27.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/scheduler-0.27.0-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "app/notices/third-party/standard-schema__spec-1.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/standard-schema__spec-1.1.0-LICENSE",
+      "sha256": "653b779005a3a4d64a7288c940f7b9a0e8f0b1e0375f6aa6af9473caf131e564"
+    },
+    {
+      "path": "app/notices/third-party/standard-schema__utils-0.3.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/standard-schema__utils-0.3.0-LICENSE",
+      "sha256": "9cf2166507311f427e083ef7671da566949391cb745789abcff8bd43ac26d1f1"
+    },
+    {
+      "path": "app/notices/third-party/tiny-invariant-1.3.3-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/tiny-invariant-1.3.3-LICENSE",
+      "sha256": "b1c501095de70182748cb8e8d97ac5577701a4ef3b755ba30d59fd87b24bdb0f"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-array-3.2.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-array-3.2.2-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-color-3.1.3-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-color-3.1.3-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-ease-3.0.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-ease-3.0.2-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-interpolate-3.0.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-interpolate-3.0.4-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-path-3.1.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-path-3.1.1-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-scale-4.0.9-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-scale-4.0.9-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-shape-3.2.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-shape-3.2.0-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-time-3.0.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-time-3.0.4-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__d3-timer-3.0.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__d3-timer-3.0.2-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/types__use-sync-external-store-0.0.6-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/types__use-sync-external-store-0.0.6-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "app/notices/third-party/use-sync-external-store-1.7.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "app/notices/third-party/use-sync-external-store-1.7.0-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "app/package-lock.json",
+      "license": "MPL-2.0",
+      "notice": "app/LICENSES.md",
+      "sha256": "7de201e4c51fe6808c12ca0d5658aefbb01e6e9f55e6e84df055921ff17ac12b"
+    },
+    {
+      "path": "app/package.json",
+      "license": "MPL-2.0",
+      "notice": "app/LICENSES.md",
+      "sha256": "2bc99f460f2c89e067ad655ccdd1ad7883a5ba53903c83252f0b13421489f547"
+    },
+    {
+      "path": "app/product-identity.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/product-identity.mjs",
+      "sha256": "78483fb8d717cf1a6efa24e5914eb0622d39fb53cbcc49fe9d2e262a4cf2efe7"
+    },
+    {
+      "path": "app/public/brand/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "app/public/brand/LICENSES.md",
+      "sha256": "07d1481fae0e601c72d192712a588a4e151e6416758f6d61a502710e833ccbee"
+    },
+    {
+      "path": "app/public/brand/odaraia-favicon.svg",
+      "license": "MPL-2.0",
+      "notice": "app/public/brand/LICENSES.md",
+      "sha256": "31b2f2fc00c2d08a8757c399edc99b3be0a2fd7471213bdf12dc4128e4d21e2a"
+    },
+    {
+      "path": "app/public/brand/odaraia-symbol.svg",
+      "license": "MPL-2.0",
+      "notice": "app/public/brand/LICENSES.md",
+      "sha256": "9e6df43312b30384541e168a8fa2fe714ed40479fdcde7f37f1d256178aef3c3"
+    },
+    {
+      "path": "app/public/brand/publisher/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "app/public/brand/publisher/LICENSES.md",
+      "sha256": "e371ec0c2fa061b9d0bcb0e067c13f5c50b3e1b0d1d2d26eb3e7c32dc78c0541"
+    },
+    {
+      "path": "app/public/brand/publisher/talarurus-horizontal-white.svg",
+      "license": "LicenseRef-Talarurus-Publisher-Artwork",
+      "notice": "app/public/brand/publisher/LICENSES.md",
+      "sha256": "bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06"
+    },
+    {
+      "path": "app/public/brand/publisher/talarurus-horizontal.svg",
+      "license": "LicenseRef-Talarurus-Publisher-Artwork",
+      "notice": "app/public/brand/publisher/LICENSES.md",
+      "sha256": "a02b5d54a6a7b7a79ecc0a75074e18fbe700b35072ef724f8aada8b426933015"
+    },
+    {
+      "path": "app/scripts/accounts-design-browser.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/scripts/accounts-design-browser.mjs",
+      "sha256": "022be03de0b48cbd2ce2c7acc0028900a75c638f7dbb7f7c63c60f5b61037477"
+    },
+    {
+      "path": "app/scripts/browser.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/scripts/browser.mjs",
+      "sha256": "38fa4bf3602458aefee1b85d77a51fc65afaf1438c82c325a3986cecb78c3d00"
+    },
+    {
+      "path": "app/scripts/build.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/scripts/build.mjs",
+      "sha256": "135a4d5ea6f3c9ae76dfcf2d749d99a2a3de9e5c312349faadfec4385875e402"
+    },
+    {
+      "path": "app/scripts/capture-preview.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/scripts/capture-preview.mjs",
+      "sha256": "d9adcb21fb3f9ed91c3d9623e40ab19bb61a54821dbcec5a75445159ec23a4b9"
+    },
+    {
+      "path": "app/scripts/cretodus-brand-review.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/scripts/cretodus-brand-review.mjs",
+      "sha256": "4181bc7ff027e5f024190b8d2872d3edee6b81f113434fb6f9733294b9ab4e8e"
+    },
+    {
+      "path": "app/scripts/start.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/scripts/start.mjs",
+      "sha256": "42bcf55b905be3f719606c76aceb899a0f7eeb51decfa0e053ee5e0c7a78966a"
+    },
+    {
+      "path": "app/scripts/ui-polish-browser.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/scripts/ui-polish-browser.mjs",
+      "sha256": "937d9f3d1d7e760815c1e9d90548262608bbda1d3a697b2f5f1241f62db78c87"
+    },
+    {
+      "path": "app/server/api.ts",
+      "license": "MPL-2.0",
+      "notice": "app/server/api.ts",
+      "sha256": "923b7e0b101f1f8cfca7560980fb442b2282977b90804d8299c2ebd978bd5e66"
+    },
+    {
+      "path": "app/server/http.ts",
+      "license": "MPL-2.0",
+      "notice": "app/server/http.ts",
+      "sha256": "ec79ccd26cec46b35c1522cf0d527dabb3ce9ae7190ba8970181a1c73ebdf227"
+    },
+    {
+      "path": "app/server/importer.ts",
+      "license": "MPL-2.0",
+      "notice": "app/server/importer.ts",
+      "sha256": "c56f47e821c0bfb257ddb7170d807cc15fd6327e1a047ce8293697fd0511a5e4"
+    },
+    {
+      "path": "app/server/local-security.ts",
+      "license": "MPL-2.0",
+      "notice": "app/server/local-security.ts",
+      "sha256": "5cca21a14f9170dc753ffaec299d2d8eebe1f39db4a2808118efab9ac13660b1"
+    },
+    {
+      "path": "app/server/portability.ts",
+      "license": "MPL-2.0",
+      "notice": "app/server/portability.ts",
+      "sha256": "9a79be12571086ee5342a84f02a4b2a971d5a70c27eef035eb3e87429dc5204b"
+    },
+    {
+      "path": "app/services/application.ts",
+      "license": "MPL-2.0",
+      "notice": "app/services/application.ts",
+      "sha256": "2bad1793ad11c10278ff13285392b9ce20be5645c35582ed0be3e374d744c088"
+    },
+    {
+      "path": "app/services/demo.ts",
+      "license": "MPL-2.0",
+      "notice": "app/services/demo.ts",
+      "sha256": "0eaeaf45acf72664cbd4878736e934ec1d83b259d8a06f6938813fb0fb625888"
+    },
+    {
+      "path": "app/services/importer.ts",
+      "license": "MPL-2.0",
+      "notice": "app/services/importer.ts",
+      "sha256": "ea84d60bbb099d2bc462e87342fe91af7c7d0961f0009b7760b6536e38bcabe5"
+    },
+    {
+      "path": "app/services/ledger.ts",
+      "license": "MPL-2.0",
+      "notice": "app/services/ledger.ts",
+      "sha256": "822b0fbd2306a78387851cdab3cf37bab0e0f822369a8cffaf5773304fa91f81"
+    },
+    {
+      "path": "app/services/portability.ts",
+      "license": "MPL-2.0",
+      "notice": "app/services/portability.ts",
+      "sha256": "368d828557e42aae8971a701132b0c62ba078249e1974f6463eefc01326db8d0"
+    },
+    {
+      "path": "app/storage/async-native.ts",
+      "license": "MPL-2.0",
+      "notice": "app/storage/async-native.ts",
+      "sha256": "722eac3ea49d32a25ed0d7e8b215f1a81dbe7ba7e3a2e9383d03947915199ed8"
+    },
+    {
+      "path": "app/storage/memory.ts",
+      "license": "MPL-2.0",
+      "notice": "app/storage/memory.ts",
+      "sha256": "f9e86922a694742cf88ae6a25609f80a6bc8e7703e8d891e0eb723622227645b"
+    },
+    {
+      "path": "app/storage/native-sqlite/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/LICENSES.md",
+      "sha256": "ef3b7f53d216ea3b95c205d559495982d717de8eda0de8807db0298ff0c6a36f"
+    },
+    {
+      "path": "app/storage/native-sqlite/build.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/build.mjs",
+      "sha256": "2984974c790a2920bdeef2499a681eff0a4954faec8e9ab7a95fe85735ae758c"
+    },
+    {
+      "path": "app/storage/native-sqlite/cli.c",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/cli.c",
+      "sha256": "450cd28dc2aa74f48ffc312b9291631ca2e43a37b3c442633ff788ca65bf21e2"
+    },
+    {
+      "path": "app/storage/native-sqlite/generate.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/generate.mjs",
+      "sha256": "b06adb5fbf1f4d9ed0c6342390c992040759370e5717dcb0fdf61846e12d83c0"
+    },
+    {
+      "path": "app/storage/native-sqlite/schema.h",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/LICENSES.md",
+      "sha256": "459a05424d324706a0a6da2d0184f5d4dbaf9af53217fb044b3ae51499993148"
+    },
+    {
+      "path": "app/storage/native-sqlite/store.c",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/store.c",
+      "sha256": "18b88e79179bd21d0cec2649e02d3cf064250317a55e36d8be815a36ac5ec08e"
+    },
+    {
+      "path": "app/storage/native-sqlite/store.h",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/store.h",
+      "sha256": "38bdc49f504a3c8b70f4121cc930f2c4963672b0ca1d00eedb73bcd95e13658c"
+    },
+    {
+      "path": "app/storage/native-sqlite/transport.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/storage/native-sqlite/transport.mjs",
+      "sha256": "08c95311509386546b2fd95e5672065b1be28c84d7618ad67d74270f470be76a"
+    },
+    {
+      "path": "app/tests/accounts-design.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/accounts-design.test.mjs",
+      "sha256": "d2ed95f2b4b67d713333665c24933ac89aa8e77f31df8c569da8a78d6cdfc540"
+    },
+    {
+      "path": "app/tests/api.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/api.test.mjs",
+      "sha256": "7d0a8aa0dd45f6a20a0054ba83bd6154d730a4cee8d14f5c2af64f6d3d22c03c"
+    },
+    {
+      "path": "app/tests/apple-design.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/apple-design.test.mjs",
+      "sha256": "998396c37342e9ba0dfc0324d54e41c1efec3f4977db3d74d1527caeaa0d4388"
+    },
+    {
+      "path": "app/tests/branding.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/branding.test.mjs",
+      "sha256": "d65e4acc4a874a7cfce8abf1158bce5cb3c7df710512c56629cf6d8b4af07d00"
+    },
+    {
+      "path": "app/tests/canonical-fixture.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/canonical-fixture.mjs",
+      "sha256": "2869f78f58221d3a1193e3420eafa4dea6ccd949280a02a511e129936b987a73"
+    },
+    {
+      "path": "app/tests/dashboard.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/dashboard.test.mjs",
+      "sha256": "0217f851c21a0023f4b0ac12ec4ba81c690b4f4787466fe0afeb9693e080fce0"
+    },
+    {
+      "path": "app/tests/design-consolidation.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/design-consolidation.test.mjs",
+      "sha256": "3e83e394f165ef3ae94b24a55abd349b54c67be8b41c40fd0ac26b41fb52bd3e"
+    },
+    {
+      "path": "app/tests/desktop.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/desktop.test.mjs",
+      "sha256": "c9debaac33ed47e88ac4f6b84b207089a406a4b5cdc05a5dc2f64b733e34422c"
+    },
+    {
+      "path": "app/tests/financial-ux.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/financial-ux.test.mjs",
+      "sha256": "4baf75ba6812355664cb66e03b1ea75f768fadfbf4344a888928a585ec20f3e6"
+    },
+    {
+      "path": "app/tests/foundation.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/foundation.test.mjs",
+      "sha256": "62b561fd6c0caf597d02a6edf6f8b1d9da57afb3d2b259700964473b54163545"
+    },
+    {
+      "path": "app/tests/import.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/import.test.mjs",
+      "sha256": "47d9c2336ea601f59e2e79b9a715780d8dc647312ece7feaba628d87c164efbf"
+    },
+    {
+      "path": "app/tests/interruption.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/interruption.test.mjs",
+      "sha256": "86d74848b2553a47492e7a6aef14e990714ce959061894f66ecb79c3d58138c7"
+    },
+    {
+      "path": "app/tests/material.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/material.test.mjs",
+      "sha256": "b561fc5447ca3e84919e59041ee164e35ff19898f8997b6c70d56c210eee9ab9"
+    },
+    {
+      "path": "app/tests/persistent-platform/adapter.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/persistent-platform/adapter.test.mjs",
+      "sha256": "bef32cb15a580bd1eff1d7aca75cc6afa334d49850094f8abbe43ad90654213b"
+    },
+    {
+      "path": "app/tests/persistent-platform/restart-worker.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/persistent-platform/restart-worker.mjs",
+      "sha256": "76047a95a3f37974a377940e8a0bd097e1074f6e8e453b2e24d03224c4ea7485"
+    },
+    {
+      "path": "app/tests/platform-contracts.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/platform-contracts.test.mjs",
+      "sha256": "1cfbdfdb3402fba696a2d70138a5c1c4afb04f60b409bfa136ea7b497b6158f2"
+    },
+    {
+      "path": "app/tests/readiness-security.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/readiness-security.test.mjs",
+      "sha256": "b3a2fe39912a53b8c02b8c9f70703c1056967e9f93e8b36dac32cbbf79b117f5"
+    },
+    {
+      "path": "app/tests/recovery.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/recovery.test.mjs",
+      "sha256": "67fea8b2e94683bd97acadc36c16352dc53c6f9d988c45597acbb1b767389fcd"
+    },
+    {
+      "path": "app/tests/reports.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/reports.test.mjs",
+      "sha256": "0f98e321358f54caa1554702e96a0c4723d4e32991afaac408e1efbf786e347f"
+    },
+    {
+      "path": "app/tests/startup.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/startup.test.mjs",
+      "sha256": "9eb1e01920036b03cba4d2653ac2323253e61b2a259eb5019a9c4043a8cbf108"
+    },
+    {
+      "path": "app/tests/ui-polish.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/ui-polish.test.mjs",
+      "sha256": "273c1d210fd7709da156701a935fcba6e2416bd91be453992f8289f8449387b6"
+    },
+    {
+      "path": "app/tests/workspace.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/tests/workspace.test.mjs",
+      "sha256": "924e17844c7c696dbac34cd644318ddf7a38bb11950a7f667e395b67044a78f4"
+    },
+    {
+      "path": "app/web/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "619c291c9f7069b33bfd4e9b1efdddc44a595d3f1e56f0c32d44ca1e7514dd4d"
+    },
+    {
+      "path": "app/web/accounts-model.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/accounts-model.mjs",
+      "sha256": "bf413a45ba53777feb2d9685c6a7bcaf0fb8aa7a30c61cdb9a76167c4ec2d9cd"
+    },
+    {
+      "path": "app/web/accounts.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "df51cc78697954c8e6573af62177e711b60c33cebb8014042f920ed03de1262f"
+    },
+    {
+      "path": "app/web/accounts.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/accounts.tsx",
+      "sha256": "fe695d62d9c1139a388c82c73acc7f99c120af40dbce6ab7ed5397f19642dd9d"
+    },
+    {
+      "path": "app/web/api.ts",
+      "license": "MPL-2.0",
+      "notice": "app/web/api.ts",
+      "sha256": "b1290e4bde5e3028bf18443e251233e041aa5ecd631e7f1220ea72b5406909b6"
+    },
+    {
+      "path": "app/web/app.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/app.tsx",
+      "sha256": "ff678dda489768b02ba93ad9b7965454d9dd568e1add1f39ce9c6ebd280378f5"
+    },
+    {
+      "path": "app/web/application-boundary.jsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/application-boundary.jsx",
+      "sha256": "1ba3e316d2c9c192da3c37a508ebe886f9ac7fec6b66ff14c4c23fd541a07855"
+    },
+    {
+      "path": "app/web/application.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "a23fae68adc185acb9bce20086d65139e8a44da2267c1e929422d355d4e67976"
+    },
+    {
+      "path": "app/web/branding.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "2b373b150fb00ee6342939c894da9fac94deb3762e264948f15c986775e22fd8"
+    },
+    {
+      "path": "app/web/branding.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/branding.tsx",
+      "sha256": "9c5e079cffdce26fb8bfd72a4b499d061c99ef01ee8d26f07ecd1e51fb121adc"
+    },
+    {
+      "path": "app/web/dashboard.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/dashboard.tsx",
+      "sha256": "97b0cb69c11b1cb8d81b2474595c2eff47bb9948562bab75953b6303d8629597"
+    },
+    {
+      "path": "app/web/design-system.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "41e3900778be66888286aa96e21e50067ffd5268774e01a3474afbaecea51a90"
+    },
+    {
+      "path": "app/web/design-system.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/design-system.tsx",
+      "sha256": "e3c7dd8aa9747815d36c22505c9704bc7be649fbd422783f01caf0ca516c757c"
+    },
+    {
+      "path": "app/web/desktop.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/desktop.mjs",
+      "sha256": "5918626f79c5e3b58f41129dca5cc4d5086c07f874192d1effac52a6d48281cd"
+    },
+    {
+      "path": "app/web/flow-labels.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/flow-labels.mjs",
+      "sha256": "bf2a36c37c521bc4a2b804923475d65b2c5474debfc133e3b4c0be694ca44bb9"
+    },
+    {
+      "path": "app/web/forms.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/forms.tsx",
+      "sha256": "3cf3831ba0aedd440b341a7d00bf1f8e9167075268f7412e8cd4962ac54f4400"
+    },
+    {
+      "path": "app/web/import.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/import.tsx",
+      "sha256": "aa11c1ac8109c566a8bae47397af8539e571e946123615e1c44151355424a3b8"
+    },
+    {
+      "path": "app/web/mac-workspace.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "532f3c6656ff504f356a8840b1a8bca6353cc4bc8cd5ca46a73bf0f355fb8722"
+    },
+    {
+      "path": "app/web/material-controls.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/material-controls.tsx",
+      "sha256": "4091a9b619ae7b912a5843eb2feb7e1539312f991c9a470cacaf61143dee74da"
+    },
+    {
+      "path": "app/web/net-worth-model.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/net-worth-model.mjs",
+      "sha256": "3267766ad7c515eb515edb31f878a15d2cc680bc9d3f87101d91ca09d1027a4c"
+    },
+    {
+      "path": "app/web/onboarding.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/onboarding.tsx",
+      "sha256": "e48f3520b098067eba4a43e6d5b2831ef2f430bbd45cee78a1a01dc9bcce5d0f"
+    },
+    {
+      "path": "app/web/overview.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/overview.tsx",
+      "sha256": "37447338ddd827187e7bd75fb0b8ad5e3d5ed140f7e8f9194b5a1ed755adcfc6"
+    },
+    {
+      "path": "app/web/palette.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/palette.mjs",
+      "sha256": "a1862e0035c1919b71f1a5d0c6a5f18dcbfd15c85b14c08f5364bf84d0ed7ffb"
+    },
+    {
+      "path": "app/web/periods.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/periods.mjs",
+      "sha256": "6e1729e7aa2f3a9f137dc587e645f137defd8dc19f3eb1c9f19a09abfdab43c1"
+    },
+    {
+      "path": "app/web/presentation.jsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/presentation.jsx",
+      "sha256": "5ebe22c1fbee6b1ba7393cc26e79453e32e6cf2b3838b5c2c1309e6d1d5e784d"
+    },
+    {
+      "path": "app/web/report-boundary.jsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/report-boundary.jsx",
+      "sha256": "601b6eee566c505cdbe4a15125ca0109b555653745c368db686b46efd558ec84"
+    },
+    {
+      "path": "app/web/reports.jsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/reports.jsx",
+      "sha256": "bc9e8fb01ae1a6b53733d1bd687755e19d66a2b41dc4e61b085b84a12f6c0169"
+    },
+    {
+      "path": "app/web/settings.tsx",
+      "license": "MPL-2.0",
+      "notice": "app/web/settings.tsx",
+      "sha256": "469764cc3ead29065dbff70d3b6a564b5e7d30ec7df72997e8ee875f260589aa"
+    },
+    {
+      "path": "app/web/startup.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/startup.mjs",
+      "sha256": "365334015ee5bd2e6089cd2bb6992513aa3b43d1adb24f65735c2d810f646697"
+    },
+    {
+      "path": "app/web/style.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "748b57f0d02e785bf2ec505a568b61b005f50a0fb89b9f359621e95b48212928"
+    },
+    {
+      "path": "app/web/ui-model.mjs",
+      "license": "MPL-2.0",
+      "notice": "app/web/ui-model.mjs",
+      "sha256": "a6535df302bb27519049ac85501d88eb35a8fd3a15110357247155a1183a58d9"
+    },
+    {
+      "path": "app/web/window-workspace.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "411800d0847bf232bb93c6d18d1837c59d884f6e4916b82a8e82318c021938c6"
+    },
+    {
+      "path": "app/web/workspace.css",
+      "license": "MPL-2.0",
+      "notice": "app/web/LICENSES.md",
+      "sha256": "25fb2c30c5dd0ae2617e7f94436bed3c16420a2d84b621bf59e7187c3a72e356"
+    },
+    {
+      "path": "brand/ASSET_RIGHTS.md",
+      "license": "MPL-2.0",
+      "notice": "brand/LICENSES.md",
+      "sha256": "1263e30f3727ddd0bf9062b45a3c4c7c4d3479bca81dd0b056b84dfcc8742ebb"
+    },
+    {
+      "path": "brand/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "brand/LICENSES.md",
+      "sha256": "4bd1cd9a280f0977a5bd7f0b819d081ea68826319c387eb0e04e68a7fcfed5ba"
+    },
+    {
+      "path": "brand/odaraia/placeholder/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "713bbe761a06330f4934c713c0cdcbbe7b17b6fbe4bb41a32ecff95ff33f073d"
+    },
+    {
+      "path": "brand/odaraia/placeholder/app-icon.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "31b2f2fc00c2d08a8757c399edc99b3be0a2fd7471213bdf12dc4128e4d21e2a"
+    },
+    {
+      "path": "brand/odaraia/placeholder/favicon.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "31b2f2fc00c2d08a8757c399edc99b3be0a2fd7471213bdf12dc4128e4d21e2a"
+    },
+    {
+      "path": "brand/odaraia/placeholder/icon-1024.png",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "2ee6210d45cbe33bfc0c10961d1722aeffc956c58040eff2b1d04ad003b8f298"
+    },
+    {
+      "path": "brand/odaraia/placeholder/icon-128.png",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "9a9000bb5232a16ab0f1ff1171a24d531e2fdce93351972a4a308fb0b4b89f2e"
+    },
+    {
+      "path": "brand/odaraia/placeholder/icon-16.png",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "8a4f7030b9c03093a7291ab5d26107f2dc6f6c6436db4d980aedebcb35c1d7fa"
+    },
+    {
+      "path": "brand/odaraia/placeholder/icon-256.png",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "f0ea3e109b0fd556c006e1e4aa7b256c025df154bd651b2024555a207283f68f"
+    },
+    {
+      "path": "brand/odaraia/placeholder/icon-32.png",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "93062e7b530239095baad9debedccd2db93963f4f58dfdcada11c219f75d6e01"
+    },
+    {
+      "path": "brand/odaraia/placeholder/icon-512.png",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "2165c47f58cc3d1d8cefc7da769b75b142bf8e60afd353460d437061144b8c4f"
+    },
+    {
+      "path": "brand/odaraia/placeholder/icon-64.png",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "47c0afded5e95035f3d08a029bd4b04ed0fa0059f05dab2c016ced1218be6a7c"
+    },
+    {
+      "path": "brand/odaraia/placeholder/symbol-dark.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "9ca589c18e5974ebbe80220cc8e344508eb91200b03f36682141223a7f7ba1a6"
+    },
+    {
+      "path": "brand/odaraia/placeholder/symbol-light.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "sha256": "9e6df43312b30384541e168a8fa2fe714ed40479fdcde7f37f1d256178aef3c3"
+    },
+    {
+      "path": "brand/odaraia/render.swift",
+      "license": "MPL-2.0",
+      "notice": "brand/odaraia/render.swift",
+      "sha256": "bf7c0b91a854e9e305174a64b31cb6c6c566564b36717987156b45ecb8272bb0"
+    },
+    {
+      "path": "brand/talarurus-assets.json",
+      "license": "MPL-2.0",
+      "notice": "brand/LICENSES.md",
+      "sha256": "00680a3b39ad3a2ae1520db2e6a2cb7d8d6ee4f7dcc0d231ccf974507d9d9b7e"
+    },
+    {
+      "path": "docs/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "docs/LICENSES.md",
+      "sha256": "16331af12d5f97d3b5b6ba1d420299d3af48f4700a93f15222ab5223ccc4cb5d"
+    },
+    {
+      "path": "docs/architecture.md",
+      "license": "MPL-2.0",
+      "notice": "docs/LICENSES.md",
+      "sha256": "2533540fc7b70fbe84e78e8c2734e53488ef93004a3b1abf4769a10200646a8b"
+    },
+    {
+      "path": "docs/screenshots/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "docs/screenshots/LICENSES.md",
+      "sha256": "bfa539722c40a90e030f10472f58118c1d7201f6601fa7686862118d5a023e4a"
+    },
+    {
+      "path": "docs/screenshots/README.md",
+      "license": "MPL-2.0",
+      "notice": "docs/screenshots/LICENSES.md",
+      "sha256": "b1a91da25467753ea35715765f2dfc88244d0356648fbd0fe72b4f3b14adebfb"
+    },
+    {
+      "path": "experiments/finance-proof/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/LICENSES.md",
+      "sha256": "6e91cf767480dc14d2b28530b44dd1b6a39c9160395f57111b766b0966bf29bb"
+    },
+    {
+      "path": "experiments/finance-proof/NOTICES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/LICENSES.md",
+      "sha256": "30f516336e4e3701a615b484b2ff2ff4103b91d78dfae7b29f8c2d3421f38c0b"
+    },
+    {
+      "path": "experiments/finance-proof/README.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/LICENSES.md",
+      "sha256": "f0518596233945fb9b7da73d95eb8dcc47c0efe35a04afb6ebe498a41aa58926"
+    },
+    {
+      "path": "experiments/finance-proof/harness/actual-probe.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/actual-probe.mjs",
+      "sha256": "19eb5783876a61bcff7249c05b255ea38bcd52e669233ecff0933ad21cf48621"
+    },
+    {
+      "path": "experiments/finance-proof/harness/appearance.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/appearance.test.mjs",
+      "sha256": "ca91329c8388ad2c1b0a09dba784adce734136fb46ec2262b20ca1cf7d291411"
+    },
+    {
+      "path": "experiments/finance-proof/harness/benchmark.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/benchmark.mjs",
+      "sha256": "171dcaf230f388ab225d6acb89866e99c4e06f8df10ab04f25a9b2a3f218d2e6"
+    },
+    {
+      "path": "experiments/finance-proof/harness/concurrency-recovery.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/concurrency-recovery.test.mjs",
+      "sha256": "09d7c31d24779e0f6983bfef8fcce8e611e3d345262235450d452295b7712b25"
+    },
+    {
+      "path": "experiments/finance-proof/harness/contrast.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/contrast.test.mjs",
+      "sha256": "ff211929057e789e015f6a1ca64be0593fb4ea78597f6293dcca53b5fa01a400"
+    },
+    {
+      "path": "experiments/finance-proof/harness/csv.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/csv.mjs",
+      "sha256": "7f017da27dbad3a0375eea988c765b8d464099f30bdb8c330a0459ee766c1fc8"
+    },
+    {
+      "path": "experiments/finance-proof/harness/evidence-gaps.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/evidence-gaps.test.mjs",
+      "sha256": "04da9d7f465237734ab4c6c6817d393f75873601d88e1da486337dd9a2a5144e"
+    },
+    {
+      "path": "experiments/finance-proof/harness/finance.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/finance.test.mjs",
+      "sha256": "0a1bed5583e1aab80418f8fca4c68d91e4ed100f34bf7e6da912950df9171696"
+    },
+    {
+      "path": "experiments/finance-proof/harness/fixtures/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/fixtures/LICENSES.md",
+      "sha256": "c68c921b26c63349e818253b8b23b9f2038e1b9e9f23209c838ba4cfeebc1531"
+    },
+    {
+      "path": "experiments/finance-proof/harness/fixtures/report-policy-previous.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/fixtures/LICENSES.md",
+      "sha256": "aa759a4e30b69136f1392aa5b042e6ff95b13f2f6bfee79af2db55a3a3b6f9ad"
+    },
+    {
+      "path": "experiments/finance-proof/harness/fixtures/style-before.css",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/fixtures/LICENSES.md",
+      "sha256": "147bf4084211bbb96499cc20845d08d7a78b49dafc23f08929f77eabe104e0db"
+    },
+    {
+      "path": "experiments/finance-proof/harness/independent.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/independent.mjs",
+      "sha256": "05ffea2080b3f8f7bd8fb7de6ba9ca7e7151a44fbbe2eee4b359f52d71865720"
+    },
+    {
+      "path": "experiments/finance-proof/harness/independent.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/independent.test.mjs",
+      "sha256": "9f56d835c772b206241413a650cda423a1befa72f7325ffa770235e88971846f"
+    },
+    {
+      "path": "experiments/finance-proof/harness/performance-investigation.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/performance-investigation.mjs",
+      "sha256": "457bc22b332fa63354c3642bb831cad0e9b84ba4eec46c8c4e314d698cd352f9"
+    },
+    {
+      "path": "experiments/finance-proof/harness/ui-model.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/ui-model.test.mjs",
+      "sha256": "065cff4794d04dc603da9f90cd36fed23e616f71d6f40e3a3207167628b39009"
+    },
+    {
+      "path": "experiments/finance-proof/harness/ui-render.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/ui-render.test.mjs",
+      "sha256": "b5ef305553b4a256a7e26b579ad2ca31a00ee9017afbcdb1b420c5a12d118bd3"
+    },
+    {
+      "path": "experiments/finance-proof/harness/visual-structure.test.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/harness/visual-structure.test.mjs",
+      "sha256": "8356ecdc39347b31d4ffd86755c033e2d375079f825ec1f12672848684ca0019"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/axe-core-4.13.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/axe-core-4.13.0-LICENSE",
+      "sha256": "af175b9d96ee93c21a036152e1b905b0b95304d4ae8c2c921c7609100ba8df7e"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/axe-core-4.13.0-LICENSE-3RD-PARTY.txt",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/axe-core-4.13.0-LICENSE-3RD-PARTY.txt",
+      "sha256": "4f8563870d0fca38bbc3e00b6f670cb7fa9f380ba9f26a7f7d1184a6b18b1653"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/clsx-2.1.1-license",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/clsx-2.1.1-license",
+      "sha256": "9a9edad7baae52622bddf3c15b2ef8a33d2c89f2d25408ad13e8a7481c6b0c97"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-array-3.2.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-array-3.2.4-LICENSE",
+      "sha256": "3e6849627f74ff73c257a3ae1efb574015d94fc1035c05ec3c15805165efcbc4"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-color-3.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-color-3.1.0-LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-ease-3.0.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-ease-3.0.1-LICENSE",
+      "sha256": "b989d9085148d21ff64a75e14462aefa06b2589a55553b07b1460c70081c7d08"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-format-3.1.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-format-3.1.2-LICENSE",
+      "sha256": "2a6d2d5f32ba0b755ddbc1c833f766e30cdbe6ebe9a6d4e3e24427721f0b63d3"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-interpolate-3.0.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-interpolate-3.0.1-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-path-3.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-path-3.1.0-LICENSE",
+      "sha256": "a09b0d6d76e768fca2085fad05743ee81ddd11946bcda160a3cf5e1081a479aa"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-scale-4.0.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-scale-4.0.2-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-shape-3.2.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-shape-3.2.0-LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-time-3.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-time-3.1.0-LICENSE",
+      "sha256": "faa682e3e430941f958d26180458f5934a62f58dac4d70ccdd15608c15d0f884"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-time-format-4.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-time-format-4.1.0-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/d3-timer-3.0.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/d3-timer-3.0.1-LICENSE",
+      "sha256": "e008c5e25a6be382593089c29bfabbc553c6378eee02895aec46ce396cc404ee"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/decimal.js-light-2.5.1-LICENCE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/decimal.js-light-2.5.1-LICENCE.md",
+      "sha256": "fc0397fbd5c128bec7edef4e8d3f45e15db5fd043cdd0a2edfc4f14d47fbc3e4"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/es-toolkit-1.52.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/es-toolkit-1.52.0-LICENSE",
+      "sha256": "51f3674294d988d89dbebd31273baaeb3c697a15482d9699b14d1fded2e132a7"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/es-toolkit-1.52.0-NOTICE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/es-toolkit-1.52.0-NOTICE",
+      "sha256": "11ee5e3bce9b0a4dde7f73811caf98978e710228d891c3111ad8ef8d7d2a916f"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/esbuild-0.27.3-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/esbuild-0.27.3-LICENSE.md",
+      "sha256": "b40ec5baec7bb34fa5b1c09521fa3cd52d5fad7adafed74932a2010d3612a681"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/eventemitter3-5.0.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/eventemitter3-5.0.4-LICENSE",
+      "sha256": "3aecc12b1cb28832b5f65ab64291de96568c3f236a74d646281b4491f7bcadbf"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/immer-10.2.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/immer-10.2.0-LICENSE",
+      "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/immer-11.1.18-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/immer-11.1.18-LICENSE",
+      "sha256": "99cf22f6960a6fe228ec84ea9aefb0d75b27999ece83a3a9801e1c2081fa270b"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/internmap-2.0.3-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/internmap-2.0.3-LICENSE",
+      "sha256": "9ea8903938dab5f12c4572d60725069bec2d1b0dc3bcc210b09bae946a5ebb1f"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/playwright-1.63.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/playwright-1.63.0-LICENSE",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/playwright-1.63.0-NOTICE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/playwright-1.63.0-NOTICE",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/playwright-core-1.63.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/playwright-core-1.63.0-LICENSE",
+      "sha256": "45873d00a0dd243596deb4aa23b2493b3d1f0671921bf2538ea431d7380220eb"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/playwright-core-1.63.0-NOTICE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/playwright-core-1.63.0-NOTICE",
+      "sha256": "6d602191187b35b9b01d2cffa01c8469c2c8d9de8a96f1bf868e0f264f51c81d"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/react-19.2.6-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/react-19.2.6-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/react-dom-19.2.6-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/react-dom-19.2.6-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/react-is-19.3.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/react-is-19.3.0-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/react-redux-9.3.0-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/react-redux-9.3.0-LICENSE.md",
+      "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/recharts-3.8.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/recharts-3.8.0-LICENSE",
+      "sha256": "2d3aa48a8d1d3b93093680e8e68d3a64cfb590c3ade377ffcaefc69dac7c2ce5"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/redux-5.0.1-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/redux-5.0.1-LICENSE.md",
+      "sha256": "f2da73c752c6b87624755edacf927cbd915fa76555d383e74494bad4a5155ab3"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/redux-thunk-3.1.0-LICENSE.md",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/redux-thunk-3.1.0-LICENSE.md",
+      "sha256": "635da794c92d278f8355428be0f9922d643f556d4f75f33fe4aca6b98d27affe"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/reduxjs__toolkit-2.12.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/reduxjs__toolkit-2.12.0-LICENSE",
+      "sha256": "49784961ec6c4941437b7a2c54d8977d0528076a9e7c73dd40f7d0942b8f106d"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/reselect-5.1.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/reselect-5.1.1-LICENSE",
+      "sha256": "0bb5035e49bf9b5661655b402bab3c3efccb8eab2a50e37392100139fe3280f2"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/scheduler-0.27.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/scheduler-0.27.0-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/standard-schema__spec-1.1.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/standard-schema__spec-1.1.0-LICENSE",
+      "sha256": "653b779005a3a4d64a7288c940f7b9a0e8f0b1e0375f6aa6af9473caf131e564"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/standard-schema__utils-0.3.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/standard-schema__utils-0.3.0-LICENSE",
+      "sha256": "9cf2166507311f427e083ef7671da566949391cb745789abcff8bd43ac26d1f1"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/tiny-invariant-1.3.3-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/tiny-invariant-1.3.3-LICENSE",
+      "sha256": "b1c501095de70182748cb8e8d97ac5577701a4ef3b755ba30d59fd87b24bdb0f"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-array-3.2.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-array-3.2.2-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-color-3.1.3-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-color-3.1.3-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-ease-3.0.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-ease-3.0.2-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-interpolate-3.0.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-interpolate-3.0.4-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-path-3.1.1-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-path-3.1.1-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-scale-4.0.9-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-scale-4.0.9-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-shape-3.2.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-shape-3.2.0-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-time-3.0.4-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-time-3.0.4-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__d3-timer-3.0.2-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__d3-timer-3.0.2-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/types__use-sync-external-store-0.0.6-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/types__use-sync-external-store-0.0.6-LICENSE",
+      "sha256": "c2cfccb812fe482101a8f04597dfc5a9991a6b2748266c47ac91b6a5aae15383"
+    },
+    {
+      "path": "experiments/finance-proof/notices/third-party/use-sync-external-store-1.7.0-LICENSE",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "experiments/finance-proof/notices/third-party/use-sync-external-store-1.7.0-LICENSE",
+      "sha256": "da6d3703ed11cbe42bd212c725957c98da23cbff1998c05fa4b3d976d1a58e93"
+    },
+    {
+      "path": "experiments/finance-proof/package-lock.json",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/LICENSES.md",
+      "sha256": "75b0aed0710c0e4b6aa242667cd7fcccc5dd5eb380a3b70c1a90f312038d19dc"
+    },
+    {
+      "path": "experiments/finance-proof/package.json",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/LICENSES.md",
+      "sha256": "78027e0df38a47667761867d3f84cdb34787848d7de760c6bb835790260f938e"
+    },
+    {
+      "path": "experiments/finance-proof/scripts/appearance-browser-checks.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/scripts/appearance-browser-checks.mjs",
+      "sha256": "eb19280d821ab3c0b8eb12042a2c180444e474801cf7db7791e6f637053575e2"
+    },
+    {
+      "path": "experiments/finance-proof/scripts/browser-review.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/scripts/browser-review.mjs",
+      "sha256": "e6f5cd94f5bec168daf048af36fb9ba6bdbb782e2f5275fa607d3905a9cb94e3"
+    },
+    {
+      "path": "experiments/finance-proof/scripts/build.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/scripts/build.mjs",
+      "sha256": "947d833887f8dd62878257040218073fb50741d707827bd6277f92ead1f2a211"
+    },
+    {
+      "path": "experiments/finance-proof/scripts/dev-server.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/scripts/dev-server.mjs",
+      "sha256": "660696cd3839beeba0b2eea70f0bae9e512be604b5de58041abd749a5f19d159"
+    },
+    {
+      "path": "experiments/finance-proof/scripts/legacy-ui-probe.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/scripts/legacy-ui-probe.mjs",
+      "sha256": "a22676cc7bcc102fcc096cfe62946aed7485139610489e7b43f27946e863657f"
+    },
+    {
+      "path": "experiments/finance-proof/scripts/ui-browser-checks.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/scripts/ui-browser-checks.mjs",
+      "sha256": "849aa9ab4ac0be8067e3f63c2fe2ba107125d13e6a414cf043d1301325833bcf"
+    },
+    {
+      "path": "experiments/finance-proof/scripts/ui-performance.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/scripts/ui-performance.mjs",
+      "sha256": "7010fabfcaf1e0f70be43540d92208bfe94bb8a98c2bd4aab12089443a1b3af1"
+    },
+    {
+      "path": "experiments/finance-proof/shared/appearance.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/shared/appearance.mjs",
+      "sha256": "93fdfd08d546ec86801fdab2b798ad170fd289f31fd8c9a7f1f4c309df39f498"
+    },
+    {
+      "path": "experiments/finance-proof/shared/finance.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/shared/finance.mjs",
+      "sha256": "d4093fbf9b10c446830034d314f1c052b284fef76174c000e2261c7c6aa4e4a1"
+    },
+    {
+      "path": "experiments/finance-proof/shared/fixture.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/shared/fixture.mjs",
+      "sha256": "f7b38ba9f92bb6b5a68c73a85f5cd6ea36ac21765ca6da6d7f52ece60c024bfe"
+    },
+    {
+      "path": "experiments/finance-proof/visual/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/LICENSES.md",
+      "sha256": "01108595e5a30c2baa7ed7a63797d13aa1ec02de01d5202e706a6028480a6138"
+    },
+    {
+      "path": "experiments/finance-proof/visual/app.jsx",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/app.jsx",
+      "sha256": "8c141dd104a0a4c3eccc3307e2dc3f3711fd75fae4ee40452206ef464cfc698e"
+    },
+    {
+      "path": "experiments/finance-proof/visual/flow-labels.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/flow-labels.mjs",
+      "sha256": "bf2a36c37c521bc4a2b804923475d65b2c5474debfc133e3b4c0be694ca44bb9"
+    },
+    {
+      "path": "experiments/finance-proof/visual/index.html",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/LICENSES.md",
+      "sha256": "8ad2b6674ed54ad76a9b802042d3e90363d28f108f590dff76f6fac124fe8192"
+    },
+    {
+      "path": "experiments/finance-proof/visual/presentation.jsx",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/presentation.jsx",
+      "sha256": "5ebe22c1fbee6b1ba7393cc26e79453e32e6cf2b3838b5c2c1309e6d1d5e784d"
+    },
+    {
+      "path": "experiments/finance-proof/visual/report-boundary.jsx",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/report-boundary.jsx",
+      "sha256": "e62c8a01b1c0d3d1d02b76e886c095df003e521ea74813d2f50b39b476dd996d"
+    },
+    {
+      "path": "experiments/finance-proof/visual/scenarios.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/scenarios.mjs",
+      "sha256": "be503d740500c002c4b52c83c5658aaf3f95f9e3caffcb46f4c8f24674c91e15"
+    },
+    {
+      "path": "experiments/finance-proof/visual/style.css",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/LICENSES.md",
+      "sha256": "a0dba3db71b4c78a94636db3cc4411fb6208073000107d17cf4be6d0de60ef33"
+    },
+    {
+      "path": "experiments/finance-proof/visual/ui-model.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/finance-proof/visual/ui-model.mjs",
+      "sha256": "373e0f687b4c70ad500be369d493e8dbff254e96e2de71939415bf201e825560"
+    },
+    {
+      "path": "experiments/tauri-desktop/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/LICENSES.md",
+      "sha256": "bfa539722c40a90e030f10472f58118c1d7201f6601fa7686862118d5a023e4a"
+    },
+    {
+      "path": "experiments/tauri-desktop/README.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/LICENSES.md",
+      "sha256": "c90885cf0050df095229b168a6011c5f4062265d5ac744ea0cfc49fde1de7052"
+    },
+    {
+      "path": "experiments/tauri-desktop/build-review.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/build-review.mjs",
+      "sha256": "c60606299dd3b3a17582a280580682fbadbe24a90e93d1efd80792135bae7e5e"
+    },
+    {
+      "path": "experiments/tauri-desktop/build-web.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/build-web.mjs",
+      "sha256": "22479acf53ca21dd7a012b99969af264480a2587ebcbaccd10629d0ed73e533f"
+    },
+    {
+      "path": "experiments/tauri-desktop/entry.ts",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/entry.ts",
+      "sha256": "e147a3ab97f961217308954b58e2d6a097c643aa71589518fe5f4945f2ab056f"
+    },
+    {
+      "path": "experiments/tauri-desktop/launch-review.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/launch-review.mjs",
+      "sha256": "3c57b47a288fcb7a9561a3238722249fb07920ca0d8d07ca6685ed8e95b86e92"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/Cargo.lock",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/LICENSES.md",
+      "sha256": "d804aff7864fd991005de3c7f8d3b41d545b6932e05010ebc7d003aa7dc6192b"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/Cargo.toml",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/LICENSES.md",
+      "sha256": "c1e638150d741df7fe12d6059f1087a8eb7a34f390b20f6275d7ffa806391714"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/LICENSES.md",
+      "sha256": "100fd1db4501d419583a39591e11d8bf9be14a2c36828fa70d2d49547f470a58"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/build.rs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/build.rs",
+      "sha256": "771743585290a81bc0a6feefb298567858e3a5a0b8d6de47aa315e9643c68dc7"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/capabilities/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/capabilities/LICENSES.md",
+      "sha256": "61ab57cc10661fc1b84af0ae81a9fe839665c6df36a2bc1e06b9dfb9f8d8a440"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/capabilities/prototype.json",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/capabilities/LICENSES.md",
+      "sha256": "5867317878c9c2dc7dd2b2bef830ddec77e1eedfcfd72ab0b94e66252076fe3c"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
+      "sha256": "62626cdd7ff976cfe424016ec46038100dcaa8f5a1e6581030b86f024ecaf24a"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/icons/Odaraia.icns",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
+      "sha256": "60d30808cd83fa3b10153f71a0dd20b6130b764d0da034f51342f2806177ca3b"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/icons/PROVENANCE.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
+      "sha256": "3ccd45e4e1feb2e1e6c826c394ca276fb25a89cc04c1e1ba274e6749efa138a7"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/icons/icon.png",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
+      "sha256": "9a9000bb5232a16ab0f1ff1171a24d531e2fdce93351972a4a308fb0b4b89f2e"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/permissions/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/permissions/LICENSES.md",
+      "sha256": "ab15629c844d66b4cd5d1da1171f1b196c1e7b842e4125c931402ba7c0876b58"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/permissions/storage.toml",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/permissions/LICENSES.md",
+      "sha256": "d22ce63a8be0b4329b25c7fa88c0e68a2b751b66807c68a4b5c120f433d6a580"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/src/bin/store-contract.rs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/src/bin/store-contract.rs",
+      "sha256": "4e73389d44622ef7d1d3b7c52d9e3b0c689517e092f2da298837288d33a97a5b"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/src/lib.rs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/src/lib.rs",
+      "sha256": "abd429772bd2541c0a7c257959bbe91c64ccfca5a546628477ab157f8b2c9352"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/src/main.rs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/src/main.rs",
+      "sha256": "544a854012df849210f8269005e3e02ddc8b380e80b1e1cd652079a617b5584a"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/src/native_store.rs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/src/native_store.rs",
+      "sha256": "7532e0d3b4a38fdba4840ee0123ec5e28d4d7472576c597ccb40ec028c8c9f1e"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/tauri.conf.json",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/LICENSES.md",
+      "sha256": "a06ec9acaa6f5c1cbf1ca6ad3e2c978285450e516c0fc125a2d6c8635b9cff53"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/tauri.linux.conf.json",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/LICENSES.md",
+      "sha256": "745b333066dc49f143a207b0d6c5e914d91a9714e2bfb609ea3a1f69ec852dd8"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/tauri.windows.conf.json",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/LICENSES.md",
+      "sha256": "8b7216ea942901a2ea95dd2d0d7adeea722f2346999f02f2c9c52d3cdfd55b73"
+    },
+    {
+      "path": "experiments/tauri-desktop/test-native.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/test-native.mjs",
+      "sha256": "5d2e63b568a0aa567d3c2d352b1a789e97b623205ae5d7de070fa0aa124f4a84"
+    },
+    {
+      "path": "experiments/tauri-desktop/toolchain-check.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/toolchain-check.mjs",
+      "sha256": "d3f8d736c73aa0899e2c5f38fd49c0db4f4ecb766f6264e504368037cb2aca51"
+    },
+    {
+      "path": "experiments/tauri-desktop/verify-native-data.mjs",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/verify-native-data.mjs",
+      "sha256": "32df45e68b2f31d13b8a148a60849e4d7801e251d2bc16a1971445506ca64a24"
+    },
+    {
+      "path": "licensing/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "licensing/LICENSES.md",
+      "sha256": "bf6ad520ace3560be34b654b4cbdbd6533768ad0861d44e4d20b7c075d6c9d16"
+    },
+    {
+      "path": "licensing/canonical-verification.json",
+      "license": "MPL-2.0",
+      "notice": "licensing/LICENSES.md",
+      "sha256": "60ae020262f78e838846e6df6069c712a7133713f20de61ae47973672186d659"
+    },
+    {
+      "path": "licensing/coverage.json",
+      "license": "MPL-2.0",
+      "notice": "licensing/LICENSES.md",
+      "sha256": null
+    },
+    {
+      "path": "release/EXCLUSIONS.md",
+      "license": "MPL-2.0",
+      "notice": "release/LICENSES.md",
+      "sha256": "eca3d966e63f7ff9733d3c9e968854c8184412fd4bed15d5271bc29565569ddb"
+    },
+    {
+      "path": "release/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "release/LICENSES.md",
+      "sha256": "34d603c1bce826f758f689d8b4cf312cdc950fd4311092744295d1aa630f09dc"
+    },
+    {
+      "path": "release/audit-reviewed.json",
+      "license": "MPL-2.0",
+      "notice": "release/LICENSES.md",
+      "sha256": "545c994bd526a44ac537e0efd6d8ddf87acabcb1dd0df53f769e2138d82e4e0d"
+    },
+    {
+      "path": "release/cargo-licenses.json",
+      "license": "MPL-2.0",
+      "notice": "release/LICENSES.md",
+      "sha256": "91de75bd2a402b824de9232f72a7a89ca1ad2aa88cec51cd2aa67368d5004098"
+    },
+    {
+      "path": "release/source-files.json",
+      "license": "MPL-2.0",
+      "notice": "release/LICENSES.md",
+      "sha256": "f3f18dfb4c650126d210bf7defc16a2900a801df83c522fa5ecb508b52060a99"
+    },
+    {
+      "path": "release/verification.json",
+      "license": "MPL-2.0",
+      "notice": "release/LICENSES.md",
+      "sha256": "ef846af75cc353f490320a2030a4e777e5d0bc5ee142f214e817f6af48ec11a9"
+    },
+    {
+      "path": "release/version.json",
+      "license": "MPL-2.0",
+      "notice": "release/LICENSES.md",
+      "sha256": "c4f328ab7715bdd3af904659ba57968e47e42b399ff468289468f8ea3bd821f1"
+    },
+    {
+      "path": "tools/check-assets.mjs",
+      "license": "MPL-2.0",
+      "notice": "tools/check-assets.mjs",
+      "sha256": "b5d1531a55fa23eb64625c485b5888ef7481cdc537c61914c70668ecb5157c20"
+    },
+    {
+      "path": "tools/check-release.mjs",
+      "license": "MPL-2.0",
+      "notice": "tools/check-release.mjs",
+      "sha256": "cf2fdfa89841dfd466b641cdc36a8a2ebdfdafe17ee0305d253ead05469029f0"
+    },
+    {
+      "path": "tools/dependency-audit.mjs",
+      "license": "MPL-2.0",
+      "notice": "tools/dependency-audit.mjs",
+      "sha256": "8e9e4f4d959415cc5ee575e2cedfac893f91714fc62d95b7df0dfb52505cbbae"
+    },
+    {
+      "path": "tools/developer-preview.mjs",
+      "license": "MPL-2.0",
+      "notice": "tools/developer-preview.mjs",
+      "sha256": "e4a513a4b97c9f6bcd17a365bd28ed2e17c594a748c59067a3948d6505ac4ed2"
+    },
+    {
+      "path": "tools/licensing.mjs",
+      "license": "MPL-2.0",
+      "notice": "tools/licensing.mjs",
+      "sha256": "d4d1dd271ae5f8db7bce31e0623581355d7b14f72702aa501b639bea98a8ebc3"
+    },
+    {
+      "path": "tools/package-licenses.mjs",
+      "license": "MPL-2.0",
+      "notice": "tools/package-licenses.mjs",
+      "sha256": "b5d29a4049b0b1065e3ffa244dbe349042ae635a4e71bbfc10245f6463945a67"
+    },
+    {
+      "path": "tools/source-release.mjs",
+      "license": "MPL-2.0",
+      "notice": "tools/source-release.mjs",
+      "sha256": "959e03792d8d40c2060499c70e3b312b52fec5a30242b6d1b8304cb12ee9ee42"
+    }
+  ]
+}

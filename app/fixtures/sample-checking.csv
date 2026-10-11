@@ -1,0 +1,8 @@
+ID,Date,Merchant,Amount,Category,Classification,Status,Note
+sample-salary,2026-09-02,Northwind Studio,5000.00,Paychecks,income,posted,Synthetic paycheck
+sample-rent,2026-09-03,Willow Home,-1500.00,Housing,expense,posted,Synthetic rent
+sample-grocery,2026-09-05,Paper Birch Market,-200.00,Groceries,expense,posted,Synthetic grocery purchase
+sample-refund,2026-09-06,Paper Birch Market,20.00,Groceries,expense,posted,Synthetic refund
+sample-coffee-1,2026-09-07,Blue Kettle Cafe,-5.00,Dining,expense,posted,First distinct coffee
+sample-coffee-2,2026-09-07,Blue Kettle Cafe,-5.00,Dining,expense,posted,Second distinct coffee
+sample-pending,2026-09-30,Willow Goods,-30.00,Household,expense,pending,Excluded until posted

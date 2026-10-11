@@ -1,0 +1,31 @@
+Limited publisher artwork permission
+
+Copyright 2026 Talarurus. This permission applies only to the unchanged exports:
+
+app/public/brand/publisher/talarurus-horizontal.svg
+SHA-256 a02b5d54a6a7b7a79ecc0a75074e18fbe700b35072ef724f8aada8b426933015
+app/public/brand/publisher/talarurus-horizontal-white.svg
+SHA-256 bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06
+
+The copyright owner grants nonexclusive, worldwide, royalty-free permission
+for the copyright term, subject to the following conditions, to copy and
+redistribute these exact exports with Odaraia source, builds and genuine
+project documentation, including commercial redistribution, solely for accurate
+identification of Talarurus as the original project's maker.
+
+Preserve the files unchanged and include this permission and their provenance.
+Proportional display sizing is permitted. Do not redraw, trace, mirror, reverse,
+recolor, crop or derive substitute artwork. Do not use the exports as another
+publisher's logo, to advertise an unrelated service, or to suggest Talarurus
+endorsement, support, certification or authorship of an unofficial modification.
+
+No broader artwork or trademark license is granted. Descriptive identification
+necessary for the permitted use is authorized. This permission does not restrict
+fair use, fair dealing or other independently available statutory rights.
+The software's MPL rights do not depend on retaining this optional artwork.
+
+The official exports came from talarurus/talarurus.com commit
+ec8602643fb5d5a61eac15a31284882771623725, paths
+brand/logo/svg/talarurus-horizontal.svg and
+brand/logo/svg/talarurus-horizontal-white.svg.
+No trademark registration or clearance is asserted.

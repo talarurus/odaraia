@@ -1,0 +1,37 @@
+[package]
+name = "odaraia-sqlite-prototype"
+version = "0.3.1"
+edition = "2021"
+rust-version = "1.90"
+publish = false
+license = "MPL-2.0"
+
+[lib]
+name = "odaraia_sqlite_prototype"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[dependencies]
+tauri = { version = "2" }
+serde = { version = "1", features = ["derive"] }
+# Backup v1 checksums and undo evidence retain JavaScript insertion order.
+# Do not round-trip records through serde_json's default sorted object map.
+serde_json = { version = "1", features = ["preserve_order"] }
+libsqlite3-sys = { version = "=0.38.2", features = ["bundled"] }
+rfd = "0.15"
+
+[dev-dependencies]
+tauri = { version = "2", features = ["test"] }
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+cc = "1"
+
+[features]
+default = ["custom-protocol"]
+custom-protocol = ["tauri/custom-protocol"]
+contract-harness = []
+
+[[bin]]
+name = "store-contract"
+path = "src/bin/store-contract.rs"
+required-features = ["contract-harness"]

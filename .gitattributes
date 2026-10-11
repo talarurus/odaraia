@@ -1,0 +1,10 @@
+* text=auto eol=lf
+# Retain third-party license bytes and their original formatting verbatim.
+app/notices/third-party/** -text -whitespace
+experiments/finance-proof/notices/third-party/** -text -whitespace
+app/desktop/third-party/** -text -whitespace
+# Official publisher assets must remain byte-identical to generated exports.
+app/public/brand/publisher/*.svg -text
+*.png binary
+*.icns binary
+app/fixtures/*.csv -text

@@ -1,0 +1,25 @@
+{
+  "sourceCommit": "ec8602643fb5d5a61eac15a31284882771623725",
+  "usage": "Unmodified publisher lockups in Settings and native About; ordinary by Talarurus attribution in shared product header and native sidebar",
+  "assets": [
+    {
+      "source": "brand/logo/svg/talarurus-horizontal.svg",
+      "file": "app/public/brand/publisher/talarurus-horizontal.svg",
+      "sha256": "a02b5d54a6a7b7a79ecc0a75074e18fbe700b35072ef724f8aada8b426933015",
+      "sourceSha256": "a02b5d54a6a7b7a79ecc0a75074e18fbe700b35072ef724f8aada8b426933015",
+      "copySha256": "a02b5d54a6a7b7a79ecc0a75074e18fbe700b35072ef724f8aada8b426933015",
+      "webBuildSha256": "a02b5d54a6a7b7a79ecc0a75074e18fbe700b35072ef724f8aada8b426933015",
+      "nativeBundleSha256": "a02b5d54a6a7b7a79ecc0a75074e18fbe700b35072ef724f8aada8b426933015"
+    },
+    {
+      "source": "brand/logo/svg/talarurus-horizontal-white.svg",
+      "file": "app/public/brand/publisher/talarurus-horizontal-white.svg",
+      "sha256": "bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06",
+      "sourceSha256": "bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06",
+      "copySha256": "bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06",
+      "webBuildSha256": "bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06",
+      "nativeBundleSha256": "bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06"
+    }
+  ],
+  "upstreamRepository": "https://github.com/talarurus/talarurus.com"
+}

@@ -1,0 +1,9 @@
+/* One stylesheet entry for Swift, Tauri and web. Base widgets first;
+   shared tokens and composition resolve the legacy widget defaults. */
+@import './style.css';
+@import './application.css';
+@import './accounts.css';
+@import './design-system.css';
+@import './branding.css';
+@import './mac-workspace.css';
+@import './window-workspace.css';

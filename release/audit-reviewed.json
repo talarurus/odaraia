@@ -1,0 +1,74 @@
+[
+  {
+    "path": "SECURITY.md",
+    "rule": "email",
+    "fingerprint": "da69792b94800724e94a7ede2673f6611a8dabcd1e8c5d0a56d39ca37db391a6",
+    "reason": "Existing public Talarurus security/contact address, verified in the current site; intentional publisher contact."
+  },
+  {
+    "path": "app/notices/third-party/clsx-2.1.1-license",
+    "rule": "email",
+    "fingerprint": "384d17b1d79699b14c3b5573bf11ff5f4b2cf41ca7f0bd52bf8238e7edcc517d",
+    "reason": "Unmodified required third-party copyright contact in clsx license."
+  },
+  {
+    "path": "app/tests/foundation.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "feecbbf2fb1c0c617c3c1fb03059e860b5ac9b3cfba49511691e6f0c68cc80bb",
+    "reason": "Explicit synthetic negative-test input; verifies credential-shaped fields are refused before persistence. No usable secret."
+  },
+  {
+    "path": "app/tests/recovery.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "00316d52b4c88c6beee85fd1c84096e9499ffe711bc32ba1df71bef5da7c96bb",
+    "reason": "Explicit synthetic negative-test input; verifies credential-shaped fields are refused before persistence. No usable secret."
+  },
+  {
+    "path": "experiments/finance-proof/harness/independent.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "1f14f92a45be04b8c67d84ad57b008b9f91b43cb0f30fc4e437f886826e3149e",
+    "reason": "Explicit synthetic negative-test input; verifies credential-shaped fields are refused before persistence. No usable secret."
+  },
+  {
+    "path": "experiments/finance-proof/notices/third-party/clsx-2.1.1-license",
+    "rule": "email",
+    "fingerprint": "384d17b1d79699b14c3b5573bf11ff5f4b2cf41ca7f0bd52bf8238e7edcc517d",
+    "reason": "Unmodified required third-party copyright contact in clsx license."
+  },
+  {
+    "path": "app/tests/readiness-security.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "d18a5420ce43cadddff9d432121d48ed88c19264d2245ffbae5c6de55e6c3c26",
+    "reason": "Deliberate weak/forbidden test credential proving rejection or removal before storage; not a usable secret."
+  },
+  {
+    "path": "app/tests/startup.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "27f54a77aa5653e9d8621ca139722e6c796b50969741dd8fc02fb0c10463678b",
+    "reason": "Fictional mock session token in isolated startup tests; no live credential or user data."
+  },
+  {
+    "path": "app/tests/startup.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "89c77af20bdf9d14462e2629f8aa0d159b7d3001e85fda0f2ec2868ec7efec81",
+    "reason": "Fictional mock session token in isolated startup tests; no live credential or user data."
+  },
+  {
+    "path": "app/tests/startup.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "87047e923252af8f9c63d0b175ab5bb523cb8ee5f51404aa0ff45226f04ae5af",
+    "reason": "Fictional mock session token in isolated startup tests; no live credential or user data."
+  },
+  {
+    "path": "experiments/finance-proof/harness/ui-model.test.mjs",
+    "rule": "credential-literal",
+    "fingerprint": "05424fde9ea4fda0d7f68f2afa9d2349da5ebec0342fa571b4a942dddef51147",
+    "reason": "Deliberate weak/forbidden test credential proving rejection or removal before storage; not a usable secret."
+  },
+  {
+    "path": "CONTRIBUTING.md",
+    "rule": "email",
+    "fingerprint": "3570dc5ab4550f8c421d21229a69f7da5d51f7f4ce84d5769a23fe4b0b2a8583",
+    "reason": "Explicit fictional DCO Signed-off-by example at the reserved example.org domain; not a personal identity or credential."
+  }
+]

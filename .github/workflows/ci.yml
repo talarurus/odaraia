@@ -1,0 +1,60 @@
+name: Developer preview checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: preview-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  core:
+    name: Core source contracts (${{ matrix.os }})
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [macos-15, ubuntu-24.04]
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24.21.0'
+      - run: npm ci --prefix app
+      - run: npm ci --prefix experiments/finance-proof
+      - run: node tools/check-release.mjs
+      - run: npm test --prefix app
+      - run: npm test --prefix experiments/finance-proof
+      - run: node tools/developer-preview.mjs journey
+      - run: npm --prefix app run build
+      - run: node tools/check-assets.mjs
+      - run: node tools/dependency-audit.mjs
+      - run: node tools/licensing.mjs check
+      # Audit source without treating checkout history as a new clean release.
+      # History scanning remains a separate publication gate.
+      - run: node tools/source-release.mjs audit --ci-checkout
+  native-macos:
+    name: macOS Rust/SQLite contracts and internal bundle
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
+        with:
+          node-version: '24.21.0'
+      - run: npm ci --prefix app
+      - run: rustup toolchain install 1.99.0 --profile minimal
+      - run: rustup override set 1.99.0
+      - run: cargo fetch --locked --manifest-path experiments/tauri-desktop/src-tauri/Cargo.toml
+      - run: npm --prefix app run test:persistent
+      - run: node experiments/tauri-desktop/test-native.mjs
+      - run: node tools/developer-preview.mjs journey --rust
+      - run: node experiments/tauri-desktop/build-review.mjs
+      # No upload, release, deploy, signing secrets or public binary pipeline.
