@@ -1,5 +1,5 @@
 {
-  "name": "talarurus-finance-local",
+  "name": "plainbalance",
   "version": "0.3.1",
   "private": true,
   "type": "module",
@@ -12,7 +12,6 @@
     "test:proof": "npm test --prefix ../experiments/finance-proof",
     "test:visual": "node scripts/ui-polish-browser.mjs",
     "test:accounts:browser": "node scripts/accounts-design-browser.mjs",
-    "review:odaraia": "node scripts/cretodus-brand-review.mjs",
     "build:mac": "node desktop/build.mjs",
     "test:desktop": "node desktop/smoke.mjs",
     "test:mac:gui": "node desktop/gui-smoke.mjs",
@@ -26,7 +25,8 @@
     "test:journey": "node ../tools/developer-preview.mjs journey",
     "test:rust": "node ../experiments/tauri-desktop/test-native.mjs",
     "build:tauri": "node ../experiments/tauri-desktop/build-review.mjs",
-    "audit:source": "node ../tools/source-release.mjs audit"
+    "audit:source": "node ../tools/source-release.mjs audit",
+    "review:plainbalance": "node scripts/cretodus-brand-review.mjs"
   },
   "dependencies": {
     "react": "19.2.6",

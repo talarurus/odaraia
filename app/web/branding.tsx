@@ -4,7 +4,7 @@ import {productIdentity} from '../product-identity.mjs';
 
 export function ProductBrand({compact=false}: {compact?:boolean}) {
  return <span className={'brand product-brand'+(compact?' product-brand-compact':'')}>
-  <img className="product-symbol" src={productIdentity.icon} alt="" width="44" height="44"/>
+  <img className="product-symbol" src={productIdentity.symbol} alt="" width="44" height="44"/>
   <span className="product-brand-copy"><span className="product-name">{productIdentity.name}</span>
    <span className="product-attribution">by {productIdentity.publisher}</span></span>
  </span>;

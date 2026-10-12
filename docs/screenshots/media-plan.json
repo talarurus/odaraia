@@ -1,0 +1,60 @@
+{
+  "status": "Prepared only; no approved publication images",
+  "releaseTag": null,
+  "releaseTagTemplate": "<release-tag>",
+  "currentSourceVersion": "0.3.1",
+  "sourceDirectoryTemplate": "docs/screenshots/<release-tag>/",
+  "websiteDirectoryTemplate": "assets/products/plainbalance/<release-tag>/",
+  "websiteSection": "/products/plainbalance/#media (hidden until approval)",
+  "slots": [
+    {
+      "filename": "plainbalance-overview-light.png",
+      "capture": "Actual shared frontend or native window; record which",
+      "theme": "light",
+      "alt": "plainbalance Overview in light appearance with fictional financial records"
+    },
+    {
+      "filename": "plainbalance-overview-dark.png",
+      "capture": "Same actual runtime and fixture as light Overview",
+      "theme": "dark",
+      "alt": "plainbalance Overview in dark appearance with fictional financial records"
+    },
+    {
+      "filename": "plainbalance-accounts-light.png",
+      "capture": "Actual Accounts screen",
+      "theme": "light",
+      "alt": "plainbalance Accounts with fictional balances"
+    },
+    {
+      "filename": "plainbalance-onboarding-light.png",
+      "capture": "Actual empty-profile onboarding",
+      "theme": "light",
+      "alt": "plainbalance getting started guide in a fictional empty profile"
+    },
+    {
+      "filename": "plainbalance-native-overview-light.png",
+      "capture": "Separate installed macOS native-window capture after manual acceptance",
+      "theme": "light",
+      "alt": "plainbalance running in a macOS review window with fictional records"
+    }
+  ],
+  "requiredMetadata": [
+    "sourceCommitOrSnapshotDigest",
+    "captureUTC",
+    "runtimeAndPlatform",
+    "fixture",
+    "viewport",
+    "theme",
+    "sha256",
+    "alt",
+    "privacyReview",
+    "founderMediaApproval"
+  ],
+  "restrictions": [
+    "No fabricated UI",
+    "No archived concepts",
+    "No unreviewed screenshots in manifest or rendered pages",
+    "No native/mobile claims for browser pixels",
+    "No publication or consumer binaries without approval"
+  ]
+}

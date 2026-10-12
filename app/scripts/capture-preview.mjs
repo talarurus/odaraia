@@ -38,7 +38,9 @@ async function session(origin,{empty=false,theme='light',dismissed=false,collaps
  },{theme,dismissed,collapsed});
  const page=await context.newPage();page.on('pageerror',e=>result.errors.push(e.message));
  async function open(id='dashboard',section='appearance'){
-  await page.goto(origin+'/?page='+id+'&section='+section);await page.locator('.page-content').waitFor();await page.getByText('Loading saved data…',{exact:true}).waitFor({state:'hidden'});
+  await page.goto(origin+'/?page='+id+'&section='+section);await page.locator('.page-content').waitFor({state:'attached'});await page.getByText('Loading saved data…',{exact:true}).waitFor({state:'hidden'});
+  // An empty profile shows onboarding while the page-content region is empty.
+  await page.waitForFunction(()=>document.querySelector('#getting-started-title')||document.querySelector('.page-content')?.children.length>0);
   if(await page.getByLabel('Report month',{exact:true}).count())await page.getByLabel('Report month',{exact:true}).fill('2026-09');
  }
  await open();return {page,open,service,transport,context};
@@ -72,7 +74,7 @@ try{
  const {page,open,service,transport,context}=await session(origins.after,{empty:true});
  await page.getByRole('button',{name:'Skip guide',exact:true}).click();await page.reload();await check(async()=>assert.equal(await page.locator('#getting-started-title').count(),0));
  await page.getByRole('button',{name:'Settings',exact:true}).first().click();await check(async()=>{assert.equal(await page.locator('#getting-started-title').count(),0);assert.equal(await page.evaluate(()=>scrollY),0);});
- await page.getByRole('button',{name:'About Odaraia',exact:true}).click();await page.getByRole('button',{name:'Open getting started guide',exact:true}).click();await page.getByRole('button',{name:'Add account',exact:true}).click();
+ await page.getByRole('button',{name:'About plainbalance',exact:true}).click();await page.getByRole('button',{name:'Open getting started guide',exact:true}).click();await page.getByRole('button',{name:'Add account',exact:true}).click();
  await check(async()=>assert(await page.getByRole('dialog').isVisible()));await screenshot(page,'after-account-modal');
  await page.getByLabel('Account name',{exact:true}).fill('Fictional Checking');await page.getByLabel('Opening balance date',{exact:true}).fill('2026-08-31');await page.getByLabel('Opening balance',{exact:true}).fill('1250.00');await page.getByRole('button',{name:'Save',exact:true}).click();await page.getByRole('dialog').waitFor({state:'hidden'});
  await check(async()=>{assert.equal((await service.execute({name:'state.read'})).accounts.length,1);assert.equal(await page.locator('#getting-started-title').count(),0);});
@@ -81,7 +83,7 @@ try{
  await page.reload();await page.getByTestId('dashboard-total').waitFor();await check(async()=>assert.equal(await page.getByTestId('dashboard-total').textContent(),'$1,250.99'));
  await page.evaluate(()=>scrollTo(0,document.body.scrollHeight));await page.getByRole('button',{name:'Settings',exact:true}).first().click();await check(async()=>{assert.equal(await page.evaluate(()=>scrollY),0);assert.equal(await page.locator('#getting-started-title').count(),0);});await page.getByRole('button',{name:'Display & privacy',exact:true}).click();await check(async()=>assert.equal(await page.locator('#settings-recovery').count(),0));
  await page.getByRole('button',{name:'Appearance',exact:true}).click();await page.getByRole('radio',{name:'Dark Always use the dark theme.',exact:true}).check();await check(async()=>assert.equal(await page.locator('html').getAttribute('data-theme'),'dark'));
- await page.getByRole('button',{name:'About Odaraia',exact:true}).click();const saved=await transport.read();await page.getByRole('button',{name:'Explore synthetic demo',exact:true}).click();await page.getByRole('button',{name:'Exit demo',exact:true}).waitFor();await page.getByRole('button',{name:'Exit demo',exact:true}).click();await page.getByTestId('dashboard-total').waitFor();await check(async()=>assert.deepEqual(await transport.read(),saved));
+ await page.getByRole('button',{name:'About plainbalance',exact:true}).click();const saved=await transport.read();await page.getByRole('button',{name:'Explore synthetic demo',exact:true}).click();await page.getByRole('button',{name:'Exit demo',exact:true}).waitFor();await page.getByRole('button',{name:'Exit demo',exact:true}).click();await page.getByTestId('dashboard-total').waitFor();await check(async()=>assert.deepEqual(await transport.read(),saved));
  await page.keyboard.press('Control+b');await check(async()=>assert.equal(await page.locator('.finance-shell').getAttribute('data-sidebar'),'collapsed'));await page.reload();await page.getByTestId('dashboard-total').waitFor();await check(async()=>assert.equal(await page.locator('.finance-shell').getAttribute('data-sidebar'),'collapsed'));
  for(const id of ['accounts','transactions','cashflow','spending','networth','budgets','import','settings']){await open(id);await check(async()=>{assert.equal(await page.locator('.finance-shell').getAttribute('data-page'),id);assert.equal(await page.evaluate(()=>scrollY),0);});}
  await page.keyboard.press('Tab');await check(async()=>assert(await page.evaluate(()=>document.activeElement!==document.body)));

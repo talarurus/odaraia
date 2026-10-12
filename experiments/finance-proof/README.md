@@ -1,6 +1,6 @@
 # Independent synthetic finance proof
 
-This harness checks exact report policy against a separate SQLite-backed implementation and golden fictional fixtures. It is not the Odaraia application shell and does not connect to a bank or a user profile.
+This harness checks exact report policy against a separate SQLite-backed implementation and golden fictional fixtures. It is not the plainbalance application shell and does not connect to a bank or a user profile.
 
 ```sh
 npm ci --prefix experiments/finance-proof

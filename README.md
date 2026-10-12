@@ -1,12 +1,18 @@
-# Odaraia by Talarurus
+# plainbalance by Talarurus
 
 A local-first personal-finance application for understanding accounts, spending, cash flow, budgets, and net worth.
 
-**v0.3.1 Developer Preview · active development · source publication pending founder approval.** Odaraia combines a restrained financial workspace with exact accounting rules and portable records. This is development software for fictional data, with no verified consumer download.
+**v0.3.1 Developer Preview · active development · plainbalance by Talarurus.** plainbalance combines a restrained financial workspace with exact accounting rules and portable records. This is development software for fictional data, with no verified consumer download.
 
 ## Screenshots
 
-Current Tauri screenshots are awaiting capture and review. The founder reports that the simplified macOS prototype launches; this environment cannot launch a browser or native window to verify pixels. Older dashboard images are deliberately excluded because they no longer represent the product. [Capture instructions and required views](docs/screenshots/README.md) provide a repeatable path to accurate screenshots with synthetic data. Responsive web layouts are not native mobile applications.
+<!-- Planned next-release images only; do not activate before capture/privacy/founder approval.
+![plainbalance Overview, light theme, fictional records](docs/screenshots/<release-tag>/plainbalance-overview-light.png)
+![plainbalance Overview, dark theme, fictional records](docs/screenshots/<release-tag>/plainbalance-overview-dark.png)
+Source locations and publication gates: docs/screenshots/media-plan.json
+-->
+
+Current browser/Rust screenshots have been captured locally and await media approval; native-window captures remain pending. The founder reports that the simplified macOS prototype launches; local Chrome can verify browser pixels, while full installed native-window acceptance remains pending. Older dashboard images are deliberately excluded because they no longer represent the product. [Capture instructions and required views](docs/screenshots/README.md) provide a repeatable path to accurate screenshots with synthetic data. Responsive web layouts are not native mobile applications.
 
 ## Implemented features
 
@@ -30,11 +36,11 @@ Records stay in the local profile; there is no cloud account requirement or bank
 | Platform | Current status |
 | --- | --- |
 | macOS, Apple Silicon | Experimental Swift application and isolated Tauri review bundle. Founder-reported Tauri launch; builds and persistence contracts verified on macOS 27.0.1 arm64. Full GUI journey pending. Tauri declares macOS 14.0 minimum; older systems untested. |
-| Web frontend | React frontend and localhost Node service implemented. Browser interaction acceptance blocked in this environment. No browser-local persistent/PWA edition. |
+| Web frontend | React frontend and localhost Node service implemented. Local Chrome brand/responsive checks and 64 actual-frontend/Rust checks pass; installed native acceptance remains separate. No browser-local persistent/PWA edition. |
 | Windows / Linux | Shared storage source and prototype packaging configuration exist; no verified app, installer, or native GUI tests. |
 | iOS / iPadOS / Android | Planned; no application packages or mobile screenshots. |
 
-See the [support matrix](ODARAIA_PLATFORM_SUPPORT_MATRIX.md) for evidence and limitations. CI configuration is not proof of platform support.
+See the [support matrix](PLAINBALANCE_PLATFORM_SUPPORT_MATRIX.md) for evidence and limitations. CI configuration is not proof of platform support.
 
 ## Financial correctness
 
@@ -48,7 +54,14 @@ Source publication and consumer software distribution have different gates. [SEC
 
 ## Development setup
 
-Use Node **24.21.0**, npm, and locked dependencies. Native macOS work additionally needs Xcode Command Line Tools and Rust **1.99.0** (the tested compiler). The crate declares Rust 1.90 as a source minimum, not a verified minimum toolchain. Run from the repository root:
+Use Node **24.21.0**, npm, and locked dependencies. Native macOS work additionally needs Xcode Command Line Tools and Rust **1.99.0** (the tested compiler). The crate declares Rust 1.90 as a source minimum, not a verified minimum toolchain. Clone the public source repository:
+
+```sh
+git clone https://github.com/talarurus/plainbalance.git plainbalance
+cd plainbalance
+```
+
+Run from the repository root:
 
 ```sh
 npm ci --prefix app
@@ -80,12 +93,12 @@ node experiments/tauri-desktop/test-native.mjs
 node tools/developer-preview.mjs journey --rust
 node experiments/tauri-desktop/build-review.mjs
 node experiments/tauri-desktop/build-review.mjs --recovery
-open "app/artifacts/tauri-validation/mac/Odaraia SQLite Prototype.app"
+open "app/artifacts/tauri-validation/mac/plainbalance SQLite Prototype.app"
 ```
 
 `cargo fetch` requires registry access on a new checkout. Tests/builds then use `--offline --locked`; the private workspace's registry cache is never part of the source release. These scripts build with Cargo directly, so a global Tauri CLI is unnecessary. Native launches use their own prototype/recovery profile identifiers, separate from Swift and development records. Do not co-write a profile with multiple adapters.
 
-[Developer preview procedure](ODARAIA_V031_DEVELOPER_PREVIEW.md) covers full GUI acceptance, screenshots, backup/recovery, dependency advisory checks, and source artifacts. CI runs core tests on macOS and Linux and the native contract/build job on macOS; Linux desktop and Windows/mobile app support remain unverified. No automatic public-release pipeline is installed.
+[Developer preview procedure](PLAINBALANCE_V031_DEVELOPER_PREVIEW.md) covers full GUI acceptance, screenshots, backup/recovery, dependency advisory checks, and source artifacts. CI runs core tests on macOS and Linux and the native contract/build job on macOS; Linux desktop and Windows/mobile app support remain unverified. No automatic public-release pipeline is installed.
 
 ## Roadmap
 
@@ -97,20 +110,20 @@ open "app/artifacts/tauri-validation/mac/Odaraia SQLite Prototype.app"
 | v0.8.0 | Security and Release Candidate: encryption, recovery, signing, privacy and release review. |
 | v1.0 | Stable Release: declared support, security and usability acceptance. |
 
-[Release roadmap](ODARAIA_RELEASE_ROADMAP.md) tracks the gates rather than promising dates.
+[Release roadmap](PLAINBALANCE_RELEASE_ROADMAP.md) tracks the gates rather than promising dates.
 
 ## Contributing
 
-Read [CONTRIBUTING.md](CONTRIBUTING.md). Use fictional data, preserve exact arithmetic and backup compatibility, and keep the accepted minimalist interface. Do not include financial records, credentials, binaries, or proprietary reference artwork in issues or patches. Contributions use DCO 1.1 sign-off with file-specific inbound terms. Source publication still awaits separate founder authorization.
+Read [CONTRIBUTING.md](CONTRIBUTING.md). Use fictional data, preserve exact arithmetic and backup compatibility, and keep the accepted minimalist interface. Do not include financial records, credentials, binaries, or proprietary reference artwork in issues or patches. Contributions use DCO 1.1 sign-off with file-specific inbound terms. Further source pushes require founder authorization.
 
 ## License
 
-Original Odaraia source uses **MPL-2.0**, with two MIT-adapted files and separately protected corporate artwork. [LICENSE](LICENSE), [LICENSING.md](LICENSING.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) define the exact coverage. Application metadata `MPL-2.0 AND MIT` describes cumulative file-level obligations, **not** an alternative MIT license for the entire application.
+Original plainbalance source uses **MPL-2.0**, with two MIT-adapted files and separately protected corporate artwork. [LICENSE](LICENSE), [LICENSING.md](LICENSING.md) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) define the exact coverage. Application metadata `MPL-2.0 AND MIT` describes cumulative file-level obligations, **not** an alternative MIT license for the entire application.
 
-Commercial redistribution and independent proprietary extensions/services are permitted subject to the applicable licenses. Distributed covered-file changes remain under MPL. [Contributions](ODARAIA_CONTRIBUTION_POLICY.md) use DCO 1.1 without copyright assignment or automatic proprietary relicensing rights.
+Commercial redistribution and independent proprietary extensions/services are permitted subject to the applicable licenses. Distributed covered-file changes remain under MPL. [Contributions](PLAINBALANCE_CONTRIBUTION_POLICY.md) use DCO 1.1 without copyright assignment or automatic proprietary relicensing rights.
 
-Talarurus and Odaraia names and official marks have separate rights. The two unchanged publisher SVGs have [limited attribution/redistribution permission](LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt). Neutral temporary icons remain reusable software assets, not final official marks. See the [brand policy](ODARAIA_BRAND_AND_TRADEMARK_POLICY.md).
+Talarurus and plainbalance names and official marks have separate rights. The two unchanged publisher SVGs have [limited attribution/redistribution permission](LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt). The founder-preferred original corner icons retain their reusable MPL permissions. See the [brand policy](PLAINBALANCE_BRAND_AND_TRADEMARK_POLICY.md).
 
-Licensing is implemented locally; ownership/provenance dispositions, current advisory checks and the [source-publication gate](ODARAIA_SOURCE_PUBLICATION_APPROVAL.md) remain for founder review. No consumer binary release is certified.
+The retained [source-publication gate](ODARAIA_SOURCE_PUBLICATION_APPROVAL.md) records the ownership/provenance and source-review requirements. Current dependency findings and limitations are documented in [SECURITY.md](SECURITY.md). Founder authorization covers this source publication; no consumer binary release is certified.
 
-Built by [Talarurus](https://talarurus.com). The proposed repository is `talarurus/odaraia`; no remote has been created or configured.
+Built by [Talarurus](https://talarurus.com). The public source is [talarurus/plainbalance](https://github.com/talarurus/plainbalance). See the retained [rename plan](PLAINBALANCE_REPO_RENAME_PLAN.md) for migration and compatibility details.

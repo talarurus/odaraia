@@ -2,11 +2,12 @@
   "version": "0.3.1",
   "label": "Developer Preview",
   "channel": "source-development",
-  "publicRepository": null,
-  "proposedRepository": "talarurus/odaraia",
+  "publicRepository": "talarurus/plainbalance",
+  "proposedRepository": "talarurus/plainbalance",
   "licenseApproval": "locally-implemented-MPL-2.0-with-explicit-exceptions",
   "consumerRelease": false,
   "databaseSchema": 3,
   "backupFormatVersion": 1,
-  "licenseImplementationAuthorization": "Founder instruction 2026-10-11; publication remains unauthorized"
+  "licenseImplementationAuthorization": "Founder instruction 2026-10-11; source publication authorized by founder; consumer binaries not authorized",
+  "rebrandStatus": "Repository rename verified; source publication reviewed; website/media require separate approval"
 }

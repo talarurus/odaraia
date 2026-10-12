@@ -1,6 +1,6 @@
 # Third-party notices for the local Phase 1 application
 
-Original Odaraia source uses MPL-2.0 with explicit MIT and artwork exceptions; see the repository LICENSING.md and THIRD_PARTY_NOTICES.md. No research/reference artwork or Actual implementation is included in this source release.
+Original plainbalance source uses MPL-2.0 with explicit MIT and artwork exceptions; see the repository LICENSING.md and THIRD_PARTY_NOTICES.md. No research/reference artwork or Actual implementation is included in this source release.
 
 Current inventories derive from package-lock.json and release/cargo-licenses.json at the repository root. Run `node tools/dependency-audit.mjs` there to regenerate the ignored dependency-license-inventory.json report. Runtime React/React DOM/Recharts are MIT; development esbuild is MIT, Playwright Apache-2.0 and axe-core MPL-2.0. Complete target-specific binary notice/source-access compliance and live vulnerability checks remain separate gates.
 

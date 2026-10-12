@@ -15,7 +15,7 @@ export function createAPI(repo: Repository, origin='http://127.0.0.1:4174',acces
    const url=new URL(request.url);
    check(request.headers.get('host')===new URL(origin).host,'Unrecognized local host');
    check(!request.headers.has('origin')||request.headers.get('origin')===origin,'Cross-origin request denied');
-   if(!authorizedLocalRequest(request,accessToken))return json({error:'Open Odaraia from its private startup link or Mac application.'},403);
+   if(!authorizedLocalRequest(request,accessToken))return json({error:'Open plainbalance from its private startup link or Mac application.'},403);
    const path=url.pathname, method=request.method;
    if(path==='/api/session' && method==='GET'){
     const response=json({token});

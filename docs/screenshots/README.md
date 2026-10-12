@@ -1,8 +1,8 @@
-# Current product screenshot gate
+# plainbalance screenshot and media gate
 
-No current v0.3.1 screenshot has been certified in this execution environment. Browser engines abort before rendering and native GUI automation is unavailable. The founder reports the current simplified Tauri app launches. Do not reuse older Talarurus Finance dashboard captures or render a fabricated UI as product evidence.
+The original white corner app icon, outlined lowercase wordmark and secondary by Talarurus attribution are founder-approved. Do not redesign them or reuse the archived alternatives. Current browser captures are local review evidence only; no product screenshots are approved for publication. Installed native-window screenshots/acceptance remain pending. Older dashboard captures and fabricated UI must not be used as current product evidence.
 
-Run on a Mac with working GUI access:
+Run the existing actual-frontend/Rust harness on a Mac with Chrome/Playwright:
 
 ```sh
 node experiments/tauri-desktop/test-native.mjs
@@ -10,8 +10,10 @@ node experiments/tauri-desktop/build-review.mjs
 node app/scripts/capture-preview.mjs
 ```
 
-The capture script uses the real frontend bundle and Rust contract transport with disposable fictional profiles. It records browser screenshots and interactions, **not native-window acceptance**. Install Playwright Chromium first with `cd app && npx playwright install chromium`. The optional `CHROMIUM_PATH` selects an existing Chrome executable; no personal cache path is embedded.
+An existing Chrome is tried first; `CHROMIUM_PATH` can select another executable. Install Playwright Chromium only if needed. The capture script uses the real frontend bundle and Rust contract transport with disposable fictional profiles. It captures browser pixels, not a native Tauri window or mobile application. A failed or partial run is not certified media. Local outputs stay ignored under `app/artifacts/v031/screenshots/`.
 
-Capture: populated Overview, empty Overview, onboarding, Accounts, Transactions, Spending, Cash Flow, Net Worth, Budgets, Settings (Appearance/Privacy/Recovery), light/dark, desktop expanded/collapsed, and narrow responsive web layout. Also complete the manual installed-app journey in ODARAIA_V031_DEVELOPER_PREVIEW.md and capture a native Overview using the OS screenshot tool.
+`media-plan.json` reserves next-release README and website destinations using a `<release-tag>` template. The next tag/version is deliberately undecided; current metadata remains 0.3.1. README image examples are inside a nonrendered comment. The website has a hidden media section with no active image requests. No nonexistent image is linked in rendered content.
 
-Only after verifying fictional labels/amounts, current version, no filenames/tokens/personal desktop content, approved branding, and correct layout, copy selected PNGs from `app/artifacts/v031/screenshots/` into this folder. Add each explicit path and binary SHA-256 to `release/source-files.json`, keep attribution/date/platform/fixture metadata, update README and website figure, then rerun the publication audit. Never call a responsive browser screenshot an iOS/Android app.
+Required review: populated/empty Overview and onboarding; Accounts/Transactions; light/dark; Settings; collapsed sidebar; narrow responsive browser. Record exact source snapshot/commit, capture date, actual runtime/platform, fixture, viewport/theme, filename, SHA-256 and alt text. Native-window Overview is a separate OS screenshot after the installed-app journey in PLAINBALANCE_V031_DEVELOPER_PREVIEW.md. Verify fictional labels/amounts and absence of tokens, personal filenames, desktop details or stale branding. Do not label browser pixels as native acceptance.
+
+After explicit media approval, copy selected actual PNGs into `docs/screenshots/<release-tag>/`, add exact file paths/binary hashes and license notices to the source manifest, activate the README image links, and copy the same approved pixels into website `assets/products/plainbalance/<release-tag>/`. Activate the hidden media section only with real images, accurate captions/alt text and reviewed responsive sizing. Regenerate source/licensing audits and review each publication diff. Source push and website deployment require their own approvals. No unencrypted-storage consumer binaries accompany this source rebrand.

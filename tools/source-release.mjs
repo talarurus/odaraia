@@ -95,7 +95,7 @@ if(mode==='inventory'){
   execFileSync('git',['add','--pathspec-from-file=-','--pathspec-file-nul'],{cwd:root,input:paths.join('\0')+'\0',stdio:['pipe','pipe','pipe']});console.log('Staged explicit reviewed manifest only; no commit.');
  }else if(mode==='archive'){
   const folder=join(root,'release/archives');mkdirSync(folder,{recursive:true});
-  const filename='odaraia-v0.3.1-source-review.tar.gz',archive=join(folder,filename);
+  const filename='plainbalance-v0.3.1-source-review.tar.gz',archive=join(folder,filename);
   // macOS otherwise injects AppleDouble ._ entries with Finder/xattr metadata.
   execFileSync('tar',['-czf',archive,'-T','-'],{cwd:root,env:{...process.env,COPYFILE_DISABLE:'1'},input:paths.join('\n')+'\n',stdio:['pipe','pipe','pipe']});
   writeFileSync(archive+'.sha256',digest(readFileSync(archive))+'  '+filename+'\n');console.log('Local reviewed source archive generated; no binary release or upload.');

@@ -1,4 +1,4 @@
-# Odaraia application workspace
+# plainbalance application workspace
 
 v0.3.1 Developer Preview, synthetic data only. The shared React application, exact finance services, Node SQLite adapter, async native contracts and preserved Swift/AppKit host live here. The isolated Tauri/Rust project is in `../experiments/tauri-desktop/`.
 
@@ -17,4 +17,4 @@ npm run check:assets
 
 `npm run build:tauri` builds an internal ad hoc macOS bundle. Fetch locked Cargo dependencies first on a fresh checkout. Full installed GUI acceptance and screenshots remain pending. `npm run test:rust` exercises the actual Rust/bundled-SQLite contracts, not the installed window.
 
-Database schema 3, backup `talarurus-finance` version 1, exact arithmetic, existing migrations, transfer semantics and native restrictions remain unchanged. Databases and backups are unencrypted. No consumer distribution is approved. See [security policy](../SECURITY.md), [preview acceptance](../ODARAIA_V031_DEVELOPER_PREVIEW.md), [support matrix](../ODARAIA_PLATFORM_SUPPORT_MATRIX.md) and [license audit](../LICENSE_RECOMMENDATION.md).
+Database schema 3, backup `talarurus-finance` version 1, exact arithmetic, existing migrations, transfer semantics and native restrictions remain unchanged. Databases and backups are unencrypted. No consumer distribution is approved. See [security policy](../SECURITY.md), [preview acceptance](../PLAINBALANCE_V031_DEVELOPER_PREVIEW.md), [support matrix](../PLAINBALANCE_PLATFORM_SUPPORT_MATRIX.md) and [license audit](../LICENSE_RECOMMENDATION.md).

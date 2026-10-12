@@ -1,0 +1,25 @@
+{
+  "product": "plainbalance",
+  "attribution": "by Talarurus",
+  "font": "Inter 4.001",
+  "fontFile": "fonts/inter-latin-wght.woff2",
+  "fontSHA256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62",
+  "wordmarkWeight": 500,
+  "wordmarkSize": 40,
+  "wordmarkTrackingEm": -0.04,
+  "attributionWeight": 400,
+  "attributionSize": 14,
+  "attributionTrackingEm": 0,
+  "wordmarkBaseline": 40,
+  "attributionBaseline": 69,
+  "wordmarkHeight": 56,
+  "lockupHeight": 80,
+  "colors": {
+    "ink": "#111111",
+    "white": "#FFFFFF"
+  },
+  "shaping": {
+    "kern": true,
+    "liga": true
+  }
+}

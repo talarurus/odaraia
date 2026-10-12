@@ -7,7 +7,7 @@ const render=await prepareReview();
 
 test('First run has one welcome, one primary account action and optional detailed guidance; other routes contain no onboarding',()=>{
  const first=render({page:'dashboard',empty:true,experimental:true});
- assert(first.includes('Welcome to Odaraia'));assert(first.includes('>Add account</button>'));assert(first.includes('>Explore demo</button>'));
+ assert(first.includes('Welcome to plainbalance'));assert(first.includes('>Add account</button>'));assert(first.includes('>Explore demo</button>'));
  assert(first.includes('<details class="setup-guidance">'));assert(!first.includes('guide-progress'));assert(!first.includes('overview-period'));assert(!first.includes('overview-lower'));
  for(const page of ['settings','accounts','transactions','import'])assert(!render({page,empty:true}).includes('getting-started-title'),page);
  const dismissed=render({page:'dashboard',empty:true,dismissed:true});assert(!dismissed.includes('getting-started-title'));assert(dismissed.includes('Add your first account'));assert(!dismissed.includes('overview-period'));

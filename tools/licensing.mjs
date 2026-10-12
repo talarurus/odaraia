@@ -11,6 +11,8 @@ const art=new Set(JSON.parse(read('brand/talarurus-assets.json')).assets.map(a=>
 export function licenseFor(p){
  if(art.has(p))return 'LicenseRef-Talarurus-Publisher-Artwork';
  if(mit.has(p))return 'MIT';
+ if(p==='brand/plainbalance/source/fonts/inter-latin-wght.woff2')return 'OFL-1.1';
+ if(p==='brand/plainbalance/source/fonts/OFL.txt')return 'retained-legal-text-or-provenance';
  if(p==='LICENSE'||p==='DCO'||p.startsWith('LICENSES/')||p.includes('/notices/third-party/')||p.includes('/third-party/monocode/'))return 'retained-legal-text-or-provenance';
  return 'MPL-2.0';
 }

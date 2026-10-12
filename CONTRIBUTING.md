@@ -1,6 +1,6 @@
-# Contributing to Odaraia
+# Contributing to plainbalance
 
-Odaraia is preparing v0.3.1 Developer Preview. Original code uses MPL-2.0 with explicit file-level exceptions. Publication remains subject to a separate founder gate. See LICENSING.md and ODARAIA_CONTRIBUTION_POLICY.md.
+plainbalance is preparing v0.3.1 Developer Preview. Original code uses MPL-2.0 with explicit file-level exceptions. Publication remains subject to a separate founder gate. See LICENSING.md and PLAINBALANCE_CONTRIBUTION_POLICY.md.
 
 Use Node 24.21.0 and the checked-in npm lockfiles. Native work is currently verified only on Apple Silicon macOS, using Rust 1.99.0. Follow the root README setup and test commands.
 
@@ -29,4 +29,4 @@ Signed-off-by: Fictional Contributor <contributor@example.org>
 
 Use your own authorized public identity/address, never copy the example or sign on someone else's behalf. Your sign-off becomes part of public Git history. It is not a cryptographic signature or copyright assignment.
 
-Contributions to MPL files enter under MPL-2.0; contributions to the identified MIT files remain MIT. Preserve upstream notices and disclose copied material/provenance. DCO grants no automatic right for Talarurus to relicense community MPL work as proprietary source; additional permission would be needed. No CLA is imposed. See ODARAIA_CONTRIBUTION_POLICY.md.
+Contributions to MPL files enter under MPL-2.0; contributions to the identified MIT files remain MIT. Preserve upstream notices and disclose copied material/provenance. DCO grants no automatic right for Talarurus to relicense community MPL work as proprietary source; additional permission would be needed. No CLA is imposed. See PLAINBALANCE_CONTRIBUTION_POLICY.md.

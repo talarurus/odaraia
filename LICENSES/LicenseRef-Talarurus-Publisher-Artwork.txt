@@ -9,7 +9,7 @@ SHA-256 bc22225dc552aebde1010daa68d79718662535ded58232903f6914f3896c0c06
 
 The copyright owner grants nonexclusive, worldwide, royalty-free permission
 for the copyright term, subject to the following conditions, to copy and
-redistribute these exact exports with Odaraia source, builds and genuine
+redistribute these exact exports with plainbalance (formerly Odaraia) source, builds and genuine
 project documentation, including commercial redistribution, solely for accurate
 identification of Talarurus as the original project's maker.
 

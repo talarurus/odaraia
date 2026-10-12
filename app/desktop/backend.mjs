@@ -17,4 +17,4 @@ const parentWatch=setInterval(()=>{try{process.kill(parent,0);}catch{stop();}},2
 process.stdin.resume();process.stdin.on('end',stop);
 for(const signal of ['SIGTERM','SIGINT'])process.on(signal,stop);
 try{const {origin}=await ready;process.stdout.write(JSON.stringify({type:'ready',origin,pid:process.pid})+'\n');}
-catch(error){process.stderr.write('Odaraia backend could not start: '+error.code+'. Data was not deleted.\n');process.exitCode=1;process.stdin.pause();}
+catch(error){process.stderr.write('plainbalance backend could not start: '+error.code+'. Data was not deleted.\n');process.exitCode=1;process.stdin.pause();}

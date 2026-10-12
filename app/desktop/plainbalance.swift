@@ -85,7 +85,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,WKNavigationDelegate,WKUI
   if let bytes=try? JSONSerialization.data(withJSONObject:object,options:.prettyPrinted){write("native-result.json",bytes,false)}
   if var bytes=try? JSONSerialization.data(withJSONObject:object){bytes.append(10);write("native-events.jsonl",bytes,true)}
  }
- func stage(_ value:String){startupStage=value;if startupFailure.isEmpty{statusDetail?.stringValue=["BACKEND_SPAWNED":"Waiting for the local service to listen.","BACKEND_READY":"Loading the financial application.","NAVIGATION_COMPLETED":"Initializing the financial workspace.","SESSION_ESTABLISHED":"Reading saved local records.","STATE_FETCHED":"Rendering your financial workspace."][value] ?? statusDetail?.stringValue ?? "Starting Odaraia."};record(value)}
+ func stage(_ value:String){startupStage=value;if startupFailure.isEmpty{statusDetail?.stringValue=["BACKEND_SPAWNED":"Waiting for the local service to listen.","BACKEND_READY":"Loading the financial application.","NAVIGATION_COMPLETED":"Initializing the financial workspace.","SESSION_ESTABLISHED":"Reading saved local records.","STATE_FETCHED":"Rendering your financial workspace."][value] ?? statusDetail?.stringValue ?? "Starting plainbalance."};record(value)}
  func layoutSnapshot()->[String:Any]{
   func rect(_ view:NSView?)->[Double]{guard let view=view,view===shellRoot || view.isDescendant(of:shellRoot) else{return []};let r=shellRoot.convert(view.bounds,from:view);return [r.minX,r.minY,r.width,r.height]}
   return ["root":rect(shellRoot),"sidebar":rect(sidebar),"brand":rect(nativeBrand),"navigation":rect(navScroll),"workspace":rect(webHost),"web":rect(web),"loading":rect(loadingView),"rootAmbiguous":shellRoot.hasAmbiguousLayout,"sidebarAmbiguous":sidebar.hasAmbiguousLayout]
@@ -108,7 +108,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,WKNavigationDelegate,WKUI
    setTheme(theme);applyMaterial();startBackend()
    NSWorkspace.shared.notificationCenter.addObserver(self,selector:#selector(accessibilityChanged),name:NSWorkspace.accessibilityDisplayOptionsDidChangeNotification,object:nil)
    appearanceObserver=window.observe(\.effectiveAppearance,options:[.new]){[weak self] _,_ in DispatchQueue.main.async{self?.applyMaterial();self?.emitAppearance()}}
-  } catch { record("STARTUP_FAILED","DATA_DIRECTORY_UNAVAILABLE");showError("Odaraia couldn’t open its data folder.",detail:error.localizedDescription) }
+  } catch { record("STARTUP_FAILED","DATA_DIRECTORY_UNAVAILABLE");showError("plainbalance couldn’t open its data folder.",detail:error.localizedDescription) }
  }
  func label(_ text:String,size:CGFloat=12,weight:NSFont.Weight = .regular)->NSTextField{
   let view=NSTextField(labelWithString:text);view.font=NSFont.systemFont(ofSize:size,weight:weight);view.textColor = .labelColor;return view
@@ -147,7 +147,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,WKNavigationDelegate,WKUI
   let branding=NSStackView();nativeBrand=branding;branding.orientation = .horizontal;branding.spacing=10
   let icon=NSImageView();icon.image=NSImage(contentsOf:resourceRoot.appendingPathComponent("product-icon.png"));icon.imageScaling = .scaleProportionallyUpOrDown;icon.widthAnchor.constraint(equalToConstant:38).isActive=true;icon.heightAnchor.constraint(equalToConstant:38).isActive=true
   let publisher=label("by "+product.publisher,size:11);publisher.textColor = .secondaryLabelColor
-  let copy=NSStackView(views:[label(product.name,size:23,weight:.semibold),publisher]);brandCopy=copy;copy.orientation = .vertical;copy.alignment = .leading;copy.spacing=3;branding.addArrangedSubview(icon);branding.addArrangedSubview(copy);stack.addArrangedSubview(branding);stack.setCustomSpacing(22,after:branding)
+  let copy=NSStackView(views:[label(product.name,size:20,weight:.semibold),publisher]);brandCopy=copy;copy.orientation = .vertical;copy.alignment = .leading;copy.spacing=3;branding.addArrangedSubview(icon);branding.addArrangedSubview(copy);stack.addArrangedSubview(branding);stack.setCustomSpacing(22,after:branding)
   let groups=[("FINANCES",["dashboard","accounts"]),("INSIGHTS",["cashflow","spending","networth","budgets"]),("ACTIVITY",["transactions","import"])]
   func button(_ page:String)->SidebarButton{
    let destination=destinations.first(where:{$0.0==page})!;let button=SidebarButton(title:"  "+destination.1,target:self,action:#selector(navigateButton));button.identifier=NSUserInterfaceItemIdentifier(page);button.bezelStyle = .inline;button.isBordered=false;button.alignment = .left;button.font = .systemFont(ofSize:13,weight:.medium);button.image=NSImage(systemSymbolName:destination.2,accessibilityDescription:nil);button.imagePosition = .imageLeading;button.imageHugsTitle=false;button.contentTintColor = .labelColor;button.heightAnchor.constraint(equalToConstant:36).isActive=true;let width=button.widthAnchor.constraint(equalTo:sidebar.widthAnchor,constant:-32);navigationWidths.append(width);button.toolTip=destination.1;button.setAccessibilityLabel(destination.1);button.motionDisabled={[weak self] in self?.reducedMotion ?? true};navigation.append(button);return button
@@ -192,7 +192,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,WKNavigationDelegate,WKUI
   statusTitle=nil;statusDetail=nil;retryButton=nil
   if window==nil{window=NSWindow(contentRect:NSRect(x:0,y:0,width:900,height:650),styleMask:[.titled,.closable,.resizable],backing:.buffered,defer:false);window.isReleasedWhenClosed=false;window.delegate=self}
   let view=NSView(frame:NSRect(x:0,y:0,width:900,height:650));view.wantsLayer=true;view.layer?.backgroundColor=NSColor.windowBackgroundColor.cgColor;window.contentView=view
-  let title=label("Odaraia by Talarurus — workspace startup failed",size:17,weight:.semibold);title.frame=NSRect(x:40,y:300,width:800,height:40);view.addSubview(title);window.makeKeyAndOrderFront(nil)
+  let title=label("plainbalance by Talarurus — workspace startup failed",size:17,weight:.semibold);title.frame=NSRect(x:40,y:300,width:800,height:40);view.addSubview(title);window.makeKeyAndOrderFront(nil)
  }
  @objc func showAppearance(_ sender:NSButton){
   if appearancePopover.isShown{dismissAppearance(restoreFocus:true);return}
@@ -239,7 +239,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,WKNavigationDelegate,WKUI
    guard FileManager.default.fileExists(atPath:resourceRoot.appendingPathComponent(file).path) else{failStartup(code,"A packaged application resource is missing. Rebuild this app; your database has not been changed.");return}
   }
   stage("PACKAGED_RESOURCES_VALIDATED")
-  var bytes=[UInt8](repeating:0,count:32);guard SecRandomCopyBytes(kSecRandomDefault,bytes.count,&bytes)==errSecSuccess else{failStartup("SESSION_RANDOM_FAILED","Odaraia could not create a private local session. Retry startup.");return}
+  var bytes=[UInt8](repeating:0,count:32);guard SecRandomCopyBytes(kSecRandomDefault,bytes.count,&bytes)==errSecSuccess else{failStartup("SESSION_RANDOM_FAILED","plainbalance could not create a private local session. Retry startup.");return}
   launchToken=bytes.map{String(format:"%02x",$0)}.joined()
   let process=Process(),stdin=Pipe(),stdout=Pipe(),stderr=Pipe();child=process;input=stdin;output=stdout;errorPipe=stderr
   process.executableURL=resourceRoot.appendingPathComponent("runtime/node");process.arguments=[resourceRoot.appendingPathComponent("backend/desktop/backend.mjs").path]
@@ -255,10 +255,10 @@ final class AppDelegate:NSObject,NSApplicationDelegate,WKNavigationDelegate,WKUI
    // Match only the backend's fixed public error-code line. Drop all raw stderr.
    guard let text=String(data:bytes,encoding:.utf8) else{return}
    let codes=["EPERM","EACCES","EADDRINUSE","EADDRNOTAVAIL","ENOENT","ENOSPC","SQLITE_CANTOPEN","SQLITE_CORRUPT"]
-   if let code=codes.first(where:{text.contains("Odaraia backend could not start: "+$0+".")}){DispatchQueue.main.async{self?.backendErrorCode=code;self?.record("BACKEND_ERROR_CODE",code)}}
+   if let code=codes.first(where:{text.contains("plainbalance backend could not start: "+$0+".")}){DispatchQueue.main.async{self?.backendErrorCode=code;self?.record("BACKEND_ERROR_CODE",code)}}
   }
   stdout.fileHandleForReading.readabilityHandler={[weak self] handle in let data=handle.availableData;if data.isEmpty{return};DispatchQueue.main.async{self?.received(data)}}
-  process.terminationHandler={[weak self] process in DispatchQueue.main.async{guard let self=self else{return};self.startupTimer?.invalidate();self.output?.fileHandleForReading.readabilityHandler=nil;self.errorPipe?.fileHandleForReading.readabilityHandler=nil;self.child=nil;self.ready=false;self.workspaceReady=false;self.workspaceVerified=false;if self.terminating{self.finishTermination()}else{self.record("BACKEND_EXITED","Exit \(process.terminationStatus); code=\(self.backendErrorCode.isEmpty ? "UNAVAILABLE":self.backendErrorCode)");self.failStartup("BACKEND_EXITED","The local finance service stopped. Retry to restart it, or quit and reopen Odaraia. Your saved database has not been deleted.")}}}
+  process.terminationHandler={[weak self] process in DispatchQueue.main.async{guard let self=self else{return};self.startupTimer?.invalidate();self.output?.fileHandleForReading.readabilityHandler=nil;self.errorPipe?.fileHandleForReading.readabilityHandler=nil;self.child=nil;self.ready=false;self.workspaceReady=false;self.workspaceVerified=false;if self.terminating{self.finishTermination()}else{self.record("BACKEND_EXITED","Exit \(process.terminationStatus); code=\(self.backendErrorCode.isEmpty ? "UNAVAILABLE":self.backendErrorCode)");self.failStartup("BACKEND_EXITED","The local finance service stopped. Retry to restart it, or quit and reopen plainbalance. Your saved database has not been deleted.")}}}
   do{try process.run();stage("BACKEND_SPAWNED");startupTimer=Timer.scheduledTimer(withTimeInterval:20,repeats:false){[weak self] _ in guard let self=self,!self.ready else{return};self.record("BACKEND_TIMEOUT");self.failStartup("BACKEND_TIMEOUT","The bundled service did not become ready. Retry to restart it. Your database has not been deleted.");self.child?.terminate()}}
   catch{child=nil;record("BACKEND_LAUNCH_FAILED","PROCESS_LAUNCH_REJECTED");failStartup("BACKEND_LAUNCH_FAILED","The bundled finance service could not launch. Retry, or rebuild the app with a runtime compatible with this Mac.")}
  }
@@ -406,7 +406,7 @@ final class AppDelegate:NSObject,NSApplicationDelegate,WKNavigationDelegate,WKUI
   // Preserve the first failure; cascading fetch/termination events must not
   // replace the stage that explains why startup stopped.
   guard startupFailure.isEmpty else{return}
-  startupFailure=code;workspaceTimer?.invalidate();glassPaintReady=false;workspaceReady=false;workspaceVerified=false;record("STARTUP_FAILED",code);applyMaterial();loadingView.isHidden=false;statusTitle?.stringValue="Odaraia could not load the workspace";statusDetail?.stringValue=message;retryButton?.isHidden=false
+  startupFailure=code;workspaceTimer?.invalidate();glassPaintReady=false;workspaceReady=false;workspaceVerified=false;record("STARTUP_FAILED",code);applyMaterial();loadingView.isHidden=false;statusTitle?.stringValue="plainbalance could not load the workspace";statusDetail?.stringValue=message;retryButton?.isHidden=false
  }
  @objc func retryWorkspace(){
   startupFailure="";navigationCompleted=false;workspaceReady=false;workspaceVerified=false;glassPaintReady=false;loadingView.isHidden=false;statusTitle.stringValue="Opening your finances…";retryButton.isHidden=true;applyMaterial();stage("WORKSPACE_RETRY_REQUESTED")

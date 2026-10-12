@@ -7,7 +7,7 @@ export function GettingStarted({state,onCreate,onTransaction,onNavigate,onDismis
  const title=useRef<HTMLHeadingElement>(null);
  useEffect(()=>{title.current?.focus({preventScroll:true});},[]);
  return <section className="getting-started" aria-labelledby="getting-started-title">
-  <div className="guide-heading"><h2 id="getting-started-title" ref={title} tabIndex={-1}>Welcome to Odaraia</h2><button className="export-button" onClick={onDismiss}>Skip guide</button></div>
+  <div className="guide-heading"><h2 id="getting-started-title" ref={title} tabIndex={-1}>Welcome to plainbalance</h2><button className="export-button" onClick={onDismiss}>Skip guide</button></div>
   <p>A clear view of your money. Track accounts, spending and cash flow on your device, with manual entry and CSV import.</p>
   <div className="welcome-actions"><button className="orange-button" disabled={hidden} onClick={onCreate}>Add account</button><button className="export-button" onClick={onDemo}>Explore demo</button></div>
   {state.accounts.length>0&&<p role="status">Your first account is ready. You can add transactions or import a statement.</p>}
@@ -19,6 +19,6 @@ export function GettingStarted({state,onCreate,onTransaction,onNavigate,onDismis
    <button className="export-button" onClick={onDismiss}>Finish guide</button>
   </details>
   {hidden&&<p>Show amounts in Settings to enter financial data.</p>}
-  <small>You can revisit this guide in Settings → About Odaraia.</small>
+  <small>You can revisit this guide in Settings → About plainbalance.</small>
  </section>;
 }

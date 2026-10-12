@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — plainbalance local rebrand
+
+- Renamed the product presentation from Odaraia to **plainbalance by Talarurus**, with a minimal wordmark and temporary independent corner placeholder.
+- Updated current source guidance and local website route; preserved compatibility identifiers, financial behavior and licensing. Remote repository rename, source push, site deployment and media publication require founder approval.
+
+The following entries describe the original pre-publication preparation and are retained as history. The source is now public at `talarurus/odaraia`; their original no-public-repository statements are historical.
+
 ## 0.3.1 Developer Preview — prepared 2026-10-10, unpublished
 
 - Implemented standard MPL-2.0, explicit MIT adaptation exceptions, DCO 1.1, protected branding and scoped unchanged publisher-artwork permissions locally.

@@ -8,7 +8,7 @@ The following exact files use the indicated terms. Other upstream legal texts re
 | File | SPDX / treatment |
 | --- | --- |
 | `LICENSES.md` | `MPL-2.0` |
-| `odaraia-favicon.svg` | `MPL-2.0` |
-| `odaraia-symbol.svg` | `MPL-2.0` |
+| `plainbalance-favicon.svg` | `MPL-2.0` |
+| `plainbalance-symbol.svg` | `MPL-2.0` |
 
 MPL text: repository LICENSE. MIT adaptation text: app/desktop/third-party/monocode/LICENSE. Publisher artwork permission: LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt. No trademark clearance or endorsement is implied.

@@ -29,12 +29,12 @@ mkdirSync(join(stage,'Contents/MacOS'),{recursive:true});mkdirSync(join(stage,'C
 const executable='odaraia-sqlite-prototype';
 const target=process.env.CARGO_TARGET_DIR?resolve(host,process.env.CARGO_TARGET_DIR):join(host,'target');
 copyFileSync(join(target,'release',executable),join(stage,'Contents/MacOS',executable));
-copyFileSync(join(host,'icons/Odaraia.icns'),join(stage,'Contents/Resources/Odaraia.icns'));
+copyFileSync(join(host,'icons/plainbalance.icns'),join(stage,'Contents/Resources/plainbalance.icns'));
 packageLicenses(join(stage,'Contents/Resources/Legal'));
 const escape=s=>String(s).replaceAll('&','&amp;').replaceAll('<','&lt;').replaceAll('>','&gt;').replaceAll('"','&quot;');
 const values={CFBundleDevelopmentRegion:'en',CFBundleExecutable:executable,CFBundleIdentifier:identifier,
  CFBundleName:name,CFBundleDisplayName:name,CFBundlePackageType:'APPL',CFBundleInfoDictionaryVersion:'6.0',
- CFBundleShortVersionString:config.version,CFBundleVersion:config.version,CFBundleIconFile:'Odaraia.icns',
+ CFBundleShortVersionString:config.version,CFBundleVersion:config.version,CFBundleIconFile:'plainbalance.icns',
  LSMinimumSystemVersion:config.bundle.macOS.minimumSystemVersion,LSApplicationCategoryType:'public.app-category.finance',NSPrincipalClass:'NSApplication'};
 writeFileSync(join(stage,'Contents/Info.plist'),'<?xml version="1.0" encoding="UTF-8"?>\n<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">\n<plist version="1.0"><dict>'+Object.entries(values).map(([k,v])=>`<key>${k}</key><string>${escape(v)}</string>`).join('')+'<key>NSHighResolutionCapable</key><true/><key>NSSupportsAutomaticGraphicsSwitching</key><true/></dict></plist>\n');
 execFileSync('/usr/bin/plutil',['-lint',join(stage,'Contents/Info.plist')],{stdio:'inherit'});

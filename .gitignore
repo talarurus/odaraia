@@ -88,5 +88,8 @@ references/
 brand/cretodus/
 brand/odaraia/candidates/
 brand/odaraia/review.html
+# Local plainbalance exploration and review evidence are not publication assets.
+brand/plainbalance/archive/
+brand/plainbalance/preferred-review/
 release/odaraia-source/
 release/archives/

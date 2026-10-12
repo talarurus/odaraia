@@ -5,7 +5,7 @@ import {resolve,join,isAbsolute} from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import assert from 'node:assert/strict';
 const root=fileURLToPath(new URL('../',import.meta.url));
-const resources=resolve(root,'artifacts/odaraia/native/Odaraia.app/Contents/Resources/backend');
+const resources=resolve(root,'artifacts/odaraia/native/plainbalance.app/Contents/Resources/backend');
 const directory=process.argv[2];if(!directory||!isAbsolute(directory))throw new Error('Supply an absolute EMPTY review directory');
 await mkdir(directory,{recursive:true,mode:0o700});process.umask(0o077);
 const {Repository}=await import(pathToFileURL(join(resources,'db/repository.ts')));

@@ -7,7 +7,7 @@ import {fileURLToPath,pathToFileURL} from 'node:url';
 import assert from 'node:assert/strict';
 import {bundleFingerprint} from './bundle-fingerprint.mjs';
 const experimentalGlass=process.argv.includes('--experimental-desktop-glass');
-const root=fileURLToPath(new URL('../',import.meta.url)),out=process.argv.includes('--readiness')?resolve(root,'artifacts/readiness/mac'):resolve(root,'artifacts/odaraia',experimentalGlass?'monocode/native':'native'),app=join(out,'Odaraia.app'),directory=join(out,'gui-smoke-'+Date.now());await mkdir(directory,{recursive:true,mode:0o700});
+const root=fileURLToPath(new URL('../',import.meta.url)),out=process.argv.includes('--readiness')?resolve(root,'artifacts/readiness/mac'):resolve(root,'artifacts/odaraia',experimentalGlass?'monocode/native':'native'),app=join(out,'plainbalance.app'),directory=join(out,'gui-smoke-'+Date.now());await mkdir(directory,{recursive:true,mode:0o700});
 const resources=join(app,'Contents/Resources'),node=join(resources,'runtime/node');
 const result={status:'PENDING',launch:'PENDING',workspace:'PENDING',shutdown:'PENDING',directory,runs:[],visualAcceptance:'MANUAL_REVIEW_REQUIRED'};
 const pause=ms=>new Promise(done=>setTimeout(done,ms));

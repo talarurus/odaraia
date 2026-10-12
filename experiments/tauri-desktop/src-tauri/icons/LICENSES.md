@@ -9,7 +9,7 @@ The following exact files use the indicated terms. Other upstream legal texts re
 | --- | --- |
 | `icon.png` | `MPL-2.0` |
 | `LICENSES.md` | `MPL-2.0` |
-| `Odaraia.icns` | `MPL-2.0` |
+| `plainbalance.icns` | `MPL-2.0` |
 | `PROVENANCE.md` | `MPL-2.0` |
 
 MPL text: repository LICENSE. MIT adaptation text: app/desktop/third-party/monocode/LICENSE. Publisher artwork permission: LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt. No trademark clearance or endorsement is implied.

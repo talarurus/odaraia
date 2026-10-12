@@ -23,7 +23,7 @@ test('Browser and reduced-transparency stay solid; surface roles remain independ
 });
 test('Compact first-run setup retains real actions; one glass control replaces redundant controls without removing recovery',async()=>{
  const render=await prepareReview();const overview=render({page:'dashboard',empty:true});
- assert(overview.includes('Welcome to Odaraia'));assert(overview.includes('Add account'));assert(!overview.includes('overview-period'));assert(!overview.includes('welcome-scene'));assert(!overview.includes('data-testid="dashboard-total"'));assert(!overview.includes('$4,410.00'));
+ assert(overview.includes('Welcome to plainbalance'));assert(overview.includes('Add account'));assert(!overview.includes('overview-period'));assert(!overview.includes('welcome-scene'));assert(!overview.includes('data-testid="dashboard-total"'));assert(!overview.includes('$4,410.00'));
  const settings=render({page:'settings',native:true,candidate:true,windowStyle:'translucent',material:{glass:1}});
  for(const label of ['Glass intensity','by Talarurus'])assert(settings.includes(label),label);
  const recovery=render({page:'settings',native:true,section:'recovery'});for(const label of ['Restore a backup','Complete financial backup'])assert(recovery.includes(label));assert(!settings.includes('Restore a backup'));

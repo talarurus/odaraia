@@ -4,7 +4,7 @@
 .finance-shell .sidebar>.product-brand{padding:0 6px 28px}
 .product-brand-copy{display:flex;flex-direction:column;align-items:flex-start;gap:5px;min-width:0}
 .product-symbol{width:38px;height:38px;flex-shrink:0}
-.product-name{display:block;font-size:23px;font-weight:var(--tf-weight-semibold);letter-spacing:-.035em;line-height:1.15;color:var(--tf-text)}
+.product-name{display:block;font-size:20px;font-weight:var(--tf-weight-semibold);letter-spacing:-.04em;line-height:1.15;color:var(--tf-text)}
 .product-attribution{display:block;font-size:11px;font-weight:var(--tf-weight-regular);line-height:1.4;letter-spacing:0;color:var(--tf-muted)}
 .product-category{font-size:12px;font-weight:400;letter-spacing:0;color:var(--tf-muted)}
 .product-brand-compact .product-name{font-size:15px;letter-spacing:-.025em;font-weight:600}
@@ -22,3 +22,5 @@
 :root[data-theme=dark] .publisher-logo-light{display:none}
 :root[data-theme=dark] .publisher-logo-dark{display:block}
 @media(max-width:600px){.product-about{grid-template-columns:minmax(0,1fr);gap:12px}.publisher-identity{padding:0}.publisher-lockup{width:max-content}.product-about .product-name{font-size:24px}}
+
+:root[data-theme=dark] .product-symbol{filter:invert(1)}

@@ -2,7 +2,7 @@
   {
     "path": "SECURITY.md",
     "rule": "email",
-    "fingerprint": "da69792b94800724e94a7ede2673f6611a8dabcd1e8c5d0a56d39ca37db391a6",
+    "fingerprint": "3fa9904a307bff1f6de47df7a60ca73d32756cb360ca442b497914f2471e6afb",
     "reason": "Existing public Talarurus security/contact address, verified in the current site; intentional publisher contact."
   },
   {

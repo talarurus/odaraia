@@ -1,4 +1,4 @@
-# Isolated Odaraia Tauri prototype
+# Isolated plainbalance Tauri prototype
 
 v0.3.1 Developer Preview. The Rust host links the existing C SQLite core in process and embeds the shared React workspace. No Node sidecar, private glass API, unrestricted filesystem/SQL/shell capability, or additional platform rewrite is introduced. Storage and backups remain unencrypted; synthetic records only.
 
@@ -11,7 +11,7 @@ node experiments/tauri-desktop/test-native.mjs
 node tools/developer-preview.mjs journey --rust
 node experiments/tauri-desktop/build-review.mjs
 node experiments/tauri-desktop/build-review.mjs --recovery
-open "app/artifacts/tauri-validation/mac/Odaraia SQLite Prototype.app"
+open "app/artifacts/tauri-validation/mac/plainbalance SQLite Prototype.app"
 ```
 
 Builds/tests use locked offline Cargo after the explicit fetch. Local cached dependencies and target output are never published. The bundler uses Cargo directly, not an unpinned global Tauri CLI.

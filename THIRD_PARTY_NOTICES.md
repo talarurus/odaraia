@@ -27,7 +27,7 @@ The existing notice tables have rows with missing root license text (platform es
 
 ## Assets and references
 
-The two Talarurus publisher SVGs are separately reserved corporate artwork with the narrow redistribution permission in ODARAIA_BRAND_AND_TRADEMARK_POLICY.md. Original neutral placeholders are software-related MPL assets, not approved exclusive product marks. No SharkFin/Monarch/Actual reference screenshots, private brand galleries, archived logo concepts or downloaded research assets are included. No Actual source is vendored on the available source record. The separate local website patch and copied site HTML are excluded from the application publication manifest; their rights remain a separate integration review.
+The two Talarurus publisher SVGs are separately reserved corporate artwork with the narrow redistribution permission in PLAINBALANCE_BRAND_AND_TRADEMARK_POLICY.md. Original neutral placeholders are software-related MPL assets, not approved exclusive product marks. No SharkFin/Monarch/Actual reference screenshots, private brand galleries, archived logo concepts or downloaded research assets are included. No Actual source is vendored on the available source record. The separate local website patch and copied site HTML are excluded from the application publication manifest; their rights remain a separate integration review.
 
 ## Redistribution status
 
@@ -38,3 +38,7 @@ Neither current application bundle is certified for public redistribution: Tauri
 ## Upstream verification on 2026-10-11
 
 The retained MonoCode MIT text matches the current [upstream LICENSE](https://raw.githubusercontent.com/hardbeat920/monocode/main/LICENSE) as returned by the source reader. Current [upstream NOTICE](https://raw.githubusercontent.com/hardbeat920/monocode/main/NOTICE) adds provider names Devin and Cognition relative to the retained historical copy. The original saved NOTICE is preserved byte-for-byte; no provider artwork or UI was copied. The historical source commit cannot be reconstructed from this moving-main check, and the commit API was unavailable. These checks do not independently prove upstream title. See licensing/canonical-verification.json.
+
+## plainbalance wordmark source font
+
+Inter 4.001: unchanged website font copied into `brand/plainbalance/source/fonts/inter-latin-wght.woff2`, under SIL Open Font License 1.1 (SPDX `OFL-1.1`). Complete original license: `brand/plainbalance/source/fonts/OFL.txt`; file hash and provenance: `brand/plainbalance/source/fonts/PROVENANCE.md`. fontTools and HarfBuzz are generation tools installed separately, not vendored application runtime code. The official Talarurus corporate wordmark/logo is not an input.

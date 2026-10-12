@@ -4,10 +4,11 @@
   "secondaryLicenseIncompatibilityNoticeAttached": false,
   "selfHash": "Own digest is in the external source publication audit, avoiding a recursive self-hash",
   "counts": {
-    "MPL-2.0": 259,
-    "retained-legal-text-or-provenance": 107,
+    "MPL-2.0": 287,
+    "retained-legal-text-or-provenance": 108,
     "MIT": 2,
-    "LicenseRef-Talarurus-Publisher-Artwork": 2
+    "LicenseRef-Talarurus-Publisher-Artwork": 2,
+    "OFL-1.1": 1
   },
   "files": [
     {
@@ -68,19 +69,19 @@
       "path": ".gitignore",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "587282f661d70e70414ec06a44f0b3f1e4b20b808733fde775c3c16cd384701e"
+      "sha256": "dba7289b4c8a0bd4788e08bed1cab90723e303051fec3fcd2dd9a09e4de89e4b"
     },
     {
       "path": "CHANGELOG.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "4ffb8f0b143f55c9c0f6dfdadab272bb69a009209b3c07ee57a998c949cae978"
+      "sha256": "d44e5f114a3cc300851e9cfd8c6504b42d76bd5650d410ae92c0f2152ee60cc7"
     },
     {
       "path": "CONTRIBUTING.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "65546ec8820b5d063a428edb213f32e3402df29150b87168ab427b34b6cb091a"
+      "sha256": "0deaedddf56068115b4f398174a2d07e3bf5dbd9b63d4c5a012672014be72c53"
     },
     {
       "path": "DCO",
@@ -98,13 +99,13 @@
       "path": "LICENSES.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "1f4fc47c227caebefa546ae296b302af724cf99a0400e386dfc197c086132f11"
+      "sha256": "c6c2dd2cafc971abe454ad9fef1505d63509e79419d02b6673f5d6096e4ac0f5"
     },
     {
       "path": "LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt",
       "license": "retained-legal-text-or-provenance",
       "notice": "LICENSES/LicenseRef-Talarurus-Publisher-Artwork.txt",
-      "sha256": "8ab6e3387fc2c2db6054bce1cfc4b86250a13a625975427a1c401127c359698e"
+      "sha256": "ef7383c411a3244d0f20fc3f3383b44f742e3fa6650f0a22957dffe24cf81703"
     },
     {
       "path": "LICENSES/MIT.txt",
@@ -116,49 +117,49 @@
       "path": "LICENSE_RECOMMENDATION.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "138463535dea2ba5c229d5fc09f321123a942713b112046f8994df95340e89cb"
+      "sha256": "3fe255c2e4b904e3fe85016b27f0775ead3c2c04386bd2b6a84139d4c552ecfc"
     },
     {
       "path": "LICENSING.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "76c873a5249362fd635a17a3b32442dde2bfc117369d3df691d83284f08eaf9c"
+      "sha256": "ca2185d07820c15241b8694593e8be4fc9c8d85a253187cf29c23fb85ee0c267"
     },
     {
       "path": "ODARAIA_BRAND_AND_TRADEMARK_POLICY.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "520d98cb88aaf7322bd79330c11e16b14f46e1a059d727e7981e3d2e6caed1c2"
+      "sha256": "53ae9634935b2705b8dc61c4fbb2e5d0647eee00f1264987c104c84a2e6723e1"
     },
     {
       "path": "ODARAIA_CONTRIBUTION_POLICY.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "c2536b51de2c35e6ff2647e8b43b131a8e059d444f0bbacd898398b857d0e372"
+      "sha256": "8e7b0690c40460e36197e3d2a3f174298818b11712bd70abbcd0320eac7e10cf"
     },
     {
       "path": "ODARAIA_GITHUB_RELEASE_READINESS.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "2d7b66acbb670fa0c80d48a7f7d5b06533d89ac79872b112e37a545f710678cc"
+      "sha256": "18ed9264e54a80b23a228cd577075b1537a7e5eb32806cb788d95dd75f8c7164"
     },
     {
       "path": "ODARAIA_OPEN_SOURCE_STRATEGY.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "6dd09c0e3bb184626158dc98c7cafeef927648d6f0ae5bcaf475e14568d220c2"
+      "sha256": "0a48372e8fa9b44c291c9a6230b54bb93c4a70d5303d5adf26df6aea62d5f87a"
     },
     {
       "path": "ODARAIA_PLATFORM_SUPPORT_MATRIX.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "4449cdc7fd552cde98061157c4c21dc3318e1ec44b67a20476815cfbc5ed1848"
+      "sha256": "75446a8f65d4b027a30fcede59aebaaf6c1728ebe3843ff0576bbf5f06d0117f"
     },
     {
       "path": "ODARAIA_RELEASE_ROADMAP.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "a7eebafe564111fdf1c6c2eaf5358993d93944b1fc983498e11b363d481e0ae9"
+      "sha256": "9cdb67c137f232825af90e552460f856423669ef414c4e6b94c31f70620c6686"
     },
     {
       "path": "ODARAIA_SOURCE_PUBLICATION_APPROVAL.md",
@@ -170,37 +171,109 @@
       "path": "ODARAIA_V031_DEVELOPER_PREVIEW.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "e59b40b7567f26fa0d95cb84d5baf0fa9f978516ef46396200decfebd2a350b8"
+      "sha256": "818e486b32d6e3a4ff750de983ab1be54069042ddaf34d92e9aa070e550f25a1"
     },
     {
       "path": "ODARAIA_V031_FINAL_APPROVAL_CHECKLIST.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "2c86becfe2991a5fed391a331c3eabab0dba5b95c66fd5ce499440ee759707cb"
+      "sha256": "ea7467728d09f24f5b62a3e91f71f5defcd7c1d37896b2a7ec7b3cabf00eef1d"
     },
     {
       "path": "ODARAIA_WEBSITE_INTEGRATION.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "89507583e6c13be6e3075f4d0e8dbef6f3f41d773e3252823ca7ef509a5b8736"
+      "sha256": "29fab0863cb1f201da28fd9269a6b0d6a642a26bc59e796e2ab6542a517f4428"
+    },
+    {
+      "path": "PLAINBALANCE_BRAND_AND_TRADEMARK_POLICY.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "248249424ad743c358d499145d795a565404073e3288c388486f66a2cf740632"
+    },
+    {
+      "path": "PLAINBALANCE_CONTRIBUTION_POLICY.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "223467a1ffe9d93601cc95a1997ceddb35198879a9fecda8308785e9782c6c9b"
+    },
+    {
+      "path": "PLAINBALANCE_GITHUB_RELEASE_READINESS.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "75ad7ef9f6bf5893bc04e6b060db2c8195babee383b728605e81ad42fae8b120"
+    },
+    {
+      "path": "PLAINBALANCE_IMPLEMENTATION.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "9f45b42719222768ece17fb5e58b14a53756e91b4cbeba756545905acf603147"
+    },
+    {
+      "path": "PLAINBALANCE_NAME_PREFLIGHT.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "378558b041709156c15b354fa17ba130751f20c24ac06782eb11777586e07bf7"
+    },
+    {
+      "path": "PLAINBALANCE_OPEN_SOURCE_STRATEGY.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "ec77e7bf825a0ce425da471e9b6aa2ca43e66391cd5d3c62fe8e575563346387"
+    },
+    {
+      "path": "PLAINBALANCE_PLATFORM_SUPPORT_MATRIX.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "b0ae44d2c75dd0746d8075fab46dca2d0f6e9e204fa245492997e0935dcc3341"
+    },
+    {
+      "path": "PLAINBALANCE_RELEASE_ROADMAP.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "7526df9be67672c4c06639523299c1a5dc47d48dad5f6e2198668b04cd26c2db"
+    },
+    {
+      "path": "PLAINBALANCE_REPO_RENAME_PLAN.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "4b953cd1ec973e1b131e6cc80140f13e6b4a9fc67bb74996442bbd854ae79c9d"
+    },
+    {
+      "path": "PLAINBALANCE_V031_DEVELOPER_PREVIEW.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "92d567dd4b8535f9392941bc75bf409688866b84626456c1d84abe7762e8ab42"
+    },
+    {
+      "path": "PLAINBALANCE_V031_FINAL_APPROVAL_CHECKLIST.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "007b5a276f76db7529ed9ecc00b5f74404ab26dccaa3752fd68fd7d1dea9d923"
+    },
+    {
+      "path": "PLAINBALANCE_WEBSITE_INTEGRATION.md",
+      "license": "MPL-2.0",
+      "notice": "LICENSES.md",
+      "sha256": "b33947412fb442a0c8371c591acc502fe7473a75689b682b75aae7b85cbf9e92"
     },
     {
       "path": "README.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "550304ba1b4f30c7ed5470ccfea758d991ce341bdef7a406b5788b9ff3123906"
+      "sha256": "abdd95e2494c0e3d6b39adb1b88ca03efa670b831955f7cec0f652c953a6eb0b"
     },
     {
       "path": "SECURITY.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "822260fb37aa9f5358a0530856cba456a85aff202ce22ea57de5483c9e4a3f85"
+      "sha256": "740cc09d95e34a866c7f77faa873ee7694bc16f040a256b9bdc89186baa3c0e2"
     },
     {
       "path": "THIRD_PARTY_NOTICES.md",
       "license": "MPL-2.0",
       "notice": "LICENSES.md",
-      "sha256": "5d3c28027085e4cb4d09d08aa1423482292d3b2aa1c003b7f45a30ec2376288b"
+      "sha256": "17571d07147009cc5cfa2833b5bff5165a52221107b0baac5b728e7ad2bb9040"
     },
     {
       "path": "app/LICENSES.md",
@@ -212,13 +285,13 @@
       "path": "app/NOTICES.md",
       "license": "MPL-2.0",
       "notice": "app/LICENSES.md",
-      "sha256": "e09cf610a3741400b6f75077d8f80ee50126bbabbc7111943a58a95fff1d6823"
+      "sha256": "e141530fb111488152e6caa5b6384771ebf1870c4f7ad934f4e0d800c9a7fc3e"
     },
     {
       "path": "app/README.md",
       "license": "MPL-2.0",
       "notice": "app/LICENSES.md",
-      "sha256": "4cf277689439adcd71d43c50cb4824026aa36644d1a3def12a5597d25f8e54fb"
+      "sha256": "4f202f12a16056e8c3d0b741d681e229a7ff282acf3fb96448878ba8c4741978"
     },
     {
       "path": "app/db/database.ts",
@@ -281,12 +354,6 @@
       "sha256": "a3ff4011012da853702b25c4fb71282bb89d76dd213523208885b7b0bb3dc5ba"
     },
     {
-      "path": "app/desktop/Odaraia.swift",
-      "license": "MPL-2.0",
-      "notice": "app/desktop/Odaraia.swift",
-      "sha256": "819920f842ac982bd42bdd60ea0f78297493f0c4c92d7add2e79beb71a00fb54"
-    },
-    {
       "path": "app/desktop/StartupBridge.h",
       "license": "MPL-2.0",
       "notice": "app/desktop/StartupBridge.h",
@@ -302,37 +369,43 @@
       "path": "app/desktop/backend.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/backend.mjs",
-      "sha256": "193d4c119e9ee501c555819bace6c8a368e0b7ab9ca8ecf49059599818814fca"
+      "sha256": "5fa1596fd464a30fc7074977b6ad0f6f5af52d98396871bec4a140237a332191"
     },
     {
       "path": "app/desktop/build.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/build.mjs",
-      "sha256": "214aebd98d30d59cb68a7e854fa3561c9e241d4e00e9e521ea2f1c7c064dcd34"
+      "sha256": "4c6826397a006b0dca45d53f5a70610e6c20c18f0415f35f509d109a9d69a9d8"
     },
     {
       "path": "app/desktop/bundle-fingerprint.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/bundle-fingerprint.mjs",
-      "sha256": "bbfe878d03e8b9881ed3a3bad3dd4fb0867b51638c6f515007ea160cece249e3"
+      "sha256": "7aee43bb20be330afc7193df7e9fce963b38a77fe2c1fcb3c1c4a52f41bfddd9"
     },
     {
       "path": "app/desktop/compile-host.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/compile-host.mjs",
-      "sha256": "b4ccfdd9cd9b291b19eec36ff6b2fcb4d3bdeb4d836731c991e7a95aefe81065"
+      "sha256": "b74859a9f4400f6206b191f62dcc493ad0982bb973b5bbf15533c736c1ad2597"
     },
     {
       "path": "app/desktop/diagnose.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/diagnose.mjs",
-      "sha256": "11f9f451f7c8c7210c4045593faa30e4cdc4efd6f8acc2e52e7e151dab42835e"
+      "sha256": "ebeb35256281744b0e879b5e83b71aca35d780e9de2e09036a30b4c8f9f44c9d"
     },
     {
       "path": "app/desktop/gui-smoke.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/gui-smoke.mjs",
-      "sha256": "33b4b8942c80bfe2c07cb7df6756c1531d3df52d552b80a4ed59a55e2b59aaa4"
+      "sha256": "d363ff1837926c1128ca90d44ddb952bdb52cd4ea55761d54df581c540b73680"
+    },
+    {
+      "path": "app/desktop/plainbalance.swift",
+      "license": "MPL-2.0",
+      "notice": "app/desktop/plainbalance.swift",
+      "sha256": "665b8b3a1d0c19d1dcdff77298f3e57517964f0bc5a28af5722de1b6d59b0ef7"
     },
     {
       "path": "app/desktop/prepare-runtime.mjs",
@@ -350,13 +423,13 @@
       "path": "app/desktop/seed-review.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/seed-review.mjs",
-      "sha256": "4edff6af1efd9149fdf084a07ab155fb0db5351dd35adbea2355c2f8bbd41f7c"
+      "sha256": "869dbbe8290b998785e9c44d01c906d5a45af41fff037c027d275a93b30cb049"
     },
     {
       "path": "app/desktop/smoke.mjs",
       "license": "MPL-2.0",
       "notice": "app/desktop/smoke.mjs",
-      "sha256": "789ae9aae494bb1f9da2e35c5b9142c608f5d5e0f75ef20376cc8820938e67e7"
+      "sha256": "de6c1dbc11d6f93e98d747ce846a49d66c480f915607b6c22de464b6695f7213"
     },
     {
       "path": "app/desktop/storage.mjs",
@@ -752,37 +825,37 @@
       "path": "app/package-lock.json",
       "license": "MPL-2.0",
       "notice": "app/LICENSES.md",
-      "sha256": "7de201e4c51fe6808c12ca0d5658aefbb01e6e9f55e6e84df055921ff17ac12b"
+      "sha256": "e79db3276b69b32aae22dba94f8dc565664c34942e3dd1b1eda64ab9d4186204"
     },
     {
       "path": "app/package.json",
       "license": "MPL-2.0",
       "notice": "app/LICENSES.md",
-      "sha256": "2bc99f460f2c89e067ad655ccdd1ad7883a5ba53903c83252f0b13421489f547"
+      "sha256": "40699db12167028f2f6f24a191dfda646c59c8bb8407c89127ba0e0dfa775527"
     },
     {
       "path": "app/product-identity.mjs",
       "license": "MPL-2.0",
       "notice": "app/product-identity.mjs",
-      "sha256": "78483fb8d717cf1a6efa24e5914eb0622d39fb53cbcc49fe9d2e262a4cf2efe7"
+      "sha256": "fe784a7a301c1e8c1b232969cca5958a50afc7162e943136a49639c91b77e417"
     },
     {
       "path": "app/public/brand/LICENSES.md",
       "license": "MPL-2.0",
       "notice": "app/public/brand/LICENSES.md",
-      "sha256": "07d1481fae0e601c72d192712a588a4e151e6416758f6d61a502710e833ccbee"
+      "sha256": "5c7b5c2729af47bbf3a158875fbd52a958d4af72af8cf26db7204e784db20bd6"
     },
     {
-      "path": "app/public/brand/odaraia-favicon.svg",
+      "path": "app/public/brand/plainbalance-favicon.svg",
       "license": "MPL-2.0",
       "notice": "app/public/brand/LICENSES.md",
-      "sha256": "31b2f2fc00c2d08a8757c399edc99b3be0a2fd7471213bdf12dc4128e4d21e2a"
+      "sha256": "7f368fd86e42b9ece18ae5c6e2e7b71f320589b6e631d02685ddba945bc6a6d8"
     },
     {
-      "path": "app/public/brand/odaraia-symbol.svg",
+      "path": "app/public/brand/plainbalance-symbol.svg",
       "license": "MPL-2.0",
       "notice": "app/public/brand/LICENSES.md",
-      "sha256": "9e6df43312b30384541e168a8fa2fe714ed40479fdcde7f37f1d256178aef3c3"
+      "sha256": "52445fa84917b6cf5b89f28098be34ad466a009dfb37985e083240f97ce31729"
     },
     {
       "path": "app/public/brand/publisher/LICENSES.md",
@@ -818,19 +891,19 @@
       "path": "app/scripts/build.mjs",
       "license": "MPL-2.0",
       "notice": "app/scripts/build.mjs",
-      "sha256": "135a4d5ea6f3c9ae76dfcf2d749d99a2a3de9e5c312349faadfec4385875e402"
+      "sha256": "104bd62de4acfb559f1bf06fd6ca2acf9642f6be8df1e373af586ae8a2de8885"
     },
     {
       "path": "app/scripts/capture-preview.mjs",
       "license": "MPL-2.0",
       "notice": "app/scripts/capture-preview.mjs",
-      "sha256": "d9adcb21fb3f9ed91c3d9623e40ab19bb61a54821dbcec5a75445159ec23a4b9"
+      "sha256": "28ea37932c45e2919ac3238ba160e7dc848add1d7fa87bd55263a8a33f01321a"
     },
     {
       "path": "app/scripts/cretodus-brand-review.mjs",
       "license": "MPL-2.0",
       "notice": "app/scripts/cretodus-brand-review.mjs",
-      "sha256": "4181bc7ff027e5f024190b8d2872d3edee6b81f113434fb6f9733294b9ab4e8e"
+      "sha256": "abd86cc550c1df552af1d157a2f5804adf76707402c5d59add15ea5e139d0258"
     },
     {
       "path": "app/scripts/start.mjs",
@@ -848,7 +921,7 @@
       "path": "app/server/api.ts",
       "license": "MPL-2.0",
       "notice": "app/server/api.ts",
-      "sha256": "923b7e0b101f1f8cfca7560980fb442b2282977b90804d8299c2ebd978bd5e66"
+      "sha256": "10a21a66c71e1b34cada47b5a02bc2c909fb9501ef626d463eaead0f0bd3c6fe"
     },
     {
       "path": "app/server/http.ts",
@@ -986,7 +1059,7 @@
       "path": "app/tests/branding.test.mjs",
       "license": "MPL-2.0",
       "notice": "app/tests/branding.test.mjs",
-      "sha256": "d65e4acc4a874a7cfce8abf1158bce5cb3c7df710512c56629cf6d8b4af07d00"
+      "sha256": "799bfba9208e227e2bfc6f4f9d6e68a8e93de3b3669c5b8d1a5e94544d26e1b6"
     },
     {
       "path": "app/tests/canonical-fixture.mjs",
@@ -1004,7 +1077,7 @@
       "path": "app/tests/design-consolidation.test.mjs",
       "license": "MPL-2.0",
       "notice": "app/tests/design-consolidation.test.mjs",
-      "sha256": "3e83e394f165ef3ae94b24a55abd349b54c67be8b41c40fd0ac26b41fb52bd3e"
+      "sha256": "5a32bf43f79aabe0f9158026b9b3322ec9f76631fb3aed27e5c2692832222b97"
     },
     {
       "path": "app/tests/desktop.test.mjs",
@@ -1040,7 +1113,7 @@
       "path": "app/tests/material.test.mjs",
       "license": "MPL-2.0",
       "notice": "app/tests/material.test.mjs",
-      "sha256": "b561fc5447ca3e84919e59041ee164e35ff19898f8997b6c70d56c210eee9ab9"
+      "sha256": "97b8abf5de8f8a3f5a0f5f30bc3af11842d73bbb76db5b354cce3bd8734912a1"
     },
     {
       "path": "app/tests/persistent-platform/adapter.test.mjs",
@@ -1124,7 +1197,7 @@
       "path": "app/web/api.ts",
       "license": "MPL-2.0",
       "notice": "app/web/api.ts",
-      "sha256": "b1290e4bde5e3028bf18443e251233e041aa5ecd631e7f1220ea72b5406909b6"
+      "sha256": "a1cefeb3d4470540eda396621076f87124e3d7a4b4e47bcee877ce1756a36146"
     },
     {
       "path": "app/web/app.tsx",
@@ -1136,7 +1209,7 @@
       "path": "app/web/application-boundary.jsx",
       "license": "MPL-2.0",
       "notice": "app/web/application-boundary.jsx",
-      "sha256": "1ba3e316d2c9c192da3c37a508ebe886f9ac7fec6b66ff14c4c23fd541a07855"
+      "sha256": "97c3d2b03a153f39de7a53c7a4503d871a3d54d1df1fc4f63e77848068b843e3"
     },
     {
       "path": "app/web/application.css",
@@ -1148,13 +1221,13 @@
       "path": "app/web/branding.css",
       "license": "MPL-2.0",
       "notice": "app/web/LICENSES.md",
-      "sha256": "2b373b150fb00ee6342939c894da9fac94deb3762e264948f15c986775e22fd8"
+      "sha256": "c1e7b305f72bba5767c0324ec5e0e0935c729044eb834f77cb033fe5da555e72"
     },
     {
       "path": "app/web/branding.tsx",
       "license": "MPL-2.0",
       "notice": "app/web/branding.tsx",
-      "sha256": "9c5e079cffdce26fb8bfd72a4b499d061c99ef01ee8d26f07ecd1e51fb121adc"
+      "sha256": "b69cc0301f592afd7408ca4c69bfc3c30163362ddaa15e2887d2007ae4741296"
     },
     {
       "path": "app/web/dashboard.tsx",
@@ -1220,7 +1293,7 @@
       "path": "app/web/onboarding.tsx",
       "license": "MPL-2.0",
       "notice": "app/web/onboarding.tsx",
-      "sha256": "e48f3520b098067eba4a43e6d5b2831ef2f430bbd45cee78a1a01dc9bcce5d0f"
+      "sha256": "bb1cef70bb679f425beaa842b98ec588bfd6166996cf43dd30fe863baeebe4b6"
     },
     {
       "path": "app/web/overview.tsx",
@@ -1262,7 +1335,7 @@
       "path": "app/web/settings.tsx",
       "license": "MPL-2.0",
       "notice": "app/web/settings.tsx",
-      "sha256": "469764cc3ead29065dbff70d3b6a564b5e7d30ec7df72997e8ee875f260589aa"
+      "sha256": "96f2211a52269f37c250af57e1b3b570dbc4666001f07574e45af7affe5f82cc"
     },
     {
       "path": "app/web/startup.mjs",
@@ -1298,7 +1371,7 @@
       "path": "brand/ASSET_RIGHTS.md",
       "license": "MPL-2.0",
       "notice": "brand/LICENSES.md",
-      "sha256": "1263e30f3727ddd0bf9062b45a3c4c7c4d3479bca81dd0b056b84dfcc8742ebb"
+      "sha256": "9b1df21574e4c5866f8f56ae070078f0ecd7fc6576d771afa4f04376e6eb203a"
     },
     {
       "path": "brand/LICENSES.md",
@@ -1307,82 +1380,184 @@
       "sha256": "4bd1cd9a280f0977a5bd7f0b819d081ea68826319c387eb0e04e68a7fcfed5ba"
     },
     {
-      "path": "brand/odaraia/placeholder/LICENSES.md",
+      "path": "brand/plainbalance/LICENSES.md",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
+      "notice": "brand/plainbalance/LICENSES.md",
+      "sha256": "c224f3434bea75e13384af3ccfc6793b8b756ea32b208d3f55d8e9af1999e337"
+    },
+    {
+      "path": "brand/plainbalance/README.md",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/LICENSES.md",
+      "sha256": "5ca84c3f8fa9292ec5672bb5b3a3581cd96e152a548e2bafe189b57b20bae2cf"
+    },
+    {
+      "path": "brand/plainbalance/lockup-white.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/LICENSES.md",
+      "sha256": "4775c9235edb2272443f8dccf4ebf2374c6e86cd1f13fae9e5e7347ee73badac"
+    },
+    {
+      "path": "brand/plainbalance/lockup.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/LICENSES.md",
+      "sha256": "58fb2ee514c961b56ab0f0badc0fbd8dd32396fd34b4f1056b68b826a5e0cf7f"
+    },
+    {
+      "path": "brand/plainbalance/placeholder/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
       "sha256": "713bbe761a06330f4934c713c0cdcbbe7b17b6fbe4bb41a32ecff95ff33f073d"
     },
     {
-      "path": "brand/odaraia/placeholder/app-icon.svg",
+      "path": "brand/plainbalance/placeholder/app-icon.svg",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "31b2f2fc00c2d08a8757c399edc99b3be0a2fd7471213bdf12dc4128e4d21e2a"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "7f368fd86e42b9ece18ae5c6e2e7b71f320589b6e631d02685ddba945bc6a6d8"
     },
     {
-      "path": "brand/odaraia/placeholder/favicon.svg",
+      "path": "brand/plainbalance/placeholder/favicon.svg",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "31b2f2fc00c2d08a8757c399edc99b3be0a2fd7471213bdf12dc4128e4d21e2a"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "7f368fd86e42b9ece18ae5c6e2e7b71f320589b6e631d02685ddba945bc6a6d8"
     },
     {
-      "path": "brand/odaraia/placeholder/icon-1024.png",
+      "path": "brand/plainbalance/placeholder/icon-1024.png",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "2ee6210d45cbe33bfc0c10961d1722aeffc956c58040eff2b1d04ad003b8f298"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "e496f4e688176ecb57211b678985e05d7d18e1fce4be7976e37c90fe6a2f8da1"
     },
     {
-      "path": "brand/odaraia/placeholder/icon-128.png",
+      "path": "brand/plainbalance/placeholder/icon-128.png",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "9a9000bb5232a16ab0f1ff1171a24d531e2fdce93351972a4a308fb0b4b89f2e"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "28c9169544522376d229b02f8c63da5642b6f6393c2ac04f8dc7c582b6c1a0e9"
     },
     {
-      "path": "brand/odaraia/placeholder/icon-16.png",
+      "path": "brand/plainbalance/placeholder/icon-16.png",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "8a4f7030b9c03093a7291ab5d26107f2dc6f6c6436db4d980aedebcb35c1d7fa"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "d6b14a2c966d6aea82c24a870cee33eb5cc3e24b04f8fdd0942b93634a079016"
     },
     {
-      "path": "brand/odaraia/placeholder/icon-256.png",
+      "path": "brand/plainbalance/placeholder/icon-256.png",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "f0ea3e109b0fd556c006e1e4aa7b256c025df154bd651b2024555a207283f68f"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "c3b1efbb9e82e2ad837f236e703504b2659a8596d9684f9fead34564da29497d"
     },
     {
-      "path": "brand/odaraia/placeholder/icon-32.png",
+      "path": "brand/plainbalance/placeholder/icon-32.png",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "93062e7b530239095baad9debedccd2db93963f4f58dfdcada11c219f75d6e01"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "1b544b0287bfc2ec1938fca0732e3c3a3504c7b365d5b41f6e149e023350c70e"
     },
     {
-      "path": "brand/odaraia/placeholder/icon-512.png",
+      "path": "brand/plainbalance/placeholder/icon-512.png",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "2165c47f58cc3d1d8cefc7da769b75b142bf8e60afd353460d437061144b8c4f"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "8ac39bf92d640783dcf162881281c6f59a1e9e054fa84afff48a773a49e1f07c"
     },
     {
-      "path": "brand/odaraia/placeholder/icon-64.png",
+      "path": "brand/plainbalance/placeholder/icon-64.png",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "47c0afded5e95035f3d08a029bd4b04ed0fa0059f05dab2c016ced1218be6a7c"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "ec512d5f3cbc073f36147fd79a9efaa42fa64176805df0d1d3c1070fe7c3d088"
     },
     {
-      "path": "brand/odaraia/placeholder/symbol-dark.svg",
+      "path": "brand/plainbalance/placeholder/symbol-dark.svg",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "9ca589c18e5974ebbe80220cc8e344508eb91200b03f36682141223a7f7ba1a6"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "da59c41b87037f6a7ac4cd77c1af3548f641f8b078187b133c6af164d4db975e"
     },
     {
-      "path": "brand/odaraia/placeholder/symbol-light.svg",
+      "path": "brand/plainbalance/placeholder/symbol-light.svg",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/placeholder/LICENSES.md",
-      "sha256": "9e6df43312b30384541e168a8fa2fe714ed40479fdcde7f37f1d256178aef3c3"
+      "notice": "brand/plainbalance/placeholder/LICENSES.md",
+      "sha256": "52445fa84917b6cf5b89f28098be34ad466a009dfb37985e083240f97ce31729"
     },
     {
-      "path": "brand/odaraia/render.swift",
+      "path": "brand/plainbalance/render.swift",
       "license": "MPL-2.0",
-      "notice": "brand/odaraia/render.swift",
-      "sha256": "bf7c0b91a854e9e305174a64b31cb6c6c566564b36717987156b45ecb8272bb0"
+      "notice": "brand/plainbalance/render.swift",
+      "sha256": "bc936f9000910ead7fa0f57bfe5dd2665a732c2b615c461cb93224e215ebf5bb"
+    },
+    {
+      "path": "brand/plainbalance/source/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/LICENSES.md",
+      "sha256": "6554e293589cf9b9589b855dc7817c4f5320cd8dc455d2815c1e4d25d13af7c5"
+    },
+    {
+      "path": "brand/plainbalance/source/README.md",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/LICENSES.md",
+      "sha256": "0c2b95ede5d478e8dd2f86e23c99844c62ca2de33c690e97ef020c21a58a38d7"
+    },
+    {
+      "path": "brand/plainbalance/source/fonts/LICENSES.md",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/fonts/LICENSES.md",
+      "sha256": "b127234bc1fc558b1b1c3f872efa3fdf3071166b0e20fee30250e69bd0693c31"
+    },
+    {
+      "path": "brand/plainbalance/source/fonts/OFL.txt",
+      "license": "retained-legal-text-or-provenance",
+      "notice": "brand/plainbalance/source/fonts/OFL.txt",
+      "sha256": "3b0a5fca3d17942cde889069889dedbbbd075e9b599968c82a95f4d944e9b345"
+    },
+    {
+      "path": "brand/plainbalance/source/fonts/PROVENANCE.md",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/fonts/LICENSES.md",
+      "sha256": "8dd764a0730ffa65b18ee634ccdf39ec56f77a98d0c0e2750ade6e0ccc1277dd"
+    },
+    {
+      "path": "brand/plainbalance/source/fonts/inter-latin-wght.woff2",
+      "license": "OFL-1.1",
+      "notice": "brand/plainbalance/source/fonts/LICENSES.md",
+      "sha256": "3100e775e8616cd2611beecfa23a4263d7037586789b43f035236a2e6fbd4c62"
+    },
+    {
+      "path": "brand/plainbalance/source/lockup-editable.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/LICENSES.md",
+      "sha256": "47cf4cc160987fc9920ce847ad100b3aa2b02dd9e11ee2c8919ad0a711f83480"
+    },
+    {
+      "path": "brand/plainbalance/source/outline-wordmark.py",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/LICENSES.md",
+      "sha256": "38e544df79624c1a42d930d8e968c38d01be2caa6037177c4fc16321ed9bd7d5"
+    },
+    {
+      "path": "brand/plainbalance/source/requirements.txt",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/LICENSES.md",
+      "sha256": "16baecf5461ffa2c58e585f3524bad07bd7585b66780835a73ed6d5929b49ca2"
+    },
+    {
+      "path": "brand/plainbalance/source/wordmark-editable.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/LICENSES.md",
+      "sha256": "cb686c243f834f2b2e8a9874d69d986813a49b228729e7b4d92e71c7e4259771"
+    },
+    {
+      "path": "brand/plainbalance/source/wordmark.json",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/source/LICENSES.md",
+      "sha256": "3306f138b6a194c8849168f02a275ffa2faec9fe1a7cc49dd983a6edb0ecf9d5"
+    },
+    {
+      "path": "brand/plainbalance/wordmark-white.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/LICENSES.md",
+      "sha256": "468c1aa00c3697eabe927350939c815a07b9007cebd07355b723d894f8d610e4"
+    },
+    {
+      "path": "brand/plainbalance/wordmark.svg",
+      "license": "MPL-2.0",
+      "notice": "brand/plainbalance/LICENSES.md",
+      "sha256": "252180f5f57671353aa270c4aeba103541cfbf9ff0d83d214b8f5d9271524a39"
     },
     {
       "path": "brand/talarurus-assets.json",
@@ -1400,19 +1575,25 @@
       "path": "docs/architecture.md",
       "license": "MPL-2.0",
       "notice": "docs/LICENSES.md",
-      "sha256": "2533540fc7b70fbe84e78e8c2734e53488ef93004a3b1abf4769a10200646a8b"
+      "sha256": "52dcef6d304b2064f8992df4b3961afeb2c45b22f421e9950fb5e1e05288f3c4"
     },
     {
       "path": "docs/screenshots/LICENSES.md",
       "license": "MPL-2.0",
       "notice": "docs/screenshots/LICENSES.md",
-      "sha256": "bfa539722c40a90e030f10472f58118c1d7201f6601fa7686862118d5a023e4a"
+      "sha256": "8aa867057d88d03395a4704ffc09351b507b6f031cf64f8c8a12e024bb5967c2"
     },
     {
       "path": "docs/screenshots/README.md",
       "license": "MPL-2.0",
       "notice": "docs/screenshots/LICENSES.md",
-      "sha256": "b1a91da25467753ea35715765f2dfc88244d0356648fbd0fe72b4f3b14adebfb"
+      "sha256": "9619a1c88fe153cb21843e5e3c7a958923fa2f8655b0eb0b4206f162329d9ae9"
+    },
+    {
+      "path": "docs/screenshots/media-plan.json",
+      "license": "MPL-2.0",
+      "notice": "docs/screenshots/LICENSES.md",
+      "sha256": "5653f1de7ac806e9515297e06bc1ed43ba0feb4fab18eb669835cfa7d15d867e"
     },
     {
       "path": "experiments/finance-proof/LICENSES.md",
@@ -1424,13 +1605,13 @@
       "path": "experiments/finance-proof/NOTICES.md",
       "license": "MPL-2.0",
       "notice": "experiments/finance-proof/LICENSES.md",
-      "sha256": "30f516336e4e3701a615b484b2ff2ff4103b91d78dfae7b29f8c2d3421f38c0b"
+      "sha256": "eadc8364f6c07ce02964b59da9a89349119838de1dd8bc696a433f47abdc1a69"
     },
     {
       "path": "experiments/finance-proof/README.md",
       "license": "MPL-2.0",
       "notice": "experiments/finance-proof/LICENSES.md",
-      "sha256": "f0518596233945fb9b7da73d95eb8dcc47c0efe35a04afb6ebe498a41aa58926"
+      "sha256": "d25e3f01d0911ec99d892c24c83efedbaf770ce8d588f8e3536a7f91f64de2e8"
     },
     {
       "path": "experiments/finance-proof/harness/actual-probe.mjs",
@@ -1970,25 +2151,25 @@
       "path": "experiments/tauri-desktop/README.md",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/LICENSES.md",
-      "sha256": "c90885cf0050df095229b168a6011c5f4062265d5ac744ea0cfc49fde1de7052"
+      "sha256": "7702070429ed3e3a2de1e686e12d48ae84718fd07299174c0302c3b702bb0842"
     },
     {
       "path": "experiments/tauri-desktop/build-review.mjs",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/build-review.mjs",
-      "sha256": "c60606299dd3b3a17582a280580682fbadbe24a90e93d1efd80792135bae7e5e"
+      "sha256": "8c5e39c3387771db279063367a394f5a3299450f029812fd61ccafe81b12457d"
     },
     {
       "path": "experiments/tauri-desktop/build-web.mjs",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/build-web.mjs",
-      "sha256": "22479acf53ca21dd7a012b99969af264480a2587ebcbaccd10629d0ed73e533f"
+      "sha256": "4ec8538e510a4e0765b8d88e9292e9ceb49500233d4798336d99cbaa57f55885"
     },
     {
       "path": "experiments/tauri-desktop/entry.ts",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/entry.ts",
-      "sha256": "e147a3ab97f961217308954b58e2d6a097c643aa71589518fe5f4945f2ab056f"
+      "sha256": "362ffcfacc1fb284ca62e3472dceb4453f509cd3b38b727bad7d53298d9b92ff"
     },
     {
       "path": "experiments/tauri-desktop/launch-review.mjs",
@@ -2036,25 +2217,25 @@
       "path": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
-      "sha256": "62626cdd7ff976cfe424016ec46038100dcaa8f5a1e6581030b86f024ecaf24a"
-    },
-    {
-      "path": "experiments/tauri-desktop/src-tauri/icons/Odaraia.icns",
-      "license": "MPL-2.0",
-      "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
-      "sha256": "60d30808cd83fa3b10153f71a0dd20b6130b764d0da034f51342f2806177ca3b"
+      "sha256": "06f522530f22601673209ef3b07baeee978bb58320f7b136a6ba0ca5c8e01b27"
     },
     {
       "path": "experiments/tauri-desktop/src-tauri/icons/PROVENANCE.md",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
-      "sha256": "3ccd45e4e1feb2e1e6c826c394ca276fb25a89cc04c1e1ba274e6749efa138a7"
+      "sha256": "3c64caf8bc9fe5626aa31dab0f909f2c885875c9013649e1cb94785d4cf2f045"
     },
     {
       "path": "experiments/tauri-desktop/src-tauri/icons/icon.png",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
-      "sha256": "9a9000bb5232a16ab0f1ff1171a24d531e2fdce93351972a4a308fb0b4b89f2e"
+      "sha256": "28c9169544522376d229b02f8c63da5642b6f6393c2ac04f8dc7c582b6c1a0e9"
+    },
+    {
+      "path": "experiments/tauri-desktop/src-tauri/icons/plainbalance.icns",
+      "license": "MPL-2.0",
+      "notice": "experiments/tauri-desktop/src-tauri/icons/LICENSES.md",
+      "sha256": "90a5c77865a29df529fd856fa3f5b4f14efcaad949ebe011822eb31ba87f0820"
     },
     {
       "path": "experiments/tauri-desktop/src-tauri/permissions/LICENSES.md",
@@ -2096,7 +2277,7 @@
       "path": "experiments/tauri-desktop/src-tauri/tauri.conf.json",
       "license": "MPL-2.0",
       "notice": "experiments/tauri-desktop/src-tauri/LICENSES.md",
-      "sha256": "a06ec9acaa6f5c1cbf1ca6ad3e2c978285450e516c0fc125a2d6c8635b9cff53"
+      "sha256": "d43daa2e75509452aa826d5eb07509b931a0d1c24d71ffcf1e3cc29b224833ee"
     },
     {
       "path": "experiments/tauri-desktop/src-tauri/tauri.linux.conf.json",
@@ -2162,7 +2343,7 @@
       "path": "release/audit-reviewed.json",
       "license": "MPL-2.0",
       "notice": "release/LICENSES.md",
-      "sha256": "545c994bd526a44ac537e0efd6d8ddf87acabcb1dd0df53f769e2138d82e4e0d"
+      "sha256": "e8aa3ad2d771fa24f817e2408e944a8d69e6d739f7bc58eec16ba59770d6b7d3"
     },
     {
       "path": "release/cargo-licenses.json",
@@ -2174,7 +2355,7 @@
       "path": "release/source-files.json",
       "license": "MPL-2.0",
       "notice": "release/LICENSES.md",
-      "sha256": "f3f18dfb4c650126d210bf7defc16a2900a801df83c522fa5ecb508b52060a99"
+      "sha256": "b976915d4df1ab7223f910aac81bbab695a212fdb803ad13b27c98c8676d19c3"
     },
     {
       "path": "release/verification.json",
@@ -2186,13 +2367,13 @@
       "path": "release/version.json",
       "license": "MPL-2.0",
       "notice": "release/LICENSES.md",
-      "sha256": "c4f328ab7715bdd3af904659ba57968e47e42b399ff468289468f8ea3bd821f1"
+      "sha256": "32ca6c1395e38428627109058ca7544c175d5f02643218d6d06576d28362e6e0"
     },
     {
       "path": "tools/check-assets.mjs",
       "license": "MPL-2.0",
       "notice": "tools/check-assets.mjs",
-      "sha256": "b5d1531a55fa23eb64625c485b5888ef7481cdc537c61914c70668ecb5157c20"
+      "sha256": "ba327319e3092443ae88393a40353cf6c1a72ea182833c1e25e9ac96e0000093"
     },
     {
       "path": "tools/check-release.mjs",
@@ -2216,19 +2397,19 @@
       "path": "tools/licensing.mjs",
       "license": "MPL-2.0",
       "notice": "tools/licensing.mjs",
-      "sha256": "d4d1dd271ae5f8db7bce31e0623581355d7b14f72702aa501b639bea98a8ebc3"
+      "sha256": "c61ee850921cb4125ee5b8af36e795f7abedf931d7c56bd66a1db40e985b3ac8"
     },
     {
       "path": "tools/package-licenses.mjs",
       "license": "MPL-2.0",
       "notice": "tools/package-licenses.mjs",
-      "sha256": "b5d29a4049b0b1065e3ffa244dbe349042ae635a4e71bbfc10245f6463945a67"
+      "sha256": "0670c0e371aefa75c525cb353c34a427407fb72860d115fc962543d4b8619aec"
     },
     {
       "path": "tools/source-release.mjs",
       "license": "MPL-2.0",
       "notice": "tools/source-release.mjs",
-      "sha256": "959e03792d8d40c2060499c70e3b312b52fec5a30242b6d1b8304cb12ee9ee42"
+      "sha256": "7fd17b2bcaf963dfd9419d216a5ce433461402cc50f5c27b0f8724e4ca306919"
     }
   ]
 }

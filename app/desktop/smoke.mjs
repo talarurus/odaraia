@@ -4,7 +4,7 @@ import {mkdir,writeFile,readFile,rm} from 'node:fs/promises';
 import {resolve,join} from 'node:path';
 import {fileURLToPath,pathToFileURL} from 'node:url';
 import {runLifecycle} from './lifecycle-smoke.mjs';
-const root=fileURLToPath(new URL('../',import.meta.url)),out=resolve(root,'artifacts/odaraia',process.argv.includes('--experimental-desktop-glass')?'monocode/native':'native'),app=join(out,'Odaraia.app'),resources=join(app,'Contents/Resources'),node=join(resources,'runtime/node');
+const root=fileURLToPath(new URL('../',import.meta.url)),out=resolve(root,'artifacts/odaraia',process.argv.includes('--experimental-desktop-glass')?'monocode/native':'native'),app=join(out,'plainbalance.app'),resources=join(app,'Contents/Resources'),node=join(resources,'runtime/node');
 const directory=join(out,'backend-smoke-'+Date.now());await mkdir(directory,{recursive:true,mode:0o700});
 const result={engine:'PENDING',lifecycle:'PENDING',assertions:0,errors:[]};
 const literal=JSON.stringify;

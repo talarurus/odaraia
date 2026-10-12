@@ -19,7 +19,7 @@ export async function buildApp(){
   await copyFile(new URL('../public/'+asset.file,import.meta.url),target);
  }
  await writeFile(new URL('../dist/appearance.js',import.meta.url),appearanceBootstrap+presentationBootstrap);
- await writeFile(new URL('../dist/index.html',import.meta.url),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${escape(productIdentity.name)}</title><meta name="application-name" content="${escape(productIdentity.name)}"><meta name="description" content="${escape(productIdentity.description)}"><link rel="icon" type="image/svg+xml" href="${productIdentity.icon}"><script src="/appearance.js"></script><link rel="stylesheet" href="/app.css"></head><body><div id="root"><p role="status">Opening Odaraia by Talarurus…</p></div><script type="module" src="/app.js"></script></body></html>`);
+ await writeFile(new URL('../dist/index.html',import.meta.url),`<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>${escape(productIdentity.name)}</title><meta name="application-name" content="${escape(productIdentity.name)}"><meta name="description" content="${escape(productIdentity.description)}"><link rel="icon" type="image/svg+xml" href="${productIdentity.icon}"><script src="/appearance.js"></script><link rel="stylesheet" href="/app.css"></head><body><div id="root"><p role="status">Opening plainbalance by Talarurus…</p></div><script type="module" src="/app.js"></script></body></html>`);
  return compiled.metafile;
 }
 if(process.argv[1]===fileURLToPath(import.meta.url)){await buildApp();console.log(`Built ${productIdentity.name}.`);}

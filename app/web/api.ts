@@ -17,7 +17,7 @@ async function httpRequest(path: string, method='GET', body?: unknown): Promise<
   startupStage('SESSION_REQUESTED');let failure='SESSION_NETWORK';
   try{
    const r=await fetch('/api/session',{cache:'no-store',headers:authorization});
-   if(!r.ok){failure='SESSION_HTTP';throw new Error('Open the private startup link printed in Terminal, or launch the Odaraia Mac app.');}
+   if(!r.ok){failure='SESSION_HTTP';throw new Error('Open the private startup link printed in Terminal, or launch the plainbalance Mac app.');}
    failure='SESSION_RESPONSE';const session=await r.json();
    if(typeof session.token!=='string'||!session.token)throw new Error('The local session response was invalid.');
    token=session.token;startupStage('SESSION_ESTABLISHED');

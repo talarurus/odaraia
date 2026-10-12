@@ -7,6 +7,7 @@ func render(_ source:URL,_ target:URL,_ pixels:Int)throws{
  NSGraphicsContext.saveGraphicsState();NSGraphicsContext.current=context;image.draw(in:NSRect(x:0,y:0,width:pixels,height:pixels),from:.zero,operation:.copy,fraction:1);NSGraphicsContext.restoreGraphicsState()
  try bitmap.representation(using:.png,properties:[:])!.write(to:target)
 }
-// Source preview renders only the active neutral placeholder. Archived concepts stay private.
+// Render only the founder-preferred original corner. Archived concepts stay private.
+// The placeholder directory name is retained for stable asset paths.
 let placeholder=root.appendingPathComponent("placeholder",isDirectory:true)
 for size in [16,32,64,128,256,512,1024]{try render(placeholder.appendingPathComponent("app-icon.svg"),placeholder.appendingPathComponent("icon-\(size).png"),size)}

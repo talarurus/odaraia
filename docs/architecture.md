@@ -1,6 +1,6 @@
 # Shared application architecture
 
-Odaraia separates financial policy, application capabilities, persistence and presentation.
+plainbalance separates financial policy, application capabilities, persistence and presentation.
 
 | Layer | Source | Responsibility |
 | --- | --- | --- |
@@ -15,7 +15,7 @@ Odaraia separates financial policy, application capabilities, persistence and pr
 
 The Tauri capability configuration remains restricted to bundled main-window storage/export commands. No shell, arbitrary SQL, filesystem plugin, live banking or remote financial endpoint is introduced. Native contract tests exercise the real Rust FFI/bundled SQLite process; mock IPC tests do not certify a real installed WebView boundary.
 
-Stable legacy identifiers are intentional: backup `talarurus-finance` v1 and stored preference keys remain compatible across the Odaraia display-name changes. Schema remains 3. Do not rename identifiers as cosmetic cleanup.
+Stable legacy identifiers are intentional: backup `talarurus-finance` v1 and stored preference keys remain compatible across the plainbalance display-name changes. Schema remains 3. Do not rename identifiers as cosmetic cleanup.
 
 Financial tables and forms use readable solid surfaces; charts sit in the continuous workspace. Native glass is optional and has no role in financial semantics. Desktop sidebar collapse, mobile touch navigation/safe areas and shared theme tokens are already implemented. No native mobile target exists yet.
 
